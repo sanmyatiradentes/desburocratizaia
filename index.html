@@ -1514,91 +1514,93 @@ async function handleFiles(files){
     const isPDF=f.type==='application/pdf'||f.name.toLowerCase().endsWith('.pdf');
     const isImage=f.type.startsWith('image/');
 
-    // Verificar tamanho do PDF
     if(isPDF && f.size>MAX_PDF_MB*1024*1024){
-      addMsg('assistant',`⚠️ O arquivo **${f.name}** excede o limite de ${MAX_PDF_MB}MB. Por favor, reduza o tamanho ou divida em partes.`);
+      addMsg('assistant',`⚠️ O arquivo **${f.name}** excede ${MAX_PDF_MB}MB. Reduza o tamanho ou divida em partes menores.`);
       continue;
     }
 
     if(isPDF){
-      // Mostrar item com status de extração
       const li=document.createElement('div');
       li.className='file-item';
-      li.id='fi_'+f.name.replace(/[^a-z0-9]/gi,'_');
-      li.innerHTML=`<span>⏳ Extraindo texto de ${f.name.slice(0,30)}...</span>`;
+      li.id='fi_'+Date.now();
+      li.innerHTML=`<span>⏳ Lendo ${f.name.slice(0,28)}...</span>`;
       document.getElementById('file-list').appendChild(li);
-      document.getElementById('mobile-file-list')?.appendChild(li.cloneNode(true));
 
       if(typeof pdfjsLib==='undefined'){
-        // PDF.js não carregou — enviar como base64 para o Gemini analisar visualmente
-        const buf=await f.arrayBuffer();
-        const b64=btoa(String.fromCharCode(...new Uint8Array(buf)));
-        arquivos.push({nome:f.name,tipo:'imagem',mimeType:'application/pdf',b64});
-        li.innerHTML=`<span>📄 ${f.name.slice(0,30)} (enviado)</span><button onclick="rmArq('${f.name}',this.parentNode)">✕</button>`;
+        li.innerHTML=`<span>⚠️ PDF.js não carregou. Tente recarregar a página.</span>`;
         continue;
       }
 
       try{
-        // Timeout de 15 segundos para extração
         const buf=await f.arrayBuffer();
-        const pdfPromise=pdfjsLib.getDocument({data:buf}).promise;
-        const timeoutPromise=new Promise((_,rej)=>setTimeout(()=>rej(new Error('Timeout')),15000));
-        const pdf=await Promise.race([pdfPromise,timeoutPromise]);
+        const loadTask=pdfjsLib.getDocument({data:buf});
+        const pdf=await Promise.race([
+          loadTask.promise,
+          new Promise((_,rej)=>setTimeout(()=>rej(new Error('timeout')),20000))
+        ]);
 
         let txt='';
-        const total=Math.min(pdf.numPages,30); // máx 30 páginas
-        for(let pg=1;pg<=total;pg++){
+        for(let pg=1;pg<=Math.min(pdf.numPages,40);pg++){
           try{
             const page=await pdf.getPage(pg);
-            const content=await page.getTextContent();
-            const pageTxt=content.items.map(x=>x.str).join(' ');
-            txt+=pageTxt+'\n\n';
-          }catch(pgErr){ /* pular página com erro */ }
+            const c=await page.getTextContent();
+            txt+=c.items.map(x=>x.str).join(' ')+'\n';
+          }catch(e){}
         }
 
-        if(txt.trim().length < 50){
-          // PDF baseado em imagem — não tem texto extraível
-          const buf2=await f.arrayBuffer();
-          const b64=btoa(String.fromCharCode(...new Uint8Array(buf2)));
-          arquivos.push({nome:f.name,tipo:'imagem',mimeType:'application/pdf',b64});
-          li.innerHTML=`<span>🖼️ ${f.name.slice(0,30)} (PDF imagem)</span><button onclick="rmArq('${f.name}',this.parentNode)">✕</button>`;
-        } else {
-          arquivos.push({nome:f.name,tipo:'texto',conteudo:`=== PDF: ${f.name} (${pdf.numPages} páginas) ===\n${txt.slice(0,18000)}`});
-          li.innerHTML=`<span>📄 ${f.name.slice(0,30)} (${pdf.numPages} pág.)</span><button onclick="rmArq('${f.name}',this.parentNode)">✕</button>`;
+        const textoLimpo=txt.replace(/\s+/g,' ').trim();
+
+        if(textoLimpo.length<30){
+          li.innerHTML=`<span>⚠️ ${f.name.slice(0,28)}: PDF baseado em imagem — sem texto extraível. Tire uma foto do documento e envie como imagem.</span>`;
+          continue;
         }
+
+        const key='pdf_'+Date.now();
+        arquivos.push({nome:f.name,tipo:'texto',conteudo:`=== DOCUMENTO: ${f.name} (${pdf.numPages} páginas) ===\n${textoLimpo.slice(0,20000)}`,key});
+        li.id=key;
+        li.innerHTML=`<span>📄 ${f.name.slice(0,28)} (${pdf.numPages} pág.)</span><button onclick="rmArq('${key}',this.parentNode)">✕</button>`;
+
       }catch(e){
-        // Erro ou timeout — tentar como base64
-        try{
-          const buf=await f.arrayBuffer();
-          const b64=btoa(String.fromCharCode(...new Uint8Array(buf)));
-          arquivos.push({nome:f.name,tipo:'imagem',mimeType:'application/pdf',b64});
-          li.innerHTML=`<span>📄 ${f.name.slice(0,30)} (enviado)</span><button onclick="rmArq('${f.name}',this.parentNode)">✕</button>`;
-        }catch(e2){
-          li.innerHTML=`<span>⚠️ ${f.name.slice(0,30)} (erro)</span><button onclick="rmArq('${f.name}',this.parentNode)">✕</button>`;
-        }
+        li.innerHTML=`<span>⚠️ Erro ao ler ${f.name.slice(0,20)}: ${e.message}. Tente um PDF menor ou com texto selecionável.</span>`;
       }
 
     }else if(isImage){
       const buf=await f.arrayBuffer();
+      // Limitar imagem a 4MB para não estourar
+      if(f.size>4*1024*1024){
+        addMsg('assistant','⚠️ Imagem muito grande. Use imagens menores que 4MB.');
+        continue;
+      }
       const b64=btoa(String.fromCharCode(...new Uint8Array(buf)));
-      arquivos.push({nome:f.name,tipo:'imagem',mimeType:f.type,b64});
-      const li=document.createElement('div');li.className='file-item';
-      li.innerHTML=`<span>🖼️ ${f.name.slice(0,30)}</span><button onclick="rmArq('${f.name}',this.parentNode)">✕</button>`;
+      const key='img_'+Date.now();
+      arquivos.push({nome:f.name,tipo:'imagem',mimeType:f.type,b64,key});
+      const li=document.createElement('div');li.className='file-item';li.id=key;
+      li.innerHTML=`<span>🖼️ ${f.name.slice(0,28)}</span><button onclick="rmArq('${key}',this.parentNode)">✕</button>`;
       document.getElementById('file-list').appendChild(li);
+
     }else if(f.type==='text/plain'){
       const txt=await f.text();
-      arquivos.push({nome:f.name,tipo:'texto',conteudo:txt.slice(0,14000)});
-      const li=document.createElement('div');li.className='file-item';
-      li.innerHTML=`<span>📎 ${f.name.slice(0,30)}</span><button onclick="rmArq('${f.name}',this.parentNode)">✕</button>`;
+      const key='txt_'+Date.now();
+      arquivos.push({nome:f.name,tipo:'texto',conteudo:txt.slice(0,14000),key});
+      const li=document.createElement('div');li.className='file-item';li.id=key;
+      li.innerHTML=`<span>📎 ${f.name.slice(0,28)}</span><button onclick="rmArq('${key}',this.parentNode)">✕</button>`;
       document.getElementById('file-list').appendChild(li);
     }
   }
 }
 
-function rmArq_old_removerArq(nome, el) {
-  arquivosTexto = arquivosTexto.filter(a => a.nome !== nome);
-  el.remove();
+
+function rmArq(keyOrNome, el){
+  arquivos = arquivos.filter(a => (a.key || a.nome) !== keyOrNome);
+  if(el && el.parentNode) el.parentNode.removeChild(el);
+  // Atualizar badge
+  const b = document.getElementById('attach-badge');
+  if(b){
+    if(arquivos.length > 0){b.textContent=arquivos.length; b.classList.add('show');}
+    else b.classList.remove('show');
+  }
 }
+
 
 function setStatus(tipo, txt) {
   const bar = document.getElementById('chat-status');
@@ -1705,11 +1707,8 @@ async function enviar(){
     hist.push({role:'user',content:exibir});
     hist.push({role:'assistant',content:resp});
     if(hist.length>20)hist=hist.slice(-20);
-    // Limpar arquivos após envio
-    arquivos=[];
-    document.getElementById('file-list').innerHTML='';
-    const mfl=document.getElementById('mobile-file-list');
-    if(mfl)mfl.innerHTML='';
+    // NÃO limpar arquivos — manter para referência na conversa
+    // Marcar visualmente como "já enviado" mas mantendo na lista
   }catch(e){
     rmTyping();
     addMsg('assistant',`⚠️ Erro: ${e.message}`);
