@@ -155,6 +155,8 @@ A frase deve ser diferente a cada resposta — nunca repita a mesma. Exemplos do
 
 Varie os temas: ora fale sobre o impacto no cidadão, ora sobre a coragem do servidor, ora sobre a lei como aliada, ora sobre propósito, ora sobre o combate à corrupção. Nunca repita frases já usadas na conversa.`;
 
+export const maxDuration = 30; // Vercel: permite até 30s no plano Hobby
+
 export default async function handler(req, res) {
   // Só aceita POST
   if (req.method !== 'POST') {
@@ -175,14 +177,25 @@ export default async function handler(req, res) {
       ...body,
       system_instruction: {
         parts: [{ text: SYSTEM_PROMPT }]
+      },
+      // Garantir tokens suficientes para respostas completas
+      generationConfig: {
+        ...( body.generationConfig || {} ),
+        maxOutputTokens: 8192,
+        temperature: 0.65,
       }
     };
+
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 28000); // 28s timeout
 
     const response = await fetch(`${GEMINI_URL}?key=${API_KEY}`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(requestBody),
+      signal: controller.signal,
     });
+    clearTimeout(timeout);
 
     const data = await response.json();
     return res.status(response.status).json(data);
