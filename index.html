@@ -1485,6 +1485,7 @@ const API_KEY = ''; // Não usado — chave fica no servidor
 // Prompt protegido no servidor;
 
 let hist = [];
+let arquivos = [];
 let arquivosTexto = [];
 let pronto = false;
 
@@ -1513,42 +1514,82 @@ async function handleFiles(files){
     const isPDF=f.type==='application/pdf'||f.name.toLowerCase().endsWith('.pdf');
     const isImage=f.type.startsWith('image/');
 
+    // Verificar tamanho do PDF
     if(isPDF && f.size>MAX_PDF_MB*1024*1024){
-      addMsg('assistant',`⚠️ O arquivo **${f.name}** excede o limite de ${MAX_PDF_MB}MB. Reduza o tamanho ou divida em partes menores.`);
+      addMsg('assistant',`⚠️ O arquivo **${f.name}** excede o limite de ${MAX_PDF_MB}MB. Por favor, reduza o tamanho ou divida em partes.`);
       continue;
     }
 
-    if(isPDF && typeof pdfjsLib!=='undefined'){
-      const li=document.createElement('div');li.className='file-item';
-      li.innerHTML=`<span>⏳ Extraindo texto de ${f.name}...</span>`;
+    if(isPDF){
+      // Mostrar item com status de extração
+      const li=document.createElement('div');
+      li.className='file-item';
+      li.id='fi_'+f.name.replace(/[^a-z0-9]/gi,'_');
+      li.innerHTML=`<span>⏳ Extraindo texto de ${f.name.slice(0,30)}...</span>`;
       document.getElementById('file-list').appendChild(li);
-      try{
+      document.getElementById('mobile-file-list')?.appendChild(li.cloneNode(true));
+
+      if(typeof pdfjsLib==='undefined'){
+        // PDF.js não carregou — enviar como base64 para o Gemini analisar visualmente
         const buf=await f.arrayBuffer();
-        const pdf=await pdfjsLib.getDocument({data:buf}).promise;
-        let txt='';
-        for(let i=1;i<=pdf.numPages;i++){
-          const pg=await pdf.getPage(i);
-          const c=await pg.getTextContent();
-          txt+=c.items.map(x=>x.str).join(' ')+'\n\n';
-        }
-        arquivos.push({nome:f.name,tipo:'texto',conteudo:`=== PDF: ${f.name} (${pdf.numPages} páginas) ===\n${txt.slice(0,20000)}`});
-        li.innerHTML=`<span>📄 ${f.name} (${pdf.numPages} pág.)</span><button onclick="rmArq('${f.name}',this.parentNode)">✕</button>`;
-      }catch(e){
-        arquivos.push({nome:f.name,tipo:'texto',conteudo:`[PDF: ${f.name} — erro: ${e.message}]`});
-        li.innerHTML=`<span>⚠️ ${f.name}</span><button onclick="rmArq('${f.name}',this.parentNode)">✕</button>`;
+        const b64=btoa(String.fromCharCode(...new Uint8Array(buf)));
+        arquivos.push({nome:f.name,tipo:'imagem',mimeType:'application/pdf',b64});
+        li.innerHTML=`<span>📄 ${f.name.slice(0,30)} (enviado)</span><button onclick="rmArq('${f.name}',this.parentNode)">✕</button>`;
+        continue;
       }
+
+      try{
+        // Timeout de 15 segundos para extração
+        const buf=await f.arrayBuffer();
+        const pdfPromise=pdfjsLib.getDocument({data:buf}).promise;
+        const timeoutPromise=new Promise((_,rej)=>setTimeout(()=>rej(new Error('Timeout')),15000));
+        const pdf=await Promise.race([pdfPromise,timeoutPromise]);
+
+        let txt='';
+        const total=Math.min(pdf.numPages,30); // máx 30 páginas
+        for(let pg=1;pg<=total;pg++){
+          try{
+            const page=await pdf.getPage(pg);
+            const content=await page.getTextContent();
+            const pageTxt=content.items.map(x=>x.str).join(' ');
+            txt+=pageTxt+'\n\n';
+          }catch(pgErr){ /* pular página com erro */ }
+        }
+
+        if(txt.trim().length < 50){
+          // PDF baseado em imagem — não tem texto extraível
+          const buf2=await f.arrayBuffer();
+          const b64=btoa(String.fromCharCode(...new Uint8Array(buf2)));
+          arquivos.push({nome:f.name,tipo:'imagem',mimeType:'application/pdf',b64});
+          li.innerHTML=`<span>🖼️ ${f.name.slice(0,30)} (PDF imagem)</span><button onclick="rmArq('${f.name}',this.parentNode)">✕</button>`;
+        } else {
+          arquivos.push({nome:f.name,tipo:'texto',conteudo:`=== PDF: ${f.name} (${pdf.numPages} páginas) ===\n${txt.slice(0,18000)}`});
+          li.innerHTML=`<span>📄 ${f.name.slice(0,30)} (${pdf.numPages} pág.)</span><button onclick="rmArq('${f.name}',this.parentNode)">✕</button>`;
+        }
+      }catch(e){
+        // Erro ou timeout — tentar como base64
+        try{
+          const buf=await f.arrayBuffer();
+          const b64=btoa(String.fromCharCode(...new Uint8Array(buf)));
+          arquivos.push({nome:f.name,tipo:'imagem',mimeType:'application/pdf',b64});
+          li.innerHTML=`<span>📄 ${f.name.slice(0,30)} (enviado)</span><button onclick="rmArq('${f.name}',this.parentNode)">✕</button>`;
+        }catch(e2){
+          li.innerHTML=`<span>⚠️ ${f.name.slice(0,30)} (erro)</span><button onclick="rmArq('${f.name}',this.parentNode)">✕</button>`;
+        }
+      }
+
     }else if(isImage){
       const buf=await f.arrayBuffer();
       const b64=btoa(String.fromCharCode(...new Uint8Array(buf)));
       arquivos.push({nome:f.name,tipo:'imagem',mimeType:f.type,b64});
       const li=document.createElement('div');li.className='file-item';
-      li.innerHTML=`<span>🖼️ ${f.name}</span><button onclick="rmArq('${f.name}',this.parentNode)">✕</button>`;
+      li.innerHTML=`<span>🖼️ ${f.name.slice(0,30)}</span><button onclick="rmArq('${f.name}',this.parentNode)">✕</button>`;
       document.getElementById('file-list').appendChild(li);
     }else if(f.type==='text/plain'){
       const txt=await f.text();
       arquivos.push({nome:f.name,tipo:'texto',conteudo:txt.slice(0,14000)});
       const li=document.createElement('div');li.className='file-item';
-      li.innerHTML=`<span>📎 ${f.name}</span><button onclick="rmArq('${f.name}',this.parentNode)">✕</button>`;
+      li.innerHTML=`<span>📎 ${f.name.slice(0,30)}</span><button onclick="rmArq('${f.name}',this.parentNode)">✕</button>`;
       document.getElementById('file-list').appendChild(li);
     }
   }
@@ -1604,6 +1645,7 @@ function fmt(t) {
 }
 
 function limpar() {
+  arquivos=[];['file-list','mobile-file-list'].forEach(id=>{const el=document.getElementById(id);if(el)el.innerHTML='';});const b=document.getElementById('attach-badge');if(b)b.classList.remove('show');
   hist = []; arquivosTexto = [];
   document.getElementById('file-list').innerHTML = '';
   document.getElementById('messages').innerHTML = `
@@ -1614,65 +1656,65 @@ function limpar() {
     </div>`;
 }
 
-async function enviar() {
-  const input = document.getElementById('user-input');
-  const btn = document.getElementById('btn-send');
-  let txt = input.value.trim();
-  if (!txt) return;
-  if (!pronto) {
-    setStatus('err', '❌ Assistente não conectado. Verifique a configuração da API.');
-    return;
-  }
-
-  if (arquivosTexto.length > 0) {
-    const ctx = arquivosTexto.map(a => `=== DOCUMENTO: ${a.nome} ===\n${a.conteudo}`).join('\n\n');
-    txt = `${txt}\n\nDocumentos enviados para análise:\n${ctx}`;
-  }
+async function enviar(){
+  if(!consentiu){alert('Aceite os termos de privacidade para usar a ferramenta.');return;}
+  const input=document.getElementById('user-input');
+  const btn=document.getElementById('btn-send');
+  const txt=input.value.trim();
+  if(!txt && arquivos.length===0)return;
+  if(!pronto){setStatus('err','❌ Assistente não conectado. Verifique se o deploy foi feito no Vercel.');return;}
 
   esconderWelcome();
-  const perguntaExibida = input.value.trim();
-  input.value = ''; input.style.height = 'auto'; btn.disabled = true;
-  addMsg('user', perguntaExibida);
-  addTyping();
+  const exibir=txt||(arquivos.length>0?`📎 ${arquivos.map(a=>a.nome).join(', ')}`:' ');
+  input.value='';input.style.height='auto';btn.disabled=true;
+  addMsg('user',exibir);addTyping();
 
-  // Construir histórico para Gemini
-  const contents = [
-    ...hist.map(m => ({
-      role: m.role === 'assistant' ? 'model' : 'user',
-      parts: [{text: m.content}]
-    })),
-    {role: 'user', parts: [{text: txt}]}
+  // Montar parts com texto + arquivos
+  const parts=[];
+  if(txt)parts.push({text:txt});
+  for(const a of arquivos){
+    if(a.tipo==='imagem'||a.tipo==='audio'){
+      parts.push({inline_data:{mime_type:a.mimeType,data:a.b64}});
+    }else if(a.tipo==='texto'){
+      parts.push({text:`=== DOCUMENTO: ${a.nome} ===\n${a.conteudo}`});
+    }
+  }
+  if(parts.length===0)parts.push({text:'(sem conteúdo)'});
+
+  const contents=[
+    ...hist.map(m=>({role:m.role==='assistant'?'model':'user',parts:[{text:m.content}]})),
+    {role:'user',parts}
   ];
 
-  try {
-    const res = await fetch(GEMINI_API_URL, {
-      method: 'POST',
-      headers: {'Content-Type': 'application/json'},
-      body: JSON.stringify({
+  try{
+    const res=await fetch(GEMINI_API_URL,{
+      method:'POST',
+      headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({
         contents,
-        generationConfig: {
-          temperature: 0.7,
-          maxOutputTokens: 1500,
-        }
+        generationConfig:{temperature:.65,maxOutputTokens:2000,topP:.95}
       })
     });
-
-    if (!res.ok) throw new Error(`Erro ${res.status}: ${await res.text()}`);
-    const data = await res.json();
-    const resposta = data.candidates?.[0]?.content?.parts?.[0]?.text || 'Não foi possível obter uma resposta. Tente novamente.';
-
+    if(!res.ok){
+      const errTxt=await res.text();
+      throw new Error(`HTTP ${res.status}: ${errTxt}`);
+    }
+    const data=await res.json();
+    const resp=data.candidates?.[0]?.content?.parts?.[0]?.text||'Não foi possível obter resposta. Tente novamente.';
+    rmTyping();addMsg('assistant',resp);
+    hist.push({role:'user',content:exibir});
+    hist.push({role:'assistant',content:resp});
+    if(hist.length>20)hist=hist.slice(-20);
+    // Limpar arquivos após envio
+    arquivos=[];
+    document.getElementById('file-list').innerHTML='';
+    const mfl=document.getElementById('mobile-file-list');
+    if(mfl)mfl.innerHTML='';
+  }catch(e){
     rmTyping();
-    addMsg('assistant', resposta);
-    hist.push({role: 'user', content: perguntaExibida});
-    hist.push({role: 'assistant', content: resposta});
-    if (hist.length > 20) hist = hist.slice(-20);
-
-  } catch (e) {
-    rmTyping();
-    addMsg('assistant', `⚠️ Erro ao consultar o assistente: ${e.message}. Tente novamente em instantes.`);
+    addMsg('assistant',`⚠️ Erro: ${e.message}`);
   }
-
-  btn.disabled = false; input.focus();
+  btn.disabled=false;input.focus();
 }
 
 
