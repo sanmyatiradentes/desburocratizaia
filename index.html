@@ -1692,7 +1692,7 @@ async function enviar(){
       headers:{'Content-Type':'application/json'},
       body:JSON.stringify({
         contents,
-        generationConfig:{temperature:.65,maxOutputTokens:2000,topP:.95}
+        generationConfig:{temperature:.65,maxOutputTokens:8192,topP:.95}
       })
     });
     if(!res.ok){
@@ -1785,7 +1785,7 @@ async function toggleMic(){
             headers:{'Content-Type':'application/json'},
             body:JSON.stringify({
               contents,
-              generationConfig:{temperature:.65,maxOutputTokens:2000}
+              generationConfig:{temperature:.65,maxOutputTokens:8192}
             })
           });
           if(!res.ok)throw new Error(`HTTP ${res.status}`);
