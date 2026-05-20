@@ -8,7 +8,7 @@
  *   GEMINI_API_KEY = sua_chave_aqui
  */
 
-const GEMINI_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent';
+const GEMINI_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent';
 
 // Prompt protegido no servidor — invisível para o usuário
 const SYSTEM_PROMPT = `Você é o DesburocratizaIA, assistente especializado em desburocratização do serviço público brasileiro. Criado por Sanmya Beatriz Tiradentes Leite — Dirigente de Polícia Científica do Amazonas, Lean Six Sigma Master Black Belt, Perita Odontolegista PCAM, Capitão-Dentista CBMAM.
