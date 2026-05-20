@@ -334,35 +334,31 @@ section{padding:5rem 2rem;}
 .cta-section .btn-primary:hover{background:#fdf0f0;}
 
 /* FERRAMENTA */
-#ferramenta{background:var(--navy);padding:4rem 0 0;}
+#ferramenta{background:var(--navy);padding:clamp(2.5rem,5vw,4rem) 0 clamp(3rem,5vw,4rem);}
 #ferramenta .container{padding:0 2rem;}
 #ferramenta .section-title{color:#fff;}
 #ferramenta .section-sub{color:rgba(255,255,255,0.55);}
 
 .chat-app{
   margin-top:2.5rem;background:var(--paper);
-  border-radius:16px 16px 0 0;overflow:hidden;
-  box-shadow:0 -8px 48px rgba(0,0,0,0.3);
+  border-radius:16px 16px 0 0;
+  box-shadow:0 -8px 48px rgba(0,0,0,.3);
   display:grid;grid-template-columns:280px 1fr;
-  height:680px;
+  height:700px;
 }
 .chat-sidebar{
   background:#fff;border-right:1px solid var(--border);
-  overflow-y:auto;display:flex;flex-direction:column;
+  display:flex;flex-direction:column;
+  height:100%;overflow-y:auto;
+  border-radius:16px 0 0 0;
 }
-.cs-section{padding:1.1rem 1.25rem;border-bottom:1px solid var(--border);}
-.cs-label{
-  font-size:0.64rem;font-weight:700;letter-spacing:0.1em;
-  text-transform:uppercase;color:rgba(13,17,23,0.35);margin-bottom:0.75rem;
-}
+.cs-section{padding:.5rem .85rem;border-bottom:1px solid var(--border);}
+.cs-label{font-size:.6rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:rgba(13,17,23,.32);margin-bottom:.35rem}
 .cs-intro p{font-size:0.79rem;line-height:1.6;color:rgba(13,17,23,0.65);}
 .cs-intro strong{color:var(--ink);}
 
 .eixo-mini{margin-bottom:0.45rem;}
-.eixo-mini-header{
-  display:flex;align-items:center;gap:0.45rem;cursor:pointer;
-  padding:0.4rem 0.55rem;border-radius:6px;transition:background 0.15s;user-select:none;
-}
+.eixo-mini-header{display:flex;align-items:center;gap:.4rem;cursor:pointer;padding:.3rem .45rem;border-radius:5px;transition:background .15s;user-select:none}
 .eixo-mini-header:hover{background:var(--cream);}
 .eixo-mini-num{
   width:19px;height:19px;border-radius:50%;
@@ -373,23 +369,15 @@ section{padding:5rem 2rem;}
 .eixo-mini-title{font-size:0.74rem;font-weight:600;color:var(--ink);flex:1;line-height:1.3;}
 .eixo-mini-arrow{font-size:0.62rem;color:rgba(13,17,23,0.3);transition:transform 0.2s;}
 .eixo-mini.open .eixo-mini-arrow{transform:rotate(90deg);}
-.eixo-mini-leis{display:none;padding:0.25rem 0.55rem 0.25rem 1.9rem;flex-direction:column;gap:0.22rem;}
-.eixo-mini.open .eixo-mini-leis{display:flex;}
+.eixo-mini-leis{display:none;padding:.2rem .45rem .2rem 1.6rem;flex-direction:column;gap:.15rem}
+.eixo-mini.open .eixo-mini-leis{display:none;padding:.2rem .45rem .2rem 1.6rem;flex-direction:column;gap:.15rem}
 .lei-mini{font-size:0.69rem;color:rgba(13,17,23,0.55);padding-left:0.45rem;border-left:2px solid var(--navy-light);line-height:1.4;}
 
-.sugg{
-  background:var(--cream);border:1px solid var(--border);
-  border-radius:7px;padding:0.5rem 0.7rem;
-  font-size:0.74rem;color:var(--navy-mid);cursor:pointer;
-  margin-bottom:0.4rem;line-height:1.4;transition:all 0.15s;font-weight:500;
-}
+.sugg{background:var(--cream);border:1px solid var(--border);border-radius:6px;padding:.35rem .55rem;font-size:.69rem;color:var(--navy2);cursor:pointer;margin-bottom:.25rem;line-height:1.35;transition:all .15s;font-weight:500}
 .sugg:hover{background:var(--navy-light);border-color:var(--navy-mid);transform:translateX(2px);}
 .sugg::before{content:'→ ';color:var(--red);font-weight:700;}
 
-.upload-zone{
-  border:1.5px dashed var(--border);border-radius:8px;padding:0.7rem;
-  text-align:center;cursor:pointer;transition:all 0.15s;margin-bottom:0.65rem;
-}
+.upload-zone{border:1.5px dashed var(--border);border-radius:7px;padding:.4rem .6rem;text-align:center;cursor:pointer;transition:all .15s;margin-bottom:.3rem}
 .upload-zone:hover{border-color:var(--navy-mid);background:var(--navy-light);}
 .upload-zone p{font-size:0.73rem;color:rgba(13,17,23,0.45);line-height:1.4;}
 .upload-zone strong{color:var(--navy-mid);}
@@ -423,7 +411,11 @@ section{padding:5rem 2rem;}
 }
 .btn-test:hover{background:var(--navy-mid);}
 
-.chat-main{display:flex;flex-direction:column;height:100%;overflow:hidden;}
+.chat-main{
+  display:flex;flex-direction:column;
+  height:100%;overflow:hidden;
+  border-radius:0 16px 0 0;
+}
 #chat-status{
   padding:0.5rem 1.25rem;font-size:0.77rem;
   background:var(--gold-light);
@@ -438,8 +430,9 @@ section{padding:5rem 2rem;}
 @keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
 
 .messages{
-  flex:1;overflow-y:auto;padding:1.25rem 1.5rem;
-  display:flex;flex-direction:column;gap:1rem;scroll-behavior:smooth;
+  flex:1;overflow-y:auto;
+  padding:1.15rem 1.35rem;
+  display:flex;flex-direction:column;gap:.9rem;scroll-behavior:smooth;
 }
 .welcome-chat{
   display:flex;flex-direction:column;align-items:center;
@@ -529,7 +522,7 @@ footer a:hover{text-decoration:underline;}
   .eixos-grid{grid-template-columns:1fr}
   .chat-app{grid-template-columns:1fr;height:auto}
   .chat-sidebar{display:none}
-  .messages{height:400px}
+.messages{height:420px}
   .realizacoes{grid-template-columns:1fr 1fr}
 }
 @media(max-width:600px){
@@ -602,6 +595,113 @@ footer a:hover{text-decoration:underline;}
 }
 .attach-badge.show{display:flex;}
 
+
+/* ── MOBILE CHAT ── */
+.chat-mobile-bar{
+  display:none;
+  background:var(--cream);
+  border-bottom:1px solid var(--border);
+  padding:.5rem .75rem;
+  gap:.5rem;
+  align-items:center;
+  flex-wrap:wrap;
+}
+.chat-mobile-btn{
+  background:#fff;border:1px solid var(--border);
+  border-radius:20px;padding:.35rem .85rem;
+  font-size:.75rem;font-weight:600;color:var(--navy);
+  cursor:pointer;font-family:inherit;
+  display:flex;align-items:center;gap:.35rem;
+  transition:all .15s;white-space:nowrap;
+}
+.chat-mobile-btn:hover{background:var(--navy3);border-color:var(--navy)}
+.chat-mobile-btn.active{background:var(--navy);color:#fff;border-color:var(--navy)}
+
+.mobile-drawer{
+  display:none;
+  background:var(--cream);
+  border-top:1px solid var(--border);
+  padding:.85rem 1rem;
+  flex-direction:column;
+  gap:.65rem;
+  animation:slideDown .2s ease;
+}
+.mobile-drawer.open{display:flex}
+@keyframes slideDown{from{opacity:0;transform:translateY(-8px)}to{opacity:1;transform:translateY(0)}}
+
+.mobile-suggs{display:flex;flex-direction:column;gap:.35rem}
+.mobile-leis{display:grid;grid-template-columns:1fr 1fr;gap:.4rem}
+.mobile-lei-chip{
+  background:var(--navy3);color:var(--navy);
+  font-size:.72rem;font-weight:600;
+  padding:.35rem .65rem;border-radius:6px;
+  cursor:pointer;border:none;font-family:inherit;
+  transition:background .15s;text-align:left;
+  border-left:3px solid var(--navy);
+}
+.mobile-lei-chip:hover{background:var(--navy);color:#fff}
+
+.mobile-upload-area{
+  border:1.5px dashed var(--border);border-radius:8px;
+  padding:.85rem;text-align:center;cursor:pointer;
+  transition:all .15s;background:var(--cream);
+}
+.mobile-upload-area:hover{border-color:var(--navy);background:var(--navy3)}
+.mobile-upload-area p{font-size:.8rem;color:rgba(13,17,23,.55);line-height:1.5}
+.mobile-upload-area strong{color:var(--navy)}
+#file-input-mobile2{display:none}
+
+.mobile-file-list{display:flex;flex-direction:column;gap:.3rem;margin-top:.4rem}
+
+
+  .chat-main{border-radius:0!important}
+}
+
+}
+
+
+
+  .chat-sidebar{display:none!important}
+  .chat-mobile-bar{display:flex!important}
+  .chat-main{border-radius:14px 14px 0 0;min-height:0;}
+  .messages{height:320px!important;min-height:200px;}
+  .mobile-drawer.open{display:flex}
+}
+@media(min-width:861px){
+  .chat-mobile-bar{display:none!important}
+  .mobile-drawer{display:none!important}
+}
+
+
+/* ── RESPONSIVO CHAT ── */
+@media(max-width:900px){
+  .chat-app{
+    grid-template-columns:1fr;
+    height:auto;
+    min-height:560px;
+    border-radius:14px 14px 0 0;
+  }
+  .chat-sidebar{display:none!important}
+  .chat-main{
+    height:auto;
+    min-height:560px;
+    border-radius:14px 14px 0 0;
+  }
+  .messages{
+    height:320px;
+    flex:none;
+  }
+  .chat-mobile-bar{display:flex!important}
+}
+@media(min-width:901px){
+  .chat-mobile-bar{display:none!important}
+  .mobile-drawer{display:none!important}
+}
+@media(max-width:560px){
+  .chat-app{min-height:480px}
+  .messages{height:260px}
+}
+
 </style>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
 <script>
@@ -614,7 +714,7 @@ if(typeof pdfjsLib !== 'undefined'){
 
 <!-- BANNER LGPD -->
 <div id="consent-banner">
-  <p>🔒 <strong style="color:#fff">Privacidade:</strong> Esta ferramenta é uma iniciativa pessoal de Sanmya Beatriz Tiradentes Leite. Suas perguntas são processadas pela API do Google Gemini Flash. <strong style="color:rgba(255,255,255,.85)">Não armazenamos suas conversas e não coletamos dados pessoais.</strong> Ao continuar, você consente com o envio temporário das suas perguntas à API do Google Gemini. Leia nossa <a href="#privacidade">Política de Privacidade</a>.</p>
+  <p>🔒 <strong style="color:#fff">Privacidade:</strong> Esta ferramenta é uma iniciativa pessoal de Sanmya Beatriz Tiradentes Leite. Suas perguntas são processadas pela API do Google Gemini 2.5 Flash. <strong style="color:rgba(255,255,255,.85)">Não armazenamos suas conversas e não coletamos dados pessoais.</strong> Ao continuar, você consente com o envio temporário das suas perguntas à API do Google Gemini. Leia nossa <a href="#privacidade">Política de Privacidade</a>.</p>
   <div class="consent-btns">
     <button class="btn-aceitar" onclick="aceitarConsent()">✓ Aceito e Quero Usar</button>
     <button class="btn-recusar" onclick="recusarConsent()">Não aceito</button>
@@ -907,7 +1007,7 @@ if(typeof pdfjsLib !== 'undefined'){
       <div>
         <div class="section-label" style="color:var(--gold)">Privacidade e LGPD</div>
         <h2 class="lgpd-title">Seus dados tratados com<br><em>responsabilidade.</em></h2>
-        <p class="lgpd-desc">Esta ferramenta utiliza a API do Google Gemini Flash para processar suas perguntas. Seguimos rigorosamente os princípios da Lei Geral de Proteção de Dados (Lei 13.709/2018) e nos comprometemos com a transparência total sobre como suas informações são tratadas.</p>
+        <p class="lgpd-desc">Esta ferramenta utiliza a API do Google Gemini 2.5 Flash para processar suas perguntas. Seguimos rigorosamente os princípios da Lei Geral de Proteção de Dados (Lei 13.709/2018) e nos comprometemos com a transparência total sobre como suas informações são tratadas.</p>
         <div class="lgpd-box">
           <strong style="color:var(--gold)">Nossa base legal (LGPD, Art. 7º):</strong> O tratamento de dados realizado por esta ferramenta tem como base legal o <strong>consentimento livre e informado do usuário</strong>, conforme o Art. 7º, I, da LGPD.</div>
       </div>
@@ -918,7 +1018,7 @@ if(typeof pdfjsLib !== 'undefined'){
         </div>
                 <div class="lgpd-item">
           <div class="lgpd-icon">🔒</div>
-          <div><h4>Processamento via Google Gemini</h4><p>Suas perguntas são enviadas à API do Google Gemini Flash para processamento. O Google, nos termos da API, não utiliza dados de API para treinar seus modelos.</p></div>
+          <div><h4>Processamento via Google Gemini</h4><p>Suas perguntas são enviadas à API do Google Gemini 2.5 Flash para processamento. O Google, nos termos da API, não utiliza dados de API para treinar seus modelos.</p></div>
         </div>
         <div class="lgpd-item">
           <div class="lgpd-icon">🗑️</div>
@@ -1147,10 +1247,6 @@ if(typeof pdfjsLib !== 'undefined'){
 
     <div class="chat-app">
       <div class="chat-sidebar">
-        <div class="cs-section cs-intro">
-          <div class="cs-label">Sobre</div>
-          <p><strong>DesburocratizaIA</strong> — orientação jurídica e de gestão para servidores públicos. Baseado na legislação vigente e nas melhores filosofias de gestão do mundo.<br><br><em style="font-size:0.74rem;color:rgba(13,17,23,0.4)">Powered by Google Gemini Flash</em></p>
-        </div>
 
         <div class="cs-section">
           <div class="cs-label">Base Legal</div>
@@ -1202,7 +1298,6 @@ if(typeof pdfjsLib !== 'undefined'){
             <div class="eixo-mini-leis">
               <div class="lei-mini">Lei 14.133/2021 — Nova Licitações</div>
               <div class="lei-mini">Lei 14.230/2021 — Improbidade</div>
-              <div class="lei-mini">Lei 14.133/2021 — Pregão (Arts. 29-31)</div>
             </div>
           </div>
         </div>
@@ -1219,24 +1314,18 @@ if(typeof pdfjsLib !== 'undefined'){
         <div class="cs-section">
           <div class="cs-label">Enviar Documento</div>
           <div class="upload-zone" onclick="document.getElementById('file-input').click()">
-            <p>📎 <strong>Clique para enviar</strong><br>PDF <strong style="color:var(--red)">máx. 20MB</strong>, Imagem ou TXT<br><span style="font-size:0.66rem;color:rgba(13,17,23,0.3)">Processado via Gemini · Não armazenamos seus dados</span></p>
+            <p style="font-size:.7rem">📎 <strong>Clique para enviar</strong> · PDF <strong style="color:var(--red)">máx. 20MB</strong>, Imagem ou TXT</p>
           </div>
           <input type="file" id="file-input" accept=".pdf,.txt,.jpg,.jpeg,.png,.webp" multiple onchange="handleFiles(this.files)">
           <div class="file-list" id="file-list"></div>
         </div>
 
-        <div class="cs-section">
-          <div class="cs-label" style="color:var(--red)">⚠️ Aviso LGPD</div>
-          <p style="font-size:0.71rem;color:rgba(13,17,23,0.55);line-height:1.5">As perguntas são processadas pelo Google Gemini. Não inclua dados pessoais de terceiros. Não armazenamos conversas. <a href="#privacidade" style="color:var(--red)">Política de Privacidade</a></p>
-        </div>
-      </div>
-
+              </div>
       <div class="chat-main">
         <div id="chat-status">
           <div class="sdot"></div>
           <span id="status-txt">Aceite os termos abaixo para ativar o assistente.</span>
         </div>
-
         <div class="messages" id="messages">
           <div class="welcome-chat" id="welcome">
             <div class="wi">🚀</div>
@@ -1244,14 +1333,57 @@ if(typeof pdfjsLib !== 'undefined'){
             <p>Descreva um processo, exigência ou situação do seu trabalho. Vou analisar, redigir e orientar — com a lei do seu lado e o <strong>propósito de desburocratizar e transformar o serviço público</strong>.</p>
           </div>
         </div>
-
         <div class="chat-input-wrap">
           <div class="disclaimer-sm">⚠️ Orientação geral com base na legislação vigente. Para decisões de alto impacto, consulte a assessoria jurídica do seu órgão. · <a href="mailto:sanmyatiradentes@gmail.com" style="color:var(--red)">Contato</a> · <a href="https://www.desburocratizaia.com.br" style="color:var(--red)">desburocratizaia.com.br</a></div>
           <div class="input-row">
-            <textarea id="user-input" placeholder="Descreva sua situação burocrática..." rows="1"></textarea>
-            <button class="btn-clear-sm" onclick="limpar()">🗑</button>
-            <button class="btn-send" id="btn-send" onclick="enviar()">➤</button>
+            <textarea id="user-input" placeholder="Descreva sua situação ou use os botões abaixo..." rows="1"></textarea>
+            <button class="btn-clr" onclick="limpar()" title="Limpar conversa">🗑</button>
+            <button class="btn-mic" id="btn-mic" onclick="toggleMic()" title="Gravar áudio">🎤</button>
+            <button class="btn-send" id="btn-send" onclick="enviar()" title="Enviar">➤</button>
           </div>
+        </div>
+        <!-- Barra mobile — visível só no celular -->
+      <div class="chat-mobile-bar" id="mobile-bar">
+        <button class="chat-mobile-btn" onclick="toggleDrawer('drawer-sugg')" id="btn-sugg">💡 Sugestões</button>
+        <button class="chat-mobile-btn" onclick="toggleDrawer('drawer-upload')" id="btn-upload">📎 Enviar arquivo</button>
+        <button class="chat-mobile-btn" onclick="toggleDrawer('drawer-leis')" id="btn-leis">⚖️ Base Legal</button>
+      </div>
+
+      <!-- Gaveta de sugestões -->
+      <div class="mobile-drawer" id="drawer-sugg">
+        <p style="font-size:.72rem;font-weight:700;color:rgba(13,17,23,.4);letter-spacing:.08em;text-transform:uppercase">Experimente perguntar:</p>
+        <div class="mobile-suggs">
+          <div class="sugg" onclick="usarSugg(this)">Preciso de 3 assinaturas para liberar material. É obrigatório?</div>
+          <div class="sugg" onclick="usarSugg(this)">Tenho medo de simplificar e ser responsabilizado. O que diz a lei?</div>
+          <div class="sugg" onclick="usarSugg(this)">Houve uma fraude. Como tratar a causa raiz sem criar mais etapas?</div>
+          <div class="sugg" onclick="usarSugg(this)">Preciso de uma justificativa para enviar ao meu gestor.</div>
+          <div class="sugg" onclick="usarSugg(this)">Estou sendo responsabilizado por ato de boa-fé. Me ajude na defesa.</div>
+          <div class="sugg" onclick="usarSugg(this)">Como criar segurança psicológica na minha equipe?</div>
+        </div>
+      </div>
+
+      <!-- Gaveta de upload -->
+      <div class="mobile-drawer" id="drawer-upload">
+        <div class="mobile-upload-area" onclick="document.getElementById('file-input-mobile2').click()">
+          <p>📎 <strong>Toque para enviar</strong><br>PDF <strong style="color:var(--red)">máx. 20MB</strong>, Imagem (JPG/PNG) ou TXT<br><span style="font-size:.7rem;color:rgba(13,17,23,.35)">Processado pelo Gemini · Não armazenamos seus arquivos</span></p>
+        </div>
+        <input type="file" id="file-input-mobile2" accept=".pdf,.txt,.jpg,.jpeg,.png,.webp" multiple onchange="handleFiles(this.files);fecharDrawers()">
+        <div class="mobile-file-list" id="mobile-file-list"></div>
+        <p style="font-size:.7rem;color:rgba(13,17,23,.4);text-align:center">⚠️ Não inclua dados pessoais de terceiros</p>
+      </div>
+
+      <!-- Gaveta de base legal -->
+      <div class="mobile-drawer" id="drawer-leis">
+        <p style="font-size:.72rem;font-weight:700;color:rgba(13,17,23,.4);letter-spacing:.08em;text-transform:uppercase">Base Legal:</p>
+        <div class="mobile-leis">
+          <button class="mobile-lei-chip" onclick="usarLei('Art. 37 CF/88 — Eficiência como princípio constitucional obrigatório')">Art. 37 CF/88</button>
+          <button class="mobile-lei-chip" onclick="usarLei('Lei 13.726/2018 — Dispensa reconhecimento de firma, autenticações e certidões desnecessárias')">Lei 13.726/2018</button>
+          <button class="mobile-lei-chip" onclick="usarLei('Lei 14.230/2021 — Reforma da Improbidade: exige DOLO, protege quem age de boa-fé')">Lei 14.230/2021</button>
+          <button class="mobile-lei-chip" onclick="usarLei('Lei 14.133/2021 — Nova Lei de Licitações: mais ágil e simples')">Lei 14.133/2021</button>
+          <button class="mobile-lei-chip" onclick="usarLei('Lei 13.869/2019 — Abuso de Autoridade: define taxativamente o que é abuso')">Lei 13.869/2019</button>
+          <button class="mobile-lei-chip" onclick="usarLei('Lei 13.874/2019 — Liberdade Econômica: veda exigências sem base legal')">Lei 13.874/2019</button>
+          <button class="mobile-lei-chip" onclick="usarLei('Lei 12.850/2013 — Organizações criminosas e colaboração premiada')">Lei 12.850/2013</button>
+          <button class="mobile-lei-chip" onclick="usarLei('Lei 9.784/1999 — Processo Administrativo Federal: princípios e simplificação')">Lei 9.784/1999</button>
         </div>
       </div>
     </div>
@@ -1286,7 +1418,7 @@ if(typeof pdfjsLib !== 'undefined'){
 
       <div style="background:var(--cream);border-radius:10px;padding:1.25rem 1.5rem;border-left:4px solid var(--navy)">
         <h3 style="font-family:'Cormorant Garamond',serif;font-size:1.1rem;font-weight:700;color:var(--navy);margin-bottom:.5rem">4. Google Gemini — processador de dados</h3>
-        <p style="font-size:.88rem;color:rgba(13,17,23,.7);line-height:1.7">As perguntas dos usuários são processadas pela API do Google Gemini Flash (Google LLC). Nos termos de uso da API do Google, os dados enviados via API não são utilizados para treinar modelos de IA. Para informações completas, consulte a <a href="https://policies.google.com/privacy" target="_blank" style="color:var(--red)">Política de Privacidade do Google</a> e os <a href="https://ai.google.dev/gemini-api/terms" target="_blank" style="color:var(--red)">Termos de Uso da API Gemini</a>.</p>
+        <p style="font-size:.88rem;color:rgba(13,17,23,.7);line-height:1.7">As perguntas dos usuários são processadas pela API do Google Gemini 2.5 Flash (Google LLC). Nos termos de uso da API do Google, os dados enviados via API não são utilizados para treinar modelos de IA. Para informações completas, consulte a <a href="https://policies.google.com/privacy" target="_blank" style="color:var(--red)">Política de Privacidade do Google</a> e os <a href="https://ai.google.dev/gemini-api/terms" target="_blank" style="color:var(--red)">Termos de Uso da API Gemini</a>.</p>
       </div>
 
       <div style="background:var(--cream);border-radius:10px;padding:1.25rem 1.5rem;border-left:4px solid var(--navy)">
@@ -1310,7 +1442,7 @@ if(typeof pdfjsLib !== 'undefined'){
   <p style="font-size:.9rem;margin-bottom:.5rem">Com <strong style="color:var(--gold);font-size:1rem">propósito</strong> e com <strong style="color:var(--gold);font-size:1rem">amor</strong>, produzido por Sanmya Tiradentes ❤️</p>
   <p>Perita Odontolegista PCAM · Dirigente de Polícia Científica do AM · Capitão-Dentista CBMAM<br>
   <a href="mailto:sanmyatiradentes@gmail.com">sanmyatiradentes@gmail.com</a> · <a href="https://www.desburocratizaia.com.br">www.desburocratizaia.com.br</a></p>
-  <p style="margin-top:0.75rem;font-size:0.72rem">Ferramenta gratuita e de acesso público · Powered by Google Gemini Flash · LGPD (Lei 13.709/2018)</p>
+  <p style="margin-top:0.75rem;font-size:0.72rem">Ferramenta gratuita e de acesso público · Powered by Google Gemini 2.5 Flash · LGPD (Lei 13.709/2018)</p>
   <p style="margin-top:1rem;padding-top:1rem;border-top:1px solid rgba(255,255,255,.1)"><em style="color:var(--gold);font-size:.95rem;font-family:'Cormorant Garamond',serif;font-style:italic;letter-spacing:.02em">"Processos são criados por pessoas para servir pessoas."</em></p>
 </footer>
 
@@ -1367,7 +1499,7 @@ async function verificarGemini() {
       signal: AbortSignal.timeout(6000)
     });
     if (r.ok) {
-      setStatus('ok', '✅ DesburocratizaIA conectado · Powered by Google Gemini Flash · Pronto para orientar servidores');
+      setStatus('ok', '✅ DesburocratizaIA conectado · Powered by Google Gemini 2.5 Flash · Pronto para orientar servidores');
       pronto = true;
     } else throw new Error();
   } catch {
@@ -1646,6 +1778,41 @@ document.getElementById('user-input').addEventListener('input', function() {
   this.style.height = 'auto';
   this.style.height = Math.min(this.scrollHeight, 120) + 'px';
 });
+
+// ── GAVETAS MOBILE ────────────────────────────────────────────────────────
+function toggleDrawer(id){
+  const gavetas = ['drawer-sugg','drawer-upload','drawer-leis'];
+  const btns = {'drawer-sugg':'btn-sugg','drawer-upload':'btn-upload','drawer-leis':'btn-leis'};
+  gavetas.forEach(g=>{
+    const el = document.getElementById(g);
+    const btn = document.getElementById(btns[g]);
+    if(g===id){
+      const isOpen = el.classList.contains('open');
+      el.classList.toggle('open');
+      if(btn) btn.classList.toggle('active', !isOpen);
+    } else {
+      el.classList.remove('open');
+      if(btn) btn.classList.remove('active');
+    }
+  });
+}
+
+function fecharDrawers(){
+  ['drawer-sugg','drawer-upload','drawer-leis'].forEach(g=>{
+    document.getElementById(g)?.classList.remove('open');
+  });
+  ['btn-sugg','btn-upload','btn-leis'].forEach(b=>{
+    document.getElementById(b)?.classList.remove('active');
+  });
+}
+
+function usarLei(texto){
+  const input = document.getElementById('user-input');
+  input.value = texto;
+  input.focus();
+  fecharDrawers();
+  document.getElementById('ferramenta').scrollIntoView({behavior:'smooth'});
+}
 
 // Iniciar se já consentiu anteriormente
 if(consentiu) {
