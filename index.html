@@ -702,6 +702,21 @@ footer a:hover{text-decoration:underline;}
   .messages{height:260px}
 }
 
+
+/* Markdown nas bolhas do chat */
+.mbubble table{width:100%;border-collapse:collapse;margin:.75rem 0;font-size:.82rem;}
+.mbubble table th{background:var(--navy);color:#fff;padding:.5rem .75rem;text-align:left;font-weight:600;}
+.mbubble table td{padding:.45rem .75rem;border-bottom:1px solid var(--border);vertical-align:top;}
+.mbubble table tr:nth-child(even) td{background:var(--cream);}
+.mbubble h1,.mbubble h2,.mbubble h3,.mbubble h4{font-family:'Cormorant Garamond',serif;color:var(--navy);margin:.85rem 0 .4rem;}
+.mbubble ul,.mbubble ol{padding-left:1.25rem;margin:.4rem 0;}
+.mbubble li{margin-bottom:.2rem;line-height:1.55;}
+.mbubble code{background:var(--cream);border:1px solid var(--border);border-radius:4px;padding:.1rem .35rem;font-size:.8rem;}
+.mbubble blockquote{border-left:3px solid var(--gold);background:var(--gold2);padding:.6rem 1rem;border-radius:0 6px 6px 0;margin:.6rem 0;font-style:italic;}
+.mbubble p{margin-bottom:.5rem;line-height:1.65;}
+.mbubble p:last-child{margin-bottom:0;}
+.mbubble strong{color:var(--navy);}
+
 </style>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
 <script>
@@ -709,6 +724,7 @@ if(typeof pdfjsLib !== 'undefined'){
   pdfjsLib.GlobalWorkerOptions.workerSrc='https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
 }
 </script>
+<script src="https://cdn.jsdelivr.net/npm/marked@12/marked.min.js"></script>
 </head>
 <body>
 
@@ -1302,13 +1318,24 @@ if(typeof pdfjsLib !== 'undefined'){
           </div>
         </div>
 
-        <div class="cs-section">
+                <div class="cs-section">
+          <div class="cs-label">Seu Contexto</div>
+          <div style="margin-bottom:.35rem">
+            <label style="font-size:.65rem;font-weight:600;color:rgba(13,17,23,.45);display:block;margin-bottom:.22rem">Estado</label>
+            <input type="text" id="cfg-estado" placeholder="Ex: Amazonas, São Paulo..." style="background:var(--cream);border:1px solid var(--border);border-radius:6px;padding:.38rem .6rem;font-size:.76rem;font-family:inherit;color:var(--ink);width:100%;box-sizing:border-box">
+          </div>
+          <div>
+            <label style="font-size:.65rem;font-weight:600;color:rgba(13,17,23,.45);display:block;margin-bottom:.22rem">Órgão</label>
+            <input type="text" id="cfg-orgao" placeholder="Ex: Polícia Científica..." style="background:var(--cream);border:1px solid var(--border);border-radius:6px;padding:.38rem .6rem;font-size:.76rem;font-family:inherit;color:var(--ink);width:100%;box-sizing:border-box">
+          </div>
+        </div>
+<div class="cs-section">
           <div class="cs-label">Experimente Perguntar</div>
-          <div class="sugg" onclick="usarSugg(this)">Preciso de 3 assinaturas para liberar material. É obrigatório?</div>
-          <div class="sugg" onclick="usarSugg(this)">Posso dispensar reconhecimento de firma em documento interno?</div>
-          <div class="sugg" onclick="usarSugg(this)">Tenho medo de simplificar e ser responsabilizado. O que diz a lei?</div>
-          <div class="sugg" onclick="usarSugg(this)">A Nova Lei de Licitações simplificou as contratações públicas?</div>
-          <div class="sugg" onclick="usarSugg(this)">Como a reforma da improbidade protege quem age de boa-fé?</div>
+          <div class="sugg" onclick="usarSugg(this)">1. Preciso de 3 assinaturas para liberar material. É obrigatório?</div>
+          <div class="sugg" onclick="usarSugg(this)">2. Posso dispensar reconhecimento de firma em documento interno?</div>
+          <div class="sugg" onclick="usarSugg(this)">3. Tenho medo de simplificar e ser responsabilizado. O que diz a lei?</div>
+          <div class="sugg" onclick="usarSugg(this)">4. A Nova Lei de Licitações simplificou as contratações públicas?</div>
+          <div class="sugg" onclick="usarSugg(this)">5. Como a reforma da improbidade protege quem age de boa-fé?</div>
         </div>
 
         <div class="cs-section">
@@ -1353,8 +1380,8 @@ if(typeof pdfjsLib !== 'undefined'){
       <div class="mobile-drawer" id="drawer-sugg">
         <p style="font-size:.72rem;font-weight:700;color:rgba(13,17,23,.4);letter-spacing:.08em;text-transform:uppercase">Experimente perguntar:</p>
         <div class="mobile-suggs">
-          <div class="sugg" onclick="usarSugg(this)">Preciso de 3 assinaturas para liberar material. É obrigatório?</div>
-          <div class="sugg" onclick="usarSugg(this)">Tenho medo de simplificar e ser responsabilizado. O que diz a lei?</div>
+          <div class="sugg" onclick="usarSugg(this)">1. Preciso de 3 assinaturas para liberar material. É obrigatório?</div>
+          <div class="sugg" onclick="usarSugg(this)">3. Tenho medo de simplificar e ser responsabilizado. O que diz a lei?</div>
           <div class="sugg" onclick="usarSugg(this)">Houve uma fraude. Como tratar a causa raiz sem criar mais etapas?</div>
           <div class="sugg" onclick="usarSugg(this)">Preciso de uma justificativa para enviar ao meu gestor.</div>
           <div class="sugg" onclick="usarSugg(this)">Estou sendo responsabilizado por ato de boa-fé. Me ajude na defesa.</div>
@@ -1490,21 +1517,28 @@ let arquivosTexto = [];
 let pronto = false;
 
 // Verificar conexão com Gemini ao carregar
-async function verificarGemini() {
-  if (!consentiu) return;
-  try {
-    const r = await fetch(GEMINI_API_URL, {
-      method: 'POST',
-      headers: {'Content-Type': 'application/json'},
-      body: JSON.stringify({contents: [{parts: [{text: 'ok'}]}], generationConfig: {maxOutputTokens: 5}}),
-      signal: AbortSignal.timeout(6000)
+async function verificarGemini(){
+  if(!consentiu)return;
+  setStatus('','⏳ Conectando ao assistente...');
+  try{
+    const r=await fetch(GEMINI_API_URL,{
+      method:'POST',
+      headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({
+        contents:[{role:'user',parts:[{text:'oi'}]}],
+        generationConfig:{maxOutputTokens:5,temperature:0}
+      }),
+      signal:AbortSignal.timeout(20000)
     });
-    if (r.ok) {
-      setStatus('ok', '✅ DesburocratizaIA conectado · Powered by Google Gemini 2.5 Flash · Pronto para orientar servidores');
-      pronto = true;
-    } else throw new Error();
-  } catch {
-    setStatus('err', '❌ Assistente não disponível no momento. Tente novamente em instantes.');
+    if(r.ok){
+      setStatus('ok','🚀 DesburocratizaIA ativo · Google Gemini 2.5 Flash · Pronto para orientar servidores públicos');
+      pronto=true;
+    }else{
+      const err=await r.text();
+      setStatus('err',`❌ Erro ${r.status}: ${err.slice(0,120)}`);
+    }
+  }catch(e){
+    setStatus('err',`❌ Erro de conexão: ${e.message}. Verifique o deploy no Vercel.`);
   }
 }
 
@@ -1638,12 +1672,19 @@ function addTyping() {
 
 function rmTyping() { const t = document.getElementById('typing'); if(t) t.remove(); }
 
-function fmt(t) {
-  return t
-    .replace(/\*\*(.*?)\*\*/g,'<strong>$1</strong>')
-    .replace(/\*(.*?)\*/g,'<em>$1</em>')
-    .replace(/(Lei \d{1,5}[\d\.]*\/\d{4}|Art\.\s*\d+[º°]?[^,\n]{0,25}|CPP\b|CP\b|LC \d+\/\d+|CF\/88|LGPD)/g,'<span class="lei-ref">$1</span>')
-    .replace(/\n\n/g,'</p><p>').replace(/\n/g,'<br>');
+function fmt(t){
+  if(typeof marked!=='undefined'){
+    try{
+      const result=marked.parse(String(t),{gfm:true,async:false});
+      return result.replace(
+        /(Lei\s+n[°º]?\s*\d{1,5}[\d.]*\/\d{4}|Lei\s+\d{1,5}[\d.]*\/\d{4}|Art\.\s*\d+[°º]?|LC\s+\d+\/\d+|CF\/88|LGPD|LINDB)/gm,
+        '<span class="lei-ref">$1</span>'
+      );
+    }catch(e){console.warn('marked:',e);}
+  }
+  return t.replace(/\*\*(.*?)\*\*/g,'<strong>$1</strong>')
+          .replace(/\*(.*?)\*/g,'<em>$1</em>')
+          .replace(/\n\n/g,'</p><p>').replace(/\n/g,'<br>');
 }
 
 function limpar() {
@@ -1671,8 +1712,16 @@ async function enviar(){
   input.value='';input.style.height='auto';btn.disabled=true;
   addMsg('user',exibir);addTyping();
 
+  // Contexto do servidor (estado/órgão)
+  const estado=document.getElementById('cfg-estado')?.value.trim();
+  const orgao=document.getElementById('cfg-orgao')?.value.trim();
+
   // Montar parts com texto + arquivos
   const parts=[];
+  let ctxServidor='';
+  if(estado)ctxServidor+=`Estado: ${estado}. `;
+  if(orgao)ctxServidor+=`Órgão: ${orgao}. `;
+  if(ctxServidor)parts.push({text:`[Contexto do servidor: ${ctxServidor}]`});
   if(txt)parts.push({text:txt});
   for(const a of arquivos){
     if(a.tipo==='imagem'||a.tipo==='audio'){
