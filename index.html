@@ -174,7 +174,7 @@ section{padding:clamp(3.5rem,8vw,5.5rem) var(--gutter)}
 .mani-point p{font-size:.82rem;color:rgba(217,214,228,.62);line-height:1.6}
 
 /* DIAGNÓSTICO */
-.diag-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.25rem;margin-top:2.75rem}
+.diag-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1.25rem;margin-top:2.75rem}
 .diag-card{
   background:#fff;border-radius:12px;padding:1.6rem;border:1px solid var(--border);box-shadow:var(--shadow);
   transition:transform .2s,box-shadow .2s;border-top:2px solid var(--gold);
@@ -229,19 +229,27 @@ section{padding:clamp(3.5rem,8vw,5.5rem) var(--gutter)}
 }
 
 /* LGPD */
-.lgpd-grid{display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:center}
+.lgpd-grid{display:grid;grid-template-columns:1fr 1.25fr;gap:4rem;align-items:start}
 .lgpd-desc{font-size:.93rem;color:rgba(217,214,228,.7);line-height:1.75;margin-bottom:1.5rem}
 .lgpd-box{
   background:rgba(255,255,255,.04);border:1px solid var(--line-dark);border-left:2px solid var(--gold);
   padding:1rem 1.25rem;border-radius:0 8px 8px 0;font-size:.86rem;color:rgba(217,214,228,.82);line-height:1.65;
 }
 .lgpd-box strong{color:#fff}
-.lgpd-items{display:flex;flex-direction:column;gap:.75rem}
-.lgpd-item{background:rgba(255,255,255,.035);border:1px solid var(--line-dark);border-radius:10px;padding:1rem 1.25rem}
-.lgpd-item h4{font-size:.88rem;font-weight:600;color:#fff;margin-bottom:.25rem}
-.lgpd-item p{font-size:.8rem;color:rgba(217,214,228,.62);line-height:1.55}
-.lgpd-item p strong{color:rgba(255,255,255,.85)}
-.lgpd-mail{display:inline-block;margin-top:.45rem;color:var(--gold);font-weight:600;text-decoration:none;word-break:break-all}
+.lgpd-items{list-style:none;counter-reset:pol;display:flex;flex-direction:column;gap:.75rem}
+.lgpd-item{
+  counter-increment:pol;position:relative;background:rgba(255,255,255,.035);border:1px solid var(--line-dark);
+  border-radius:10px;padding:1rem 1.25rem 1rem 3.1rem;
+}
+.lgpd-item::before{
+  content:counter(pol);position:absolute;left:1.1rem;top:.95rem;font-family:var(--serif);font-weight:700;
+  font-size:1.15rem;color:var(--gold);line-height:1.2;
+}
+.lgpd-item h4{font-size:.9rem;font-weight:600;color:#fff;margin-bottom:.3rem}
+.lgpd-item p{font-size:.82rem;color:rgba(217,214,228,.68);line-height:1.6}
+.lgpd-item p strong{color:rgba(255,255,255,.88)}
+.lgpd-item a{color:var(--gold);font-weight:600;overflow-wrap:anywhere}
+.dark .pol-data{margin:1.25rem 0 0;color:rgba(217,214,228,.5);font-size:.76rem}
 
 /* QUEM SOU EU */
 .sobre{background:#fff}
@@ -259,8 +267,6 @@ section{padding:clamp(3.5rem,8vw,5.5rem) var(--gutter)}
   font-size:.8rem;font-weight:500;color:var(--ink);padding:.5rem .8rem;background:var(--off);
   border-radius:6px;border-left:2px solid var(--gold);
 }
-.sobre-tags{display:flex;flex-wrap:wrap;gap:.4rem}
-.sobre-tag{background:var(--off);color:var(--marinho);font-size:.72rem;font-weight:600;padding:.3rem .7rem;border-radius:20px;border:1px solid var(--border)}
 .sobre-text h2{font-family:var(--serif);font-size:clamp(1.55rem,3.4vw,1.95rem);font-weight:700;color:var(--marinho);margin-bottom:1rem;line-height:1.22}
 .sobre-text h2 em{color:var(--gold-dark)}
 .sobre-text>p{font-size:.94rem;color:var(--muted);line-height:1.8;margin-bottom:1rem}
@@ -458,18 +464,6 @@ section{padding:clamp(3.5rem,8vw,5.5rem) var(--gutter)}
   cursor:pointer;border:1px solid var(--border);border-left:2px solid var(--gold);text-align:left;
 }
 
-/* ── POLÍTICA ── */
-.politica{background:#fff}
-.politica .container{max-width:780px}
-.pol-data{font-size:.82rem;color:var(--muted);margin-bottom:2rem}
-.pol-list{display:flex;flex-direction:column;gap:1.1rem}
-.pol-item{background:var(--off);border-radius:10px;padding:1.2rem 1.4rem;border-left:2px solid var(--gold)}
-.pol-item h3{font-family:var(--serif);font-size:1.1rem;font-weight:700;color:var(--marinho);margin-bottom:.5rem}
-.pol-item p{font-size:.88rem;color:var(--muted);line-height:1.75}
-.pol-item p+p{margin-top:.6rem}
-.pol-item a{color:var(--gold-dark);font-weight:600}
-.pol-nota{margin-top:2rem;font-size:.78rem;color:var(--muted);text-align:center}
-
 /* ── FOOTER ── */
 footer{background:var(--noite);padding:3.25rem var(--gutter) calc(2.5rem + env(safe-area-inset-bottom));text-align:center;border-top:1px solid rgba(195,169,90,.18)}
 footer .logo{margin-bottom:1rem}
@@ -569,7 +563,7 @@ footer a:hover{text-decoration:underline}
   .sobre-foto-wrap{grid-row:auto;border-radius:12px}
   .sobre-foto-overlay{display:none}
   .sobre-logo-card{padding:.25rem .5rem}
-  .sobre-credenciais,.sobre-tags{grid-column:1 / -1}
+  .sobre-credenciais{grid-column:1 / -1}
   .gestao-box{padding:1.35rem 1.15rem}
   .msg{max-width:100%}
   .msg .mavatar{display:none}
@@ -595,7 +589,7 @@ footer a:hover{text-decoration:underline}
 
 <!-- BANNER LGPD -->
 <div id="consent-banner" role="dialog" aria-label="Consentimento de privacidade">
-  <p><strong>Privacidade:</strong> Esta ferramenta é uma iniciativa pessoal de Sanmya Beatriz Tiradentes Leite. Suas perguntas são processadas pela API do Google Gemini 2.5 Flash. <strong>Não armazenamos suas conversas e não coletamos dados pessoais.</strong> Ao continuar, você consente com o envio temporário das suas perguntas à API do Google Gemini. Leia nossa <a href="#privacidade">Política de Privacidade</a>.</p>
+  <p><strong>Privacidade:</strong> suas perguntas são processadas pelo Google Gemini e <strong>nada é armazenado</strong>. Ao aceitar, você consente com esse envio temporário (LGPD, Art. 7º, I). <a href="#privacidade">Política de Privacidade</a></p>
   <div class="consent-btns">
     <button class="btn-aceitar" onclick="aceitarConsent()">Aceito e quero usar</button>
     <button class="btn-recusar" onclick="recusarConsent()">Não aceito</button>
@@ -613,7 +607,7 @@ footer a:hover{text-decoration:underline}
       <a href="#diagnostico">O Problema</a>
       <a href="#modos">O que faz</a>
       <a href="#base-legal">Base Legal</a>
-      <a href="#lgpd">Privacidade</a>
+      <a href="#privacidade">Privacidade</a>
       <a href="#sobre">Quem sou eu</a>
       <a href="#ferramenta" class="nav-cta">Usar Agora</a>
     </div>
@@ -650,15 +644,11 @@ footer a:hover{text-decoration:underline}
       <div class="mani-points">
         <div class="mani-point">
           <h4>Por trás de cada processo, há uma vida esperando.</h4>
-          <p>Um cidadão aguardando uma resposta do Estado. Uma família precisando de uma certidão. Um cidadão sem acesso a direitos porque um formulário desnecessário trava o sistema.</p>
+          <p>Um cidadão aguardando uma resposta do Estado. Uma família precisando de uma certidão. Cada processo travado por exigência desnecessária é um direito fundamental negado — acesso à Justiça, dignidade humana. Desburocratizar é obrigação constitucional (Arts. 5º e 37 da CF/88), não opção.</p>
         </div>
         <div class="mani-point">
           <h4>Burocracia e crime organizado são aliados.</h4>
           <p>O Estado lento, fragmentado e previsível é exatamente o Estado que o crime organizado precisa para prosperar. Cada gargalo burocrático é uma janela de oportunidade para a corrupção.</p>
-        </div>
-        <div class="mani-point">
-          <h4>A lei já autoriza. Falta coragem fundamentada.</h4>
-          <p>O Art. 37 da CF/88 já exige eficiência. A Lei 13.726/2018 já dispensa autenticações. A Lei 14.230/2021 já protege quem age de boa-fé. O que falta é saber disso.</p>
         </div>
         <div class="mani-point">
           <h4>Propósito transforma qualquer trabalho.</h4>
@@ -678,7 +668,7 @@ footer a:hover{text-decoration:underline}
     <div class="diag-grid">
       <div class="diag-card">
         <h3>Assimetria de Aprendizagem</h3>
-        <p>O crime organizado aprende de forma distribuída, pragmática e contínua. O Estado aprende devagar, com custo político alto. Essa diferença transforma a ação estatal em informação estratégica para os criminosos.</p>
+        <p>O crime organizado aprende de forma distribuída, pragmática e contínua; o Estado aprende devagar, com custo político alto. E um Estado burocrático é previsível: o crime aprende os padrões, os prazos e os gargalos e os explora sistematicamente. Simplificar não é apenas eficiência — é estratégia de segurança pública.</p>
         <span class="diag-fonte">Senna Pires, 2026 — "O Crime que Aprende"</span>
       </div>
       <div class="diag-card">
@@ -687,24 +677,14 @@ footer a:hover{text-decoration:underline}
         <span class="diag-fonte">Problema estrutural do serviço público brasileiro</span>
       </div>
       <div class="diag-card">
-        <h3>Previsibilidade Explorável</h3>
-        <p>Um Estado burocrático é um Estado previsível. O crime organizado aprende os padrões, os prazos, os gargalos e os explora sistematicamente. Simplificar não é apenas eficiência — é estratégia de segurança pública.</p>
-        <span class="diag-fonte">Senna Pires, 2026</span>
-      </div>
-      <div class="diag-card">
         <h3>Ciclo Vicioso da Burocracia</h3>
         <p>Cada fraude gera um novo controle. Cada controle torna o sistema mais lento. A lentidão gera desengajamento. O desengajamento cria ambiente para mais corrupção. O ciclo se repete — mais pesado a cada volta.</p>
         <span class="diag-fonte">Lean Government — análise de desperdício</span>
       </div>
       <div class="diag-card">
-        <h3>A Lei Já Simplifica — Poucos Sabem</h3>
-        <p>A Lei 13.726/2018 dispensa reconhecimento de firma, autenticações e certidões desnecessárias. A Lei 14.230/2021 protege o servidor que age de boa-fé. A maioria dos servidores nunca ouviu falar dessas leis.</p>
+        <h3>A Lei Já Autoriza — Poucos Sabem</h3>
+        <p>O Art. 37 da CF/88 já exige eficiência. A Lei 13.726/2018 dispensa reconhecimento de firma, autenticações e certidões desnecessárias. A Lei 14.230/2021 protege o servidor que age de boa-fé. A maioria nunca ouviu falar dessas leis — falta coragem fundamentada, não autorização.</p>
         <span class="diag-fonte">Legislação brasileira vigente — amplamente desconhecida</span>
-      </div>
-      <div class="diag-card">
-        <h3>Direitos Fundamentais em Jogo</h3>
-        <p>Cada processo travado por burocracia desnecessária é um direito fundamental negado. Acesso à Justiça. Presunção de inocência. Dignidade humana. Desburocratizar é uma obrigação constitucional — não uma opção.</p>
-        <span class="diag-fonte">Art. 5º e Art. 37 da Constituição Federal de 1988</span>
       </div>
     </div>
   </div>
@@ -840,10 +820,7 @@ footer a:hover{text-decoration:underline}
         <span class="gestao-tag">Kaizen — Melhoria Contínua</span>
         <span class="gestao-tag">Value Stream Mapping</span>
         <span class="gestao-tag">Método Disney — Experiência do Cidadão</span>
-        <span class="gestao-tag">Amazon Leadership Principles</span>
-        <span class="gestao-tag">Customer Obsession</span>
-        <span class="gestao-tag">Bias for Action</span>
-        <span class="gestao-tag">Invent and Simplify</span>
+        <span class="gestao-tag">Amazon Leadership Principles — Customer Obsession, Bias for Action, Invent and Simplify</span>
         <span class="gestao-tag">Neurociência Organizacional</span>
         <span class="gestao-tag">Scrum &amp; Metodologias Ágeis</span>
         <span class="gestao-tag">OKRs e Gestão por Resultados</span>
@@ -855,23 +832,24 @@ footer a:hover{text-decoration:underline}
   </div>
 </section>
 
-<!-- LGPD -->
-<section class="dark" id="lgpd">
+<!-- PRIVACIDADE E LGPD (resumo + política numa seção só) -->
+<section class="dark" id="privacidade">
   <div class="container">
     <div class="lgpd-grid">
       <div>
         <div class="section-label">Privacidade e LGPD</div>
         <h2 class="section-title">Seus dados tratados com <em>responsabilidade.</em></h2>
-        <p class="lgpd-desc">Esta ferramenta utiliza a API do Google Gemini 2.5 Flash para processar suas perguntas. Seguimos rigorosamente os princípios da Lei Geral de Proteção de Dados (Lei 13.709/2018) e nos comprometemos com a transparência total sobre como suas informações são tratadas.</p>
-        <div class="lgpd-box"><strong style="color:var(--gold)">Nossa base legal (LGPD, Art. 7º):</strong> O tratamento de dados realizado por esta ferramenta tem como base legal o <strong>consentimento livre e informado do usuário</strong>, conforme o Art. 7º, I, da LGPD.</div>
+        <p class="lgpd-desc">Nada do que você pergunta fica guardado. Esta é a política de privacidade completa da ferramenta, em cinco pontos, conforme a Lei Geral de Proteção de Dados (Lei 13.709/2018).</p>
+        <div class="lgpd-box"><strong style="color:var(--gold)">Base legal:</strong> o <strong>consentimento livre e informado</strong> que você dá no primeiro acesso (LGPD, Art. 7º, I). Para revogá-lo, basta deixar de usar a ferramenta.</div>
+        <p class="pol-data">Última atualização: outubro de 2026</p>
       </div>
-      <div class="lgpd-items">
-        <div class="lgpd-item"><h4>Controladora: Sanmya Beatriz Tiradentes Leite (pessoa física)</h4><p>Iniciativa pessoal, não institucional. Esta ferramenta <strong>não realiza tratamento de dados pessoais</strong> além do processamento temporário das perguntas pelo Google Gemini. Nenhum dado é retido após a sessão.</p></div>
-        <div class="lgpd-item"><h4>Processamento via Google Gemini</h4><p>Suas perguntas são enviadas à API do Google Gemini 2.5 Flash para processamento. O Google, nos termos da API, não utiliza dados de API para treinar seus modelos.</p></div>
-        <div class="lgpd-item"><h4>Sem armazenamento</h4><p>Não armazenamos conversas, perguntas, documentos enviados nem dados de identificação. Cada sessão é independente e temporária.</p></div>
-        <div class="lgpd-item"><h4>Não envie dados sensíveis</h4><p>Evite incluir nas perguntas dados pessoais de terceiros (CPF, nome completo de investigados, dados de vítimas). Formule perguntas de forma genérica e hipotética sempre que possível.</p></div>
-        <div class="lgpd-item"><h4>Seus direitos LGPD</h4><p>Como <strong>não armazenamos nenhum dado</strong>, não há dados pessoais a acessar, corrigir ou excluir. O e-mail abaixo existe exclusivamente para dúvidas sobre privacidade — não será usado para comunicações ou marketing.</p><a class="lgpd-mail" href="mailto:sanmyatiradentes@gmail.com">sanmyatiradentes@gmail.com</a></div>
-      </div>
+      <ol class="lgpd-items">
+        <li class="lgpd-item"><h4>Quem é a controladora</h4><p>Sanmya Beatriz Tiradentes Leite, pessoa física (CPF informado mediante solicitação). Iniciativa pessoal — não é serviço de nenhum órgão público.</p></li>
+        <li class="lgpd-item"><h4>O que é tratado e o que não é guardado</h4><p>Apenas o que você envia (texto, documento, imagem ou áudio), repassado pelo servidor da ferramenta ao Google Gemini para gerar a resposta. <strong>Não armazenamos conversas, perguntas, documentos nem dados de identificação</strong> — cada sessão é temporária. A hospedagem (Vercel) pode registrar IP, data e hora de acesso, conforme a <a href="https://vercel.com/legal/privacy-policy" target="_blank" rel="noopener">política dela</a>.</p></li>
+        <li class="lgpd-item"><h4>Google Gemini como processador</h4><p>As respostas são geradas pela API do Google Gemini 2.5 Flash, que, pelos seus termos, não usa dados enviados via API para treinar modelos. Veja a <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Política de Privacidade do Google</a> e os <a href="https://ai.google.dev/gemini-api/terms" target="_blank" rel="noopener">Termos da API Gemini</a>.</p></li>
+        <li class="lgpd-item"><h4>Seus direitos (LGPD, Art. 18)</h4><p>Como nada fica retido, não há dados pessoais a acessar, corrigir ou excluir. Dúvidas sobre privacidade: <a href="mailto:sanmyatiradentes@gmail.com">sanmyatiradentes@gmail.com</a> — e-mail usado só para isso, nunca para marketing.</p></li>
+        <li class="lgpd-item"><h4>Não envie dados sensíveis</h4><p>Evite CPF, nomes de investigados, dados de vítimas ou informações sigilosas. Formule a situação de forma genérica ou hipotética — a orientação é a mesma.</p></li>
+      </ol>
     </div>
   </div>
 </section>
@@ -899,15 +877,6 @@ footer a:hover{text-decoration:underline}
           <div class="cred-item">Especialista em Neurociência — PUC-PR</div>
           <div class="cred-item">Master Coach Integral Sistêmico</div>
           <div class="cred-item">Alumni RenovaBR</div>
-        </div>
-        <div class="sobre-tags">
-          <span class="sobre-tag">Lean</span>
-          <span class="sobre-tag">Neurociência</span>
-          <span class="sobre-tag">Liderança</span>
-          <span class="sobre-tag">Contratações Públicas</span>
-          <span class="sobre-tag">Gestão de Processos</span>
-          <span class="sobre-tag">Disney Method</span>
-          <span class="sobre-tag">Six Sigma MBB</span>
         </div>
       </div>
       <div class="sobre-text">
@@ -1094,43 +1063,6 @@ footer a:hover{text-decoration:underline}
   </div>
 </section>
 
-<!-- POLÍTICA DE PRIVACIDADE -->
-<section id="privacidade" class="politica">
-  <div class="container">
-    <div class="section-label">Política de Privacidade</div>
-    <h2 class="section-title">Como tratamos seus dados</h2>
-    <p class="pol-data">Última atualização: maio de 2026</p>
-    <div class="pol-list">
-      <div class="pol-item">
-        <h3>1. Quem é a controladora</h3>
-        <p>Esta ferramenta é uma <strong>iniciativa pessoal de Sanmya Tiradentes</strong> (Sanmya Beatriz Tiradentes Leite), pessoa física, brasileira, CPF informado mediante solicitação. Não se trata de serviço prestado por nenhum órgão público. Contato: <a href="mailto:sanmyatiradentes@gmail.com">sanmyatiradentes@gmail.com</a></p>
-      </div>
-      <div class="pol-item">
-        <h3>2. Quais dados são tratados</h3>
-        <p>Esta ferramenta <strong>não coleta, não armazena e não tem acesso</strong> às conversas dos usuários. O único dado que trafega é o conteúdo das perguntas que você digita, enviado diretamente do seu navegador à API do Google Gemini para processamento e devolvido como resposta. Esse tráfego é temporário e não é retido por esta ferramenta em nenhum momento.</p>
-        <p>O servidor de hospedagem (Vercel) pode registrar dados técnicos de acesso como endereço IP, data e hora da visita, conforme a <a href="https://vercel.com/legal/privacy-policy" target="_blank" rel="noopener">Política de Privacidade do Vercel</a>. Esses registros são de responsabilidade do Vercel, não desta ferramenta.</p>
-      </div>
-      <div class="pol-item">
-        <h3>3. Base legal do tratamento (LGPD)</h3>
-        <p>O tratamento de dados realizado por esta ferramenta tem como base legal o <strong>consentimento livre, informado e inequívoco do usuário</strong>, conforme o Art. 7º, inciso I, da Lei 13.709/2018 (LGPD). O consentimento é coletado por meio do banner exibido no primeiro acesso. Você pode revogar seu consentimento a qualquer momento simplesmente deixando de usar a ferramenta.</p>
-      </div>
-      <div class="pol-item">
-        <h3>4. Google Gemini — processador de dados</h3>
-        <p>As perguntas dos usuários são processadas pela API do Google Gemini 2.5 Flash (Google LLC). Nos termos de uso da API do Google, os dados enviados via API não são utilizados para treinar modelos de IA. Para informações completas, consulte a <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Política de Privacidade do Google</a> e os <a href="https://ai.google.dev/gemini-api/terms" target="_blank" rel="noopener">Termos de Uso da API Gemini</a>.</p>
-      </div>
-      <div class="pol-item">
-        <h3>5. Seus direitos como titular (LGPD, Art. 18)</h3>
-        <p>Como esta ferramenta não armazena dados pessoais identificáveis, os direitos de acesso, correção e exclusão previstos no Art. 18 da LGPD não são aplicáveis na prática — não há dados retidos a serem acessados ou excluídos. Para dúvidas sobre esta política ou para revogar seu consentimento, entre em contato: <a href="mailto:sanmyatiradentes@gmail.com">sanmyatiradentes@gmail.com</a></p>
-      </div>
-      <div class="pol-item">
-        <h3>6. Recomendação importante ao usuário</h3>
-        <p>Não inclua nas perguntas dados pessoais identificáveis de terceiros — como CPF, nome completo de investigados, dados de vítimas ou informações sigilosas de processos. Formule suas perguntas de forma genérica e hipotética sempre que possível. Esta ferramenta oferece orientação geral e não substitui assessoria jurídica especializada.</p>
-      </div>
-    </div>
-    <p class="pol-nota">Esta política pode ser atualizada a qualquer momento. A versão vigente é sempre a disponível nesta página.</p>
-  </div>
-</section>
-
 <!-- FOOTER -->
 <footer>
   <a href="#" class="logo" aria-label="DesburocratizaIA — voltar ao início">
@@ -1140,8 +1072,7 @@ footer a:hover{text-decoration:underline}
   <div class="footer-tag">Burocracia mata propósito. E alimenta o crime.</div>
   <div class="footer-autoria"><img src="/assets/sanmya-tiradentes-logo.jpg" alt="Sanmya Tiradentes" width="1117" height="486" loading="lazy"></div>
   <p style="font-size:.9rem">Com <strong>propósito</strong> e com muito <strong>amor</strong>, produzido por Sanmya Tiradentes ❤️</p>
-  <p>Perita Odontolegista PCAM · Dirigente de Polícia Científica do AM · Capitão-Dentista CBMAM<br>
-  <a href="mailto:sanmyatiradentes@gmail.com">sanmyatiradentes@gmail.com</a> · <a href="https://www.desburocratizaia.com.br">www.desburocratizaia.com.br</a></p>
+  <p><a href="mailto:sanmyatiradentes@gmail.com">sanmyatiradentes@gmail.com</a> · <a href="https://www.desburocratizaia.com.br">www.desburocratizaia.com.br</a></p>
   <p style="margin-top:.75rem;font-size:.72rem">Ferramenta gratuita e de acesso público · Powered by Google Gemini 2.5 Flash · LGPD (Lei 13.709/2018) · <a href="#privacidade">Política de Privacidade</a></p>
   <p class="footer-frase"><em>"Processos são criados por pessoas para servir pessoas."</em></p>
 </footer>
