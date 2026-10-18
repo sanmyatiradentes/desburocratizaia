@@ -1,0 +1,281 @@
+[
+  {
+    "tema": "O processo que viaja mais que você",
+    "eixo": "Lean",
+    "fonte": "Taiichi Ohno — O Sistema Toyota de Produção",
+    "ideia": "Taiichi Ohno andava pela fábrica da Toyota com o olhar treinado para uma coisa só: o que estava ali sem ajudar ninguém. Ele chamou isso de desperdício e listou sete tipos, como esperar, transportar sem necessidade, fazer a mais e refazer. Parece coisa de chão de fábrica, mas pense num processo físico num protocolo qualquer. Ele sai da mesa de uma pessoa, desce dois andares para receber um carimbo, volta, espera numa pilha, sobe de novo para um despacho de mero encaminhamento e só então chega a quem vai, de fato, analisar o pedido. Cada viagem dessas custa o tempo de alguém, e nenhuma delas muda uma vírgula do que o cidadão pediu. O processo ficou mais rodado, não mais correto. Ohno não pedia que as pessoas trabalhassem mais rápido. Pedia que olhassem o caminho com honestidade e perguntassem por que cada passo existe. Quando a resposta é só porque sempre foi assim, você encontrou um desperdício com nome e endereço.",
+    "pratica": "Pegue um processo que está na sua mesa e conte quantos setores ele visitou antes de chegar até você. Marque quais dessas passagens mudaram alguma coisa no conteúdo.",
+    "pergunta": "Quantas viagens o seu processo faz só para ganhar um carimbo?",
+    "frase": "Processo bom não é o que mais anda. É o que chega."
+  },
+  {
+    "tema": "Quando o telefone toca pela segunda vez",
+    "eixo": "Gestão de processos",
+    "fonte": "John Seddon — Systems Thinking in the Public Sector",
+    "ideia": "John Seddon separa a procura que chega ao serviço público em dois tipos. Uma é a demanda de valor, quando a pessoa procura o órgão porque precisa de algo. A outra ele chama de demanda de falha: é quando ela volta porque alguma coisa não deu certo da primeira vez. Ligou de novo porque não entendeu a resposta. Mandou outro e-mail porque ninguém avisou em que pé estava o pedido. Imagine uma ouvidoria em que boa parte das manifestações não é reclamação nova, mas a mesma pessoa perguntando outra vez pelo mesmo assunto. Essa segunda ligação não é chatice do cidadão. É o sistema avisando que falhou em algum ponto, talvez na clareza da resposta, talvez na falta de retorno. Seddon sugere algo simples e poderoso: antes de pensar em mais gente para atender, escute o que as pessoas estão pedindo e separe o que é novo do que é retorno. Muita fila diminui quando a primeira resposta passa a resolver.",
+    "pratica": "Anote, nas próximas dez demandas que chegarem até você hoje, quais são pedidos novos e quais são alguém voltando pelo mesmo assunto.",
+    "pergunta": "Quantas das pessoas que você atende estão voltando por algo que já deveria estar resolvido?",
+    "frase": "Cada retorno é um recado do processo. Vale a pena ouvir."
+  },
+  {
+    "tema": "Vá ver com os próprios olhos",
+    "eixo": "Kaizen",
+    "fonte": "Masaaki Imai — Gemba Kaizen",
+    "ideia": "Gemba é uma palavra japonesa que quer dizer, mais ou menos, o lugar onde a coisa acontece. Masaaki Imai insiste que melhoria de verdade começa ali, e não na sala de reunião. Parece óbvio, mas repare quantas decisões sobre um setor são tomadas por quem nunca passou uma manhã nele. Pense num almoxarifado. No papel, o pedido de material é simples: o setor solicita, alguém autoriza, o almoxarife separa e entrega. Agora vá até lá numa terça-feira cedo. Talvez você veja o almoxarife procurando o mesmo item em três prateleiras porque a etiqueta caiu, esperando uma assinatura que só chega à tarde ou reescrevendo à mão um pedido que veio ilegível. Nada disso aparece no fluxograma. Imai propõe ir ao local, olhar o trabalho real, conversar com quem faz e só depois pensar em solução. O almoxarife sabe coisas que nenhum relatório conta. E costuma ficar muito contente quando alguém, finalmente, pergunta.",
+    "pratica": "Escolha um setor que depende do seu trabalho e passe dez minutos lá observando, sem corrigir nada, só perguntando o que mais atrapalha o dia.",
+    "pergunta": "Qual decisão sobre o seu trabalho foi tomada por alguém que nunca viu você fazendo?",
+    "frase": "A solução raramente está na planilha. Quase sempre está no balcão."
+  },
+  {
+    "tema": "A troca de plantão não precisa doer",
+    "eixo": "SMED e fluxo",
+    "fonte": "Shigeo Shingo — A Revolution in Manufacturing: The SMED System",
+    "ideia": "Shigeo Shingo ficou conhecido por ensinar fábricas a trocar a ferramenta de uma máquina em minutos, quando antes isso levava horas. Ele chamou esse tempo de troca de setup e fez uma pergunta que vale ouro: o que precisa mesmo ser feito com a máquina parada, e o que dá para preparar enquanto ela ainda roda? O que só pode acontecer com tudo parado ele chamou de setup interno. O resto, de setup externo. Agora pense numa passagem de plantão, seja num serviço de perícia, num hospital ou numa central de atendimento. Muitas vezes a equipe que chega passa um bom tempo ouvindo relatos soltos, procurando a chave da viatura, conferindo material que ninguém repôs. Quanto disso poderia estar pronto antes? Um resumo escrito dos casos em andamento, o kit conferido no fim do turno anterior, as faltas de material anotadas num lugar fixo. A conversa olho no olho continua importante. Ela só fica mais curta e mais útil.",
+    "pratica": "Liste tudo o que acontece na sua passagem de turno ou de tarefa e marque o que poderia ser preparado antes de a outra pessoa chegar.",
+    "pergunta": "O que você só descobre que falta justamente na hora em que mais precisa?",
+    "frase": "Preparar antes é uma forma silenciosa de cuidar de quem chega depois."
+  },
+  {
+    "tema": "Você mesmo pode conferir a cópia",
+    "eixo": "Lei a seu favor",
+    "fonte": "Lei 13.726/2018, art. 3º, I e II",
+    "ideia": "Imagine o começo do ano na secretaria de uma escola. Uma mãe chega com a documentação para matricular o filho e ouve que a cópia precisa estar autenticada em cartório. Ela volta outro dia, paga, perde mais uma manhã de trabalho. A Lei 13.726, de 2018, olhou exatamente para isso. No art. 3º, ela dispensa, na relação dos órgãos públicos com o cidadão, a exigência de autenticação de cópia: o próprio agente administrativo compara a cópia com o original e atesta a autenticidade. O mesmo artigo dispensa o reconhecimento de firma, cabendo ao servidor confrontar a assinatura com a do documento de identidade, ou ver a pessoa assinar na sua frente, e registrar a autenticidade no próprio documento. Ou seja, a lei não tirou a segurança do processo. Ela trouxe a conferência para o balcão, para as mãos de quem atende. Se uma orientação interna do seu setor ainda manda o cidadão ao cartório, vale levar o artigo para a chefia e conversar com calma.",
+    "pratica": "Procure nos formulários e orientações do seu setor as expressões cópia autenticada e firma reconhecida, e anote onde aparecem para levar à sua chefia.",
+    "pergunta": "Quantas idas ao cartório o seu setor ainda provoca sem precisar?",
+    "frase": "Conferir no balcão é confiar com responsabilidade. A lei já fez essa escolha."
+  },
+  {
+    "tema": "Teste no papel antes do sistema",
+    "eixo": "Inovação",
+    "fonte": "Tim Brown — Design Thinking (Change by Design)",
+    "ideia": "Tim Brown, que dirigiu a empresa de design IDEO, defende uma ideia que poupa muito dinheiro e muita dor de cabeça: antes de construir a solução definitiva, faça um protótipo barato e coloque na mão de quem vai usar. Protótipo, aqui, é só uma versão rascunho, feita rápido, para aprender. No serviço público a tentação costuma ser outra. Alguém decide criar um formulário novo de cadastro na assistência social, passa meses ajustando com a equipe de TI e, no dia em que ele entra no ar, descobre que as famílias não entendem metade das perguntas. Que tal o caminho inverso? Desenhe o formulário numa folha, leve para a recepção, peça a três pessoas que estão esperando atendimento para preenchê-lo e observe onde elas travam. Pergunte o que entenderam de cada campo. Em uma tarde você aprende o que muitas reuniões não ensinam. Errar no papel custa quase nada. Errar no sistema pronto custa caro, e quem paga é quem está na fila.",
+    "pratica": "Rabisque numa folha uma versão mais simples de um formulário que você usa e peça a um colega que nunca o viu para preenchê-lo na sua frente.",
+    "pergunta": "Qual mudança você está planejando que poderia ser testada amanhã, em papel?",
+    "frase": "Um rascunho na mão do cidadão vale mais que dez reuniões sobre ele."
+  },
+  {
+    "tema": "O silêncio do servidor novo",
+    "eixo": "Pessoas e coragem",
+    "fonte": "Amy Edmondson — A Organização sem Medo",
+    "ideia": "Amy Edmondson, professora de Harvard, chama de segurança psicológica a sensação de que dá para falar, perguntar ou admitir um erro sem ser humilhado ou punido por isso. Onde ela existe, os problemas aparecem cedo. Onde falta, eles ficam escondidos até estourarem. Pense num servidor recém-chegado ao protocolo. Na primeira semana ele estranha que todo requerimento precise de três cópias, se só uma é usada. Ele pensa em perguntar, mas vê que todo mundo faz assim há anos e fica quieto. Quem chega de fora enxerga o absurdo com uma clareza que a gente perde com o tempo. Edmondson mostra que esse silêncio não é falta de iniciativa; é uma leitura racional do ambiente. Se perguntar parece arriscado, a pessoa não pergunta. Cabe a quem lidera abrir a porta: dizer em voz alta que quer ouvir, agradecer a pergunta incômoda e, principalmente, não rir dela. Uma pergunta acolhida hoje pode derrubar uma exigência inútil amanhã.",
+    "pratica": "Pergunte hoje à pessoa mais nova da sua equipe o que mais a surpreendeu na forma como vocês trabalham, e apenas escute.",
+    "pergunta": "Na sua equipe, quem faz uma pergunta considerada boba é ajudado ou é lembrado disso depois?",
+    "frase": "Quem acabou de chegar ainda vê o que a gente aprendeu a não ver."
+  },
+  {
+    "tema": "Valor é o que o cidadão reconhece",
+    "eixo": "Lean",
+    "fonte": "James Womack e Daniel Jones — A Mentalidade Enxuta nas Empresas",
+    "ideia": "Womack e Jones resumiram o pensamento enxuto em cinco princípios, e o primeiro é definir o valor do ponto de vista de quem recebe o serviço. Valor, aqui, é aquilo que a pessoa reconheceria como útil se pudesse ver cada passo do que fazemos por ela. Faça esse exercício com um atendimento de trânsito, como a renovação de um documento. O cidadão quer sair com o documento válido, com segurança, sem ter de voltar. Ele reconhece valor na conferência dos dados, no exame que a lei exige, na emissão. Agora pense nos passos que ele não reconheceria: pegar uma senha para receber outra senha, preencher à mão um dado que já está no sistema, esperar porque o setor ao lado só libera depois do almoço. Esses passos podem ter uma história, mas não agregam valor para ele. A pergunta do Lean não é se o passo é antigo ou se alguém gosta dele. É se quem está do outro lado do balcão ganha alguma coisa com ele.",
+    "pratica": "Escreva numa frase o que o cidadão quer quando chega ao seu serviço e risque, de uma lista dos seus passos, aqueles que ele não reconheceria como úteis.",
+    "pergunta": "Se o cidadão visse cada etapa do seu processo, de qual delas ele reclamaria primeiro?",
+    "frase": "Valor não se decide na nossa mesa. Se mede do outro lado do balcão."
+  },
+  {
+    "tema": "Sim, o governo também fabrica coisas",
+    "eixo": "Gestão de processos",
+    "fonte": "Ken Miller — We Don't Make Widgets",
+    "ideia": "O título do livro de Ken Miller brinca com uma frase comum entre servidores: isso de processo é coisa de fábrica, a gente não produz peças. Miller, que trabalhou por anos com governos nos Estados Unidos, desmonta essa ideia com bom humor. Governo produz, sim. Produz licenças, alvarás, certidões, benefícios concedidos, laudos, respostas. Cada um deles passa por uma sequência de etapas, ou seja, um processo, e tem alguém esperando no fim, ou seja, um cliente. Pense num pedido de alvará de funcionamento numa prefeitura qualquer. O comerciante não vê os setores, as caixas de entrada, as trocas de mesa. Ele vê só que pediu e ainda não recebeu. Quando a equipe enxerga o alvará como um produto que precisa ser entregue com qualidade e no prazo, a conversa muda. Em vez de perguntar quem está atrasando, passa a perguntar onde o produto fica parado e por quê. Miller não quer transformar repartição em fábrica. Quer que a gente admita que existe uma linha de produção e cuide dela.",
+    "pratica": "Dê nome ao principal produto que o seu setor entrega e escreva, em até cinco linhas, as etapas pelas quais ele passa até chegar ao cidadão.",
+    "pergunta": "Qual é o produto que o seu setor entrega, e quem está esperando por ele agora?",
+    "frase": "Quando damos nome ao que entregamos, fica mais fácil entregar melhor."
+  },
+  {
+    "tema": "Planejar, fazer, checar, ajustar",
+    "eixo": "Kaizen",
+    "fonte": "W. Edwards Deming — PDCA",
+    "ideia": "O ciclo PDCA, que Deming ajudou a espalhar pelo mundo, é uma forma organizada de aprender fazendo. Planejar uma pequena mudança, fazer em escala reduzida, checar o que aconteceu e agir a partir disso: manter, ajustar ou abandonar. Nada de mudar tudo de uma vez e torcer. Imagine o setor que cuida de diárias de viagem. Todo mês volta uma boa quantidade de pedidos por falta de alguma informação. Em vez de baixar uma norma nova, a equipe planeja algo modesto: uma lista curta, de uma página, com o que precisa vir junto do pedido. Faz o teste durante um mês com um único departamento. Depois confere se as devoluções diminuíram e o que ainda falta. Talvez descubra que um item da lista confunde mais do que ajuda e o reescreva. Só então amplia. O ciclo gira de novo. Parece lento, mas costuma ser o caminho mais rápido para uma mudança que pega de verdade, porque ela já nasce testada por quem usa.",
+    "pratica": "Escolha um problema pequeno e recorrente do seu setor e escreva, em quatro linhas, o que você testaria, com quem, por quanto tempo e como saberia se funcionou.",
+    "pergunta": "Qual foi a última mudança no seu setor que alguém parou para conferir se deu certo?",
+    "frase": "Mudança testada em pequeno vira hábito. Mudança imposta em grande vira gaveta."
+  },
+  {
+    "tema": "A pilha de sexta-feira",
+    "eixo": "SMED e fluxo",
+    "fonte": "James Womack e Daniel Jones — A Mentalidade Enxuta nas Empresas",
+    "ideia": "Um dos princípios do pensamento enxuto é fazer o trabalho fluir, em vez de andar aos trancos, em lotes. Lote é quando a gente junta várias unidades para tratar todas de uma vez. Parece eficiente, mas cria espera. Imagine um gabinete em que os despachos simples são acumulados durante a semana e levados todos juntos para assinatura na sexta-feira. O processo que chegou na segunda espera quatro dias sem que ninguém tenha encostado nele. Depois de assinados, todos descem juntos e congestionam o setor seguinte, que passa a segunda-feira inteira dando conta da avalanche. Ninguém fez nada errado, e mesmo assim o cidadão esperou mais. Quando o fluxo é contínuo, ou em lotes bem menores, cada processo segue assim que está pronto. A autoridade continua assinando e decidindo tudo o que lhe cabe, só que em pequenas doses ao longo da semana. O trabalho total é o mesmo. O tempo de espera de quem está do lado de fora, não.",
+    "pratica": "Identifique uma tarefa que você acumula para fazer de uma vez e experimente, só hoje, fazê-la assim que cada item chegar.",
+    "pergunta": "O que no seu setor espera dias por um momento de fazer tudo junto?",
+    "frase": "Juntar parece organizar. Às vezes é só fazer o cidadão esperar em grupo."
+  },
+  {
+    "tema": "Não peça o que a casa já tem",
+    "eixo": "Lei a seu favor",
+    "fonte": "Lei 13.726/2018, art. 3º, § 3º, e Lei 9.784/1999, art. 37",
+    "ideia": "Pense numa família que procura a assistência social da sua cidade para se inscrever num programa municipal e ouve que precisa trazer uma certidão emitida por outra secretaria da mesma prefeitura. A família atravessa a cidade, pega fila, volta. O documento já estava dentro da casa, só que em outra sala. A Lei 13.726, de 2018, no art. 3º, § 3º, diz que os órgãos e entidades de um Poder não podem exigir do cidadão certidão ou documento expedido por outro órgão ou entidade do mesmo Poder, com ressalvas: certidão de antecedentes criminais, informações sobre pessoa jurídica e outras hipóteses expressamente previstas em lei. No processo administrativo federal, a Lei 9.784, de 1999, no art. 37, vai na mesma linha: quando o interessado declara que os dados estão em documentos da própria Administração ou de outro órgão, quem instrui o processo providencia de ofício a obtenção. Isso pede que a gente converse com o setor vizinho, combine um caminho e assuma o trabalho de buscar. É um pouco mais de trabalho para nós e muito menos para quem depende do serviço.",
+    "pratica": "Liste os documentos que o seu setor pede ao cidadão e marque quais são emitidos pelo próprio órgão ou por outro órgão do mesmo Poder.",
+    "pergunta": "Qual documento você pede ao cidadão que poderia buscar com um e-mail para a sala ao lado?",
+    "frase": "Se o papel já mora na casa, quem deve buscá-lo somos nós."
+  },
+  {
+    "tema": "Faça o erro ficar impossível",
+    "eixo": "Inovação",
+    "fonte": "Shigeo Shingo — Zero Quality Control: Source Inspection and the Poka-yoke System",
+    "ideia": "Shigeo Shingo observou que boa parte dos defeitos nasce de deslizes humanos comuns, como esquecer, trocar ou digitar errado. Em vez de culpar as pessoas, ele propôs criar dispositivos que tornassem o erro difícil ou impossível. Chamou isso de poka-yoke, algo como à prova de descuido. A tomada que só encaixa de um jeito é um exemplo do dia a dia. Agora leve isso para o sistema de um órgão qualquer. O formulário aceita um CPF com um dígito trocado, aceita uma data de nascimento no futuro, deixa enviar o pedido sem o anexo obrigatório. O erro só é descoberto dias depois, quando alguém devolve o processo e o cidadão precisa recomeçar. Um poka-yoke aqui seria simples: validar o CPF na hora, recusar a data impossível, avisar ali mesmo que falta o anexo. Em vez de mais uma etapa de conferência lá na frente, o erro é barrado no nascimento. Ninguém precisou trabalhar mais. O sistema só ficou mais gentil.",
+    "pratica": "Anote o erro de preenchimento mais comum que chega até você e pense em uma forma de o próprio formulário ou sistema impedir que ele aconteça.",
+    "pergunta": "Qual erro você corrige toda semana que poderia ser impedido logo no começo?",
+    "frase": "Conferir depois cansa. Impedir antes liberta."
+  },
+  {
+    "tema": "Ninguém melhora com medo",
+    "eixo": "Pessoas e coragem",
+    "fonte": "W. Edwards Deming — Out of the Crisis (os 14 pontos)",
+    "ideia": "Entre os 14 pontos que Deming propôs para gestores, um dos mais lembrados é curto: elimine o medo. Ele percebeu que, onde as pessoas têm medo, elas escondem problemas, evitam perguntar e preferem repetir o que sempre foi feito, mesmo sabendo que não funciona. Pense num almoxarifado em que o responsável hesita em dar baixa num material vencido porque teme ser questionado depois. Então ele guarda, guarda e guarda. O estoque cresce, a prateleira lota, o problema fica maior a cada mês, e ninguém fala dele. O medo, aqui, não protege ninguém. Só adia. Para Deming, cabe a quem gerencia o sistema criar condições para que as pessoas façam um bom trabalho e avisem quando algo vai mal. No serviço público isso passa por orientar com clareza, registrar a decisão com fundamento e apoiar quem age de boa-fé. O servidor que se sente amparado decide melhor, e decide a tempo.",
+    "pratica": "Pense numa decisão que está parada no seu setor por receio e escreva qual informação ou orientação daria segurança para tomá-la.",
+    "pergunta": "Que decisão você está adiando não porque é difícil, mas porque dá medo?",
+    "frase": "Medo não evita erro. Só esconde o erro até ele crescer."
+  },
+  {
+    "tema": "Pergunte por que até chegar na raiz",
+    "eixo": "Lean",
+    "fonte": "Taiichi Ohno — O Sistema Toyota de Produção",
+    "ideia": "Taiichi Ohno ensinava a perguntar por que, repetidas vezes, diante de um problema, até chegar na causa de verdade. Ficou conhecido como os cinco porquês, mas o número é só um lembrete para não parar na primeira resposta. Imagine um setor de laudos em que muitos laudos voltam da autoridade pedindo complemento. Por quê? Porque faltou responder a um quesito. Por quê? Porque o perito não viu esse quesito. Por quê? Porque ele veio num ofício separado, juntado depois. Por quê? Porque a requisição e os quesitos chegam por caminhos diferentes. Por quê? Porque nunca se combinou com quem requisita um modelo único. Repare: a primeira resposta levaria a cobrar atenção do perito, e a última leva a conversar com quem envia. O problema estava no caminho, não na pessoa. Os porquês funcionam melhor em grupo, com quem vive o processo, e com uma regra simples: a resposta final não pode ser o nome de alguém.",
+    "pratica": "Pegue o último retrabalho que passou pela sua mesa e escreva a sequência de porquês até chegar numa causa que não seja o nome de uma pessoa.",
+    "pergunta": "O problema que mais te irrita no trabalho já foi perguntado até o fim?",
+    "frase": "Quando a resposta vira um nome, pare. Ainda não chegou na causa."
+  },
+  {
+    "tema": "Quanto tempo o processo trabalha e quanto espera",
+    "eixo": "Gestão de processos",
+    "fonte": "Mike Rother e John Shook — Aprendendo a Enxergar",
+    "ideia": "Rother e Shook popularizaram o mapeamento do fluxo de valor, que é um desenho simples de todas as etapas por onde um pedido passa, do começo ao fim. O detalhe que faz diferença é anotar dois tempos em cada etapa: quanto tempo alguém de fato trabalha naquilo e quanto tempo o pedido fica parado, esperando. A soma de tudo, do pedido à entrega, é o que se chama de lead time. Faça isso com um processo de compra num setor qualquer. Você pode descobrir que a pesquisa de preços leva algumas horas de trabalho, mas o processo passa semanas aguardando em caixas de entrada entre uma etapa e outra. A tentação é pedir que as pessoas trabalhem mais rápido. O mapa costuma mostrar outra coisa: o tempo perdido está nas filas entre as mesas, não nas mesas. Com isso desenhado na parede, a conversa sai do quem está atrasando e vai para onde o processo para e o que dá para fazer ali, dentro da lei.",
+    "pratica": "Escolha um processo que já foi concluído e anote, a partir das datas de tramitação, quantos dias ele passou parado entre uma etapa e outra.",
+    "pergunta": "No seu processo principal, onde ele passa mais tempo esperando?",
+    "frase": "A demora quase nunca está na mesa. Está no corredor entre as mesas."
+  },
+  {
+    "tema": "Um passo de cada vez rumo ao alvo",
+    "eixo": "Kaizen",
+    "fonte": "Mike Rother — Toyota Kata",
+    "ideia": "Mike Rother estudou como a Toyota consegue melhorar todo dia e concluiu que o segredo está numa rotina, quase um treino. Primeiro se entende a direção desejada. Depois se olha com cuidado a situação atual. Em seguida se define uma condição-alvo próxima, algo que se quer alcançar em algumas semanas. E então se caminha até ela com pequenos experimentos, aprendendo a cada passo. Imagine uma ouvidoria que quer responder ao cidadão de forma clara e no prazo. Em vez de lançar um plano enorme, a equipe olha como as respostas estão saindo hoje e escolhe um alvo curto: nas próximas semanas, toda resposta vai trazer, logo na primeira linha, o que foi decidido. Testa num dia, vê o que funcionou, ajusta no outro. Ninguém sabe de antemão o caminho todo, e tudo bem. O kata, palavra japonesa que quer dizer algo como forma treinada, ensina a avançar sem ter todas as respostas, com os pés no chão e os olhos no alvo.",
+    "pratica": "Defina um alvo pequeno para as próximas duas semanas no seu trabalho e escreva qual é o primeiro experimento que você fará amanhã.",
+    "pergunta": "Qual é o próximo passo pequeno que aproxima o seu setor do jeito que ele deveria funcionar?",
+    "frase": "Ninguém precisa enxergar a escada inteira para subir o primeiro degrau."
+  },
+  {
+    "tema": "O primeiro dia já arrumado",
+    "eixo": "SMED e fluxo",
+    "fonte": "Shigeo Shingo — A Revolution in Manufacturing: The SMED System",
+    "ideia": "A grande sacada de Shigeo Shingo foi separar o que precisa ser feito com a máquina parada daquilo que pode ser preparado antes. Na fábrica, isso encurta a troca de ferramentas. No serviço público, funciona para qualquer começo de atividade. Pense na chegada de um servidor recém-nomeado. Em muitos lugares, ele passa os primeiros dias sem acesso ao sistema, sem e-mail, sem mesa definida, esperando a TI liberar um acesso que só começa a ser pedido no dia em que ele aparece. O servidor está pronto, querendo trabalhar, e o órgão parado ao redor dele. Quase tudo isso pode ser feito antes: a nomeação foi publicada, a lotação é conhecida, o perfil de acesso é previsível. Um roteiro simples, disparado assim que sai a nomeação, permite que no primeiro dia ele receba o acesso, o equipamento e uma pessoa para acompanhá-lo. É o mesmo raciocínio de Shingo: o que dá para preparar fora da hora crítica não deveria acontecer dentro dela.",
+    "pratica": "Liste o que um colega novo precisa para trabalhar no seu setor e marque o que poderia ser providenciado antes de ele chegar.",
+    "pergunta": "Quanto da espera no seu setor acontece só porque ninguém se preparou antes?",
+    "frase": "Receber bem é deixar o caminho pronto antes de alguém precisar dele."
+  },
+  {
+    "tema": "A lei protege quem decide com cuidado",
+    "eixo": "Lei a seu favor",
+    "fonte": "Decreto-Lei 4.657/1942 (LINDB), art. 28, e Lei 8.429/1992, art. 1º, §§ 1º a 3º, com redação da Lei 14.230/2021",
+    "ideia": "Muito servidor deixa de simplificar por um medo concreto: e se eu for responsabilizado depois? A lei brasileira respondeu a esse medo. A Lei de Introdução às Normas do Direito Brasileiro, no art. 28, incluído em 2018, diz que o agente público responde pessoalmente por suas decisões ou opiniões técnicas em caso de dolo ou erro grosseiro. E a Lei de Improbidade, depois da reforma de 2021, passou a considerar improbidade apenas condutas dolosas, deixando claro que o mero exercício da função, sem comprovação de ato doloso com fim ilícito, afasta essa responsabilidade. Pense num setor de compras que pretende retirar de um modelo de edital um documento que nenhuma norma exige e que só afasta fornecedores. Se a decisão é estudada, fundamentada por escrito, apoiada no que a lei manda e assinada por quem tem competência, ela está longe de ser erro grosseiro. A lei não protege o descuido. Protege quem decide com cuidado, registra o porquê e age de boa-fé.",
+    "pratica": "Escolha uma simplificação que você já pensou em propor e escreva, em um parágrafo, o fundamento legal e o motivo pelo qual a exigência não agrega valor.",
+    "pergunta": "O que você faria diferente no trabalho se soubesse que decidir com fundamento é protegido?",
+    "frase": "Fundamentar é a melhor proteção de quem tem coragem de simplificar."
+  },
+  {
+    "tema": "Não digitalize a bagunça",
+    "eixo": "Inovação",
+    "fonte": "Michael Hammer — Reengineering Work: Don't Automate, Obliterate (Harvard Business Review, 1990)",
+    "ideia": "Em 1990, Michael Hammer escreveu um artigo com um título provocador: não automatize, elimine. A ideia era que muitas empresas gastavam fortunas colocando no computador processos que nem deveriam existir, e o resultado era só fazer o desperdício andar mais rápido. Isso continua atual. Imagine um órgão que decide acabar com o papel. Ótimo. Só que o processo eletrônico novo pede as mesmas assinaturas em série do antigo, os mesmos despachos de mero encaminhamento, as mesmas cópias, agora em PDF. O processo ficou digital, mas não ficou mais simples. O cidadão continua esperando o mesmo tanto, só que olhando para uma tela. Antes de levar qualquer rotina para um sistema, vale sentar com quem faz e perguntar, etapa por etapa, o que ali tem base legal ou agrega valor e o que é só costume. Depois de enxugar, aí sim se digitaliza. A tecnologia é uma aliada enorme, desde que não vire uma forma moderna de manter o que não deveria estar ali.",
+    "pratica": "Pegue uma rotina que já está no sistema eletrônico e marque quais etapas foram copiadas do papel sem que ninguém perguntasse se ainda precisam existir.",
+    "pergunta": "O seu processo eletrônico ficou mais simples, ou só ficou mais bonito?",
+    "frase": "Antes de digitalizar, pergunte o que merece continuar existindo."
+  },
+  {
+    "tema": "O piloto que não deu certo",
+    "eixo": "Pessoas e coragem",
+    "fonte": "Amy Edmondson — Right Kind of Wrong",
+    "ideia": "Num livro mais recente, Amy Edmondson diferencia tipos de falha. Há as falhas evitáveis, que vêm de descuido em tarefas conhecidas. E há o que ela chama de falha inteligente: a que acontece num território novo, num teste pequeno e bem pensado, que gera aprendizado e custa pouco. Imagine que a equipe de um protocolo testou, por algumas semanas, receber requerimentos simples por e-mail, para poupar o cidadão de vir até o prédio. Não funcionou como esperado. Os pedidos chegavam incompletos e a caixa ficou difícil de controlar. Num ambiente com medo, isso vira motivo de piada ou de bronca, e ninguém propõe mais nada. Num ambiente saudável, vira aprendizado: descobriu-se que faltavam um modelo de mensagem e um responsável pela caixa. O próximo teste já nasce melhor. Edmondson lembra que quem nunca erra em nada provavelmente também não está tentando nada novo. A falha inteligente merece agradecimento, não castigo.",
+    "pratica": "Conte para a sua equipe uma tentativa sua que não deu certo e o que você aprendeu com ela.",
+    "pergunta": "Na sua equipe, quem testa algo novo e falha é visto como ousado ou como irresponsável?",
+    "frase": "Teste pequeno que falha é aula barata. Medo de testar sai muito mais caro."
+  },
+  {
+    "tema": "O aperto de dezembro",
+    "eixo": "Lean",
+    "fonte": "Pensamento Lean — muda, mura e muri (Sistema Toyota de Produção)",
+    "ideia": "No Sistema Toyota de Produção há três palavras japonesas para o que atrapalha o trabalho. Muda é o desperdício, o que não agrega valor. Mura é a irregularidade, o trabalho que vem em ondas. Muri é a sobrecarga, exigir de pessoas ou recursos mais do que aguentam. As três costumam andar juntas. Pense num setor de recursos humanos no fim do ano, quando chegam ao mesmo tempo pedidos de férias, ajustes de escala e uma porção de prazos. Durante meses o trabalho foi tranquilo, e de repente vira um aperto. Essa onda é mura. O aperto que deixa a equipe exausta e fazendo hora extra é muri. E os erros que nascem da pressa, com devoluções e correções, são muda. Muitas vezes a gente ataca só o desperdício e esquece a onda que o provocou. Distribuir melhor a chegada do trabalho, por exemplo combinando com os setores uma programação de férias com antecedência, pode aliviar a equipe sem tirar direito de ninguém.",
+    "pratica": "Olhe o calendário do seu setor, marque o período em que o trabalho mais acumula e anote uma coisa que poderia ser antecipada para outro mês.",
+    "pergunta": "A correria do seu setor vem do volume de trabalho ou do jeito que ele chega?",
+    "frase": "Às vezes a equipe não precisa de mais braços. Precisa de menos ondas."
+  },
+  {
+    "tema": "Quando a meta engana",
+    "eixo": "Gestão de processos",
+    "fonte": "John Seddon — Systems Thinking in the Public Sector",
+    "ideia": "John Seddon é um crítico duro das metas numéricas definidas de cima para baixo, sem relação com o propósito do serviço. O argumento dele é que, quando a meta vira o objetivo, as pessoas passam a trabalhar para a meta, e não para quem é atendido. Imagine um gabinete que passa a ser avaliado pela quantidade de processos despachados por semana. A intenção é boa. Mas logo surge o atalho: devolver o processo por qualquer detalhe também conta como despacho, e o número melhora. Do lado de fora, o cidadão vê o processo ir e voltar sem nunca ser decidido. A meta foi batida, o serviço piorou. Seddon propõe trocar a pergunta. Em vez de quantos papéis saíram, quanto tempo leva, do ponto de vista de quem pediu, até a questão ser resolvida de verdade? Medir assim dá mais trabalho, mas aponta para o que importa. E tira o servidor da posição desconfortável de escolher entre o indicador e a pessoa à sua frente.",
+    "pratica": "Escolha um indicador que o seu setor acompanha e escreva o que ele mostraria se medisse o tempo até a solução, e não a quantidade de saídas.",
+    "pergunta": "O número que você acompanha melhora quando o cidadão é bem atendido, ou pode melhorar sem ele?",
+    "frase": "Meta boa aponta para a pessoa atendida, não para o papel que saiu."
+  },
+  {
+    "tema": "Melhoria pequena, todo santo dia",
+    "eixo": "Kaizen",
+    "fonte": "Masaaki Imai — Kaizen",
+    "ideia": "Masaaki Imai ajudou a tornar conhecida no Ocidente uma palavra japonesa que quer dizer, simplesmente, mudança para melhor. Kaizen, no sentido que ele descreve, é a melhoria pequena, contínua, feita por todos, em contraste com a grande inovação que chega de tempos em tempos. A força está na soma. Pense num arquivo de documentos. Ninguém precisa de um projeto de modernização para começar. Hoje alguém cria etiquetas legíveis para as caixas mais procuradas. Amanhã outro coloca, perto da porta, uma folha dizendo onde fica cada tipo de documento. Na semana seguinte, a equipe combina um lugar fixo para o que está emprestado. Cada mudança parece boba. Juntas, podem fazer a busca por um processo antigo deixar de ser uma caça ao tesouro. Imai lembra que esse tipo de melhoria custa pouco e muitas vezes não depende de orçamento nem de compra. Depende de gente que se sente autorizada a mexer no próprio trabalho, e de chefias que dão essa autorização.",
+    "pratica": "Faça hoje uma única melhoria pequena no seu espaço de trabalho, como uma etiqueta, um atalho ou um aviso, e conte a um colega.",
+    "pergunta": "Qual mudança de cinco minutos você vem adiando há meses?",
+    "frase": "Grandes viradas quase sempre são muitas mudanças pequenas que ninguém deixou para depois."
+  },
+  {
+    "tema": "Comece menos, termine mais",
+    "eixo": "SMED e fluxo",
+    "fonte": "Pensamento Lean — fluxo puxado e limite de trabalho em andamento",
+    "ideia": "Uma das lições mais contraintuitivas do pensamento enxuto é que começar muita coisa ao mesmo tempo atrasa tudo. Quanto mais trabalho em andamento, ou seja, tarefas abertas e não terminadas, mais tempo cada uma leva para sair, porque a atenção se divide e as trocas de assunto cansam. A ideia de puxar o trabalho, em vez de empurrar, responde a isso: só se pega um novo item quando há capacidade de levá-lo até o fim. Imagine um perito com vários laudos abertos ao mesmo tempo, todos parcialmente feitos, cada um esperando um pedaço de análise. Ele trabalha o dia inteiro e sente que nada sai. Agora imagine que a equipe combine um limite de laudos em redação por pessoa e que o próximo só entre na mesa quando um sair. A fila do setor continua existindo e sendo acompanhada, mas cada caso que entra anda até o fim. Para a autoridade e para a família que espera um resultado, um laudo pronto vale mais que três pela metade.",
+    "pratica": "Conte quantas tarefas você tem começadas e não terminadas agora e escolha uma para levar até o fim antes de abrir qualquer outra.",
+    "pergunta": "Quantas coisas você está fazendo ao mesmo tempo, e quantas está de fato terminando?",
+    "frase": "Terminar é a forma mais honesta de andar mais rápido."
+  },
+  {
+    "tema": "Peça tudo de uma vez só",
+    "eixo": "Lei a seu favor",
+    "fonte": "Lei 14.129/2021, art. 3º, XII e XIII, e Lei 13.460/2017, art. 5º, XV",
+    "ideia": "Quem já atendeu público conhece a cena. O cidadão traz os documentos, alguém olha e pede mais um. Ele volta, e outra pessoa pede um terceiro. Na quarta ida, descobre que um papel da primeira vez venceu. A Lei do Governo Digital, a 14.129, de 2021, trouxe entre seus princípios e diretrizes, no art. 3º, a imposição imediata e de uma única vez ao interessado das exigências necessárias à prestação do serviço, com exigência posterior justificada apenas em caso de dúvida superveniente, isto é, uma dúvida que surgiu depois. No mesmo artigo está a vedação de exigir prova de fato já comprovado por documento ou informação válida. O Código de Defesa do Usuário do Serviço Público, a Lei 13.460, de 2017, traz diretriz no mesmo sentido no art. 5º. Num balcão de atendimento de prefeitura, isso vira algo bem concreto: uma lista completa e clara do que é preciso, entregue logo no primeiro contato, e o compromisso de não inventar novidade no meio do caminho.",
+    "pratica": "Monte, em uma página, a lista completa do que o cidadão precisa trazer para o serviço mais procurado do seu setor e confira se é a mesma que todos os colegas usam.",
+    "pergunta": "Quantas vezes o cidadão precisa voltar ao seu setor antes de ser atendido de verdade?",
+    "frase": "Pedir tudo na primeira vez é respeitar o tempo de quem vem."
+  },
+  {
+    "tema": "Escreva para quem vai ler",
+    "eixo": "Inovação",
+    "fonte": "Lei 13.460/2017, art. 5º, XIV, e Lei 14.129/2021, art. 3º, VII",
+    "ideia": "Inovar nem sempre exige sistema novo. Às vezes é só trocar palavras. A Lei 13.460, de 2017, traz entre as diretrizes de atendimento a utilização de linguagem simples e compreensível, evitando o uso de siglas, jargões e estrangeirismos. A Lei do Governo Digital segue o mesmo espírito ao falar em linguagem clara e compreensível a qualquer cidadão. Imagine o comunicado que uma escola manda para as famílias sobre o período de rematrícula, cheio de referências a portarias, siglas internas e frases longas na voz passiva. Muitos pais não entendem, não comparecem, e a secretaria passa semanas atendendo dúvidas e casos fora do prazo. Agora imagine o mesmo aviso dizendo o que fazer, até quando, onde e com quais documentos, em frases curtas. O fundamento legal pode e deve estar lá, só não precisa ser a primeira coisa. Linguagem simples não é linguagem pobre. É a decisão de colocar o esforço de entender do nosso lado da mesa, e não do lado de quem lê.",
+    "pratica": "Pegue um aviso ou modelo de texto que o seu setor envia ao cidadão e reescreva o primeiro parágrafo dizendo apenas o que fazer, até quando e onde.",
+    "pergunta": "Uma pessoa sem contato com o serviço público entenderia o último texto que você mandou?",
+    "frase": "Texto claro é atendimento que chega antes do atendimento."
+  },
+  {
+    "tema": "Chefe que pergunta, equipe que pensa",
+    "eixo": "Pessoas e coragem",
+    "fonte": "Mike Rother — Toyota Kata",
+    "ideia": "Além da rotina de melhoria, Mike Rother descreve uma rotina de orientação, que ele chama de kata do coaching. Em vez de dar a resposta pronta, quem lidera faz um pequeno conjunto de perguntas, sempre as mesmas, em conversas curtas e frequentes. Qual é a condição-alvo? Como está agora? O que está impedindo de chegar lá? Qual é o próximo passo e o que você espera que aconteça? Quando podemos ver o que aprendemos com esse passo? Pense na chefia de um cartório ou de um arquivo, sempre cercada de pedidos de decisão. Se ela resolve tudo sozinha, vira gargalo e a equipe aprende a esperar. Se, em alguns minutos por dia, ela pergunta em vez de mandar, as pessoas começam a enxergar os próprios problemas e a testar soluções. A chefia continua decidindo e assinando o que é dela. Só deixa de carregar sozinha o que a equipe pode pensar junto. Com o tempo, a equipe ganha confiança, e a chefia ganha tempo para o que só ela pode fazer.",
+    "pratica": "Na próxima vez que alguém trouxer um problema para você, antes de responder, pergunte qual seria o próximo passo que a própria pessoa tentaria.",
+    "pergunta": "Quantas decisões chegam até você que a sua equipe já saberia tomar?",
+    "frase": "Liderar também é fazer a pergunta certa e aguentar o silêncio da resposta."
+  },
+  {
+    "tema": "O relatório que ninguém lê",
+    "eixo": "Lean",
+    "fonte": "Taiichi Ohno — O Sistema Toyota de Produção",
+    "ideia": "Dos sete desperdícios que Taiichi Ohno descreveu, ele considerava a superprodução o pior: fazer mais do que é necessário, ou antes de alguém precisar. É o pior porque esconde os outros e consome gente, tempo e material. No escritório, a superprodução tem rosto conhecido. É o relatório mensal que sobe para um gabinete, é impresso, arquivado e nunca mais consultado. É a cópia extra de cada processo guardada por via das dúvidas. É a planilha alimentada toda semana para um indicador que perdeu o sentido há tempos. Ninguém faz isso por mal. Em geral, alguém pediu um dia, por um bom motivo, e ninguém lembrou de desligar. Um teste simples ajuda: pergunte a quem recebe o que é feito com aquilo. Às vezes a resposta é uma decisão importante, e então o trabalho tem valor. Às vezes é um silêncio constrangido. Nesse caso, com a concordância de quem pediu, dá para parar e devolver esse tempo para o que importa.",
+    "pratica": "Escolha um relatório ou controle que você produz com frequência e pergunte a quem o recebe que decisão é tomada a partir dele.",
+    "pergunta": "O que você produz toda semana sem saber se alguém usa?",
+    "frase": "Fazer a mais também é desperdício, só que com cara de dedicação."
+  },
+  {
+    "tema": "O problema é do sistema, não da pessoa",
+    "eixo": "Gestão de processos",
+    "fonte": "W. Edwards Deming — Out of the Crisis",
+    "ideia": "Deming repetia que a maior parte dos problemas de uma organização nasce do sistema, isto é, do jeito como o trabalho foi desenhado, e não da má vontade das pessoas. Por isso cobrar mais esforço raramente resolve. Pense num processo de progressão funcional que se arrasta. O servidor interessado se irrita com o RH. O RH aguarda uma avaliação de desempenho que não chegou. A chefia imediata não sabia que precisava enviar. O formulário estava num modelo antigo. Cada pessoa nessa cadeia fez o que achava ser o seu papel, e mesmo assim o resultado é ruim. Procurar um culpado só gera defesa. Olhar o sistema gera perguntas úteis: quem precisa saber o quê, em que momento e por qual caminho? Que informação poderia seguir junto desde o início? O direito do servidor e a regra da progressão continuam os mesmos. O que muda é o desenho do caminho, que passa a ajudar as pessoas em vez de esperar que elas adivinhem.",
+    "pratica": "Pense numa demora recorrente do seu setor e desenhe, numa folha, quem participa dela e em que ponto a informação se perde, sem escrever nenhum nome.",
+    "pergunta": "Quando algo dá errado no seu setor, a primeira pergunta é quem falhou ou onde o processo falhou?",
+    "frase": "Gente boa presa num processo ruim cansa. Processo bom deixa a gente brilhar."
+  },
+  {
+    "tema": "Melhorou? Agora vire padrão",
+    "eixo": "Kaizen",
+    "fonte": "Masaaki Imai — Gemba Kaizen",
+    "ideia": "Masaaki Imai lembra que melhorar e padronizar andam juntos. Para ele, a melhoria segue o ciclo PDCA, e a manutenção do que deu certo segue o SDCA: padronizar, fazer, checar e agir. Padrão, aqui, não é norma engessada. É o melhor jeito conhecido até agora, escrito de forma simples, que todos seguem até alguém achar um jeito melhor. Pense na recepção de um posto de saúde. Uma atendente encontrou uma forma clara de explicar quais documentos trazer para marcar um exame, e as pessoas passaram a voltar menos. Só que, quando ela sai de férias, cada um explica de um jeito e a confusão volta. A melhoria era de uma pessoa, não do posto. Basta transformar a explicação dela numa folha simples, combinada com a equipe e colocada no balcão. Aí a melhoria passa a ser de todos. E, quando surgir algo melhor, o padrão muda, sem cerimônia. É assim que o kaizen não se perde pelo caminho.",
+    "pratica": "Escreva em meia página o jeito como você faz uma tarefa que funciona bem e mostre a um colega para ver se ele conseguiria repetir.",
+    "pergunta": "Qual boa prática do seu setor desaparece quando uma pessoa específica tira férias?",
+    "frase": "Melhoria que só mora numa cabeça vai embora junto com ela."
+  }
+]

@@ -1,0 +1,218 @@
+[
+  {
+    "norma": "Constituição Federal de 1988",
+    "dispositivo": "Art. 37, caput",
+    "o_que_diz": "Toda a administração pública, direta e indireta, de qualquer Poder da União, dos estados, do Distrito Federal e dos municípios, deve obedecer aos princípios da legalidade, impessoalidade, moralidade, publicidade e eficiência. A eficiência entrou no texto pela Emenda Constitucional 19/1998 e tem o mesmo peso dos demais princípios: fazer bem feito, com o menor custo e o menor tempo possíveis, é dever constitucional, e não apenas boa vontade do gestor.",
+    "como_usar": "Quando alguém disser que \"sempre foi assim\", lembre que a eficiência é mandamento da Constituição. Imagine um setor de protocolo que exige três vias impressas de um requerimento que depois é digitalizado e arquivado. O servidor pode propor, por escrito, a redução para uma via ou para o envio digital, citando o art. 37 como fundamento geral e somando a ele uma lei mais específica, como a 13.726/2018. O princípio dá a direção; a regra específica dá a segurança.",
+    "limite": "A eficiência não se sobrepõe à legalidade: não autoriza deixar de cumprir exigência prevista em lei. Por ser princípio genérico, funciona melhor quando combinado com um dispositivo específico.",
+    "link": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+    "conferido": true
+  },
+  {
+    "norma": "Lei 13.726/2018 — Lei da Desburocratização",
+    "dispositivo": "Art. 1º",
+    "o_que_diz": "A lei vale para os Poderes da União, dos estados, do Distrito Federal e dos municípios e tem um objetivo declarado: suprimir ou simplificar formalidades e exigências desnecessárias ou repetidas, sempre que o custo delas, para o erário ou para o cidadão, for maior do que o eventual risco de fraude que pretendem evitar. Também cria o Selo de Desburocratização e Simplificação.",
+    "como_usar": "Este artigo traz o teste que vale para qualquer exigência: quanto ela custa e quanto risco ela realmente evita? Suponha que o RH exija comprovante de residência atualizado todo ano de todos os servidores, sem uso concreto para essa informação. O servidor pode registrar, numa nota técnica curta, o custo (tempo, papel, retrabalho) e a ausência de risco relevante, propondo a troca por atualização cadastral declaratória. Assim a simplificação fica documentada e motivada.",
+    "limite": "O artigo declara o objetivo da lei; ele não revoga sozinho exigências impostas por outra lei. A ponderação custo × risco precisa ser registrada e motivada pela autoridade competente.",
+    "link": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13726.htm",
+    "conferido": true
+  },
+  {
+    "norma": "Lei 13.726/2018 — Lei da Desburocratização",
+    "dispositivo": "Art. 3º, I e II",
+    "o_que_diz": "Na relação dos órgãos públicos com o cidadão, fica dispensado o reconhecimento de firma: o próprio agente compara a assinatura com a do documento de identidade, ou vê a pessoa assinar na sua frente, e registra a autenticidade no documento. Também fica dispensada a autenticação de cópia em cartório: o servidor compara a cópia com o original e atesta que confere.",
+    "como_usar": "No balcão de atendimento, quando o cidadão chega com uma procuração simples ou com cópias sem autenticação, o servidor não precisa mandá-lo ao cartório. Basta conferir a assinatura com a identidade (ou pedir que assine ali) e comparar cópia e original, registrando no documento algo como \"confere com o original\", com nome, matrícula e data. É rápido, gratuito para o cidadão e tem respaldo direto na lei.",
+    "limite": "Vale para a relação entre órgão público e cidadão; não alcança exigência de firma reconhecida ou autenticação prevista expressamente em outra lei. Em caso de dúvida concreta sobre a autenticidade, o servidor pode e deve aprofundar a verificação.",
+    "link": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13726.htm",
+    "conferido": true
+  },
+  {
+    "norma": "Lei 13.726/2018 — Lei da Desburocratização",
+    "dispositivo": "Art. 3º, §§ 1º, 2º e 3º",
+    "o_que_diz": "É proibido exigir prova de um fato que já foi comprovado por outro documento válido. Se o cidadão não consegue obter um documento de regularidade por motivo que não depende dele, pode comprovar por declaração escrita e assinada, respondendo se mentir. E um órgão não pode exigir do cidadão certidão emitida por outro órgão do mesmo Poder, salvo antecedentes criminais, informações sobre pessoa jurídica e outros casos previstos em lei.",
+    "como_usar": "Num processo de concessão de benefício, se a certidão de casamento já está nos autos, não se pede de novo outro documento para provar o mesmo estado civil. Se o órgão emissor de uma certidão está com o sistema fora do ar há semanas, o servidor pode aceitar declaração assinada, deixando registrado o motivo. E, se a informação é de outro órgão do mesmo Poder, o caminho é o ofício ou a consulta entre órgãos, não o cidadão.",
+    "limite": "O § 3º vale entre órgãos do mesmo Poder e tem ressalvas expressas (antecedentes criminais, dados de pessoa jurídica e hipóteses previstas em lei). A declaração do § 2º só cabe quando a impossibilidade não for culpa do solicitante.",
+    "link": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13726.htm",
+    "conferido": true
+  },
+  {
+    "norma": "Lei 13.726/2018 — Lei da Desburocratização",
+    "dispositivo": "Art. 6º",
+    "o_que_diz": "A comunicação entre o poder público e o cidadão pode ser feita por qualquer meio, inclusive conversa direta, telefone e correio eletrônico, registrando-se a circunstância quando necessário. A exceção são as comunicações que impõem deveres, ônus, sanções ou restrições ao exercício de direitos e atividades, que continuam exigindo a forma própria.",
+    "como_usar": "Para pedir um documento que faltou, avisar que um laudo ficou pronto para retirada ou agendar um atendimento, o servidor pode ligar ou mandar e-mail em vez de expedir ofício e aguardar o correio. Basta anotar no processo a data, o meio usado e o que foi comunicado. Isso economiza dias de tramitação, sobretudo em setores que recebem muitos pedidos de complementação.",
+    "limite": "Não serve para intimação de penalidade, notificação de prazo de defesa ou qualquer ato que imponha dever, ônus, sanção ou restrição; nesses casos, siga a forma exigida pela norma aplicável.",
+    "link": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13726.htm",
+    "conferido": true
+  },
+  {
+    "norma": "Lei 13.726/2018 — Lei da Desburocratização",
+    "dispositivo": "Arts. 7º, 8º e 9º",
+    "o_que_diz": "A lei cria o Selo de Desburocratização e Simplificação para reconhecer projetos que simplifiquem a administração e melhorem o atendimento, concedido na forma de regulamento por comissão com representantes do governo e da sociedade civil. Entre os critérios estão a eliminação de formalidades desnecessárias e a redução do tempo de espera. A participação do servidor nesses projetos deve ser registrada em seus assentamentos funcionais.",
+    "como_usar": "Se a sua equipe eliminou uma etapa inútil do fluxo de entrega de laudos e reduziu o tempo de espera, registre o projeto: o que mudou, quanto tempo se ganhou, quem participou. Depois, peça ao RH que anote a participação de cada servidor na ficha funcional, com base no art. 8º. É reconhecimento previsto em lei para quem simplifica, e esse registro também fortalece eventual candidatura ao selo.",
+    "limite": "A concessão do selo depende de regulamento e de comissão própria; a lei não fixa vantagem financeira ao servidor. O registro do art. 8º reconhece a participação, mas não substitui as regras de progressão da carreira.",
+    "link": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13726.htm",
+    "conferido": true
+  },
+  {
+    "norma": "Lei 9.784/1999 — Lei do Processo Administrativo Federal",
+    "dispositivo": "Art. 2º, parágrafo único, VI, VIII e IX",
+    "o_que_diz": "Nos processos administrativos, a Administração deve adequar meios e fins, sem impor obrigações, restrições ou sanções além do estritamente necessário ao interesse público. Deve observar as formalidades essenciais à garantia dos direitos das pessoas e adotar formas simples, suficientes para dar certeza e segurança. Ou seja: formalidade que protege direito fica; formalidade que não protege nada pode ser simplificada.",
+    "como_usar": "Diante de um formulário com campos que ninguém usa, ou de uma exigência de cópias em duplicidade, pergunte: essa formalidade garante algum direito ou dá alguma segurança? Se a resposta for não, o inciso IX ampara a adoção de forma mais simples. Exemplo: num pedido de férias, trocar o requerimento impresso com assinatura da chefia por registro eletrônico com aprovação no sistema mantém a certeza e elimina o papel.",
+    "limite": "A lei regula o processo administrativo federal; estados e municípios costumam ter leis próprias, embora a lógica sirva de referência. Formalidades essenciais, como contraditório e ampla defesa, não podem ser suprimidas.",
+    "link": "https://www.planalto.gov.br/ccivil_03/leis/l9784.htm",
+    "conferido": true
+  },
+  {
+    "norma": "Lei 9.784/1999 — Lei do Processo Administrativo Federal",
+    "dispositivo": "Art. 22, caput e §§ 2º e 3º",
+    "o_que_diz": "Os atos do processo administrativo não dependem de forma determinada, a não ser quando a lei exigir expressamente. Salvo imposição legal, o reconhecimento de firma só pode ser exigido quando houver dúvida de autenticidade. E a autenticação de documentos exigidos em cópia pode ser feita pelo próprio órgão administrativo, sem necessidade de cartório.",
+    "como_usar": "Se um interessado apresenta requerimento em papel simples, sem o modelo oficial, mas com todas as informações necessárias, o pedido não deve ser recusado por questão de formato. Em compras, se a empresa envia procuração sem firma reconhecida e não há nenhum indício de fraude, o reconhecimento não deve ser exigido. A comissão ou o servidor confere as cópias com os originais e segue o processo.",
+    "limite": "Quando uma lei impuser forma específica ou firma reconhecida, a exigência permanece. A dúvida de autenticidade autoriza pedir reconhecimento de firma, desde que seja dúvida concreta e registrada, não presunção genérica.",
+    "link": "https://www.planalto.gov.br/ccivil_03/leis/l9784.htm",
+    "conferido": true
+  },
+  {
+    "norma": "Lei 9.784/1999 — Lei do Processo Administrativo Federal",
+    "dispositivo": "Art. 29, § 2º, e art. 37",
+    "o_que_diz": "Os atos de instrução que dependem do interessado devem ser realizados do modo menos oneroso para ele. E, quando o interessado informa que os fatos e dados estão em documentos que já existem na própria Administração ou em outro órgão, cabe ao órgão responsável pela instrução buscar esses documentos ou suas cópias de ofício, sem transferir a tarefa ao cidadão.",
+    "como_usar": "Um servidor aposentado pede revisão de proventos e diz que as fichas financeiras antigas estão no próprio órgão. Em vez de mandá-lo ao arquivo, o setor responsável solicita internamente os documentos e junta ao processo. Na perícia, se o pedido menciona um laudo anterior já emitido pelo instituto, a cópia é localizada internamente, sem exigir que o requerente a traga.",
+    "limite": "Vale para o processo administrativo federal; estados e municípios devem consultar sua lei própria, embora a lógica sirva de referência. O art. 37 depende de o interessado indicar onde estão os dados; documentos sob sigilo seguem as regras de acesso aplicáveis.",
+    "link": "https://www.planalto.gov.br/ccivil_03/leis/l9784.htm",
+    "conferido": true
+  },
+  {
+    "norma": "Decreto-Lei 4.657/1942 — LINDB (Lei de Introdução às Normas do Direito Brasileiro)",
+    "dispositivo": "Art. 20, caput e parágrafo único",
+    "o_que_diz": "Nas esferas administrativa, controladora e judicial, ninguém pode decidir com base apenas em valores jurídicos abstratos, como \"interesse público\" ou \"moralidade\", sem considerar as consequências práticas da decisão. A motivação deve demonstrar que a medida é necessária e adequada, inclusive comparando-a com as alternativas possíveis. O artigo foi incluído pela Lei 13.655/2018.",
+    "como_usar": "Ao propor a retirada de uma exigência, mostre as consequências práticas: quantos atendimentos a mais por dia, quantos dias a menos de espera, qual risco permanece. E, se alguém quiser manter a exigência apenas \"por segurança\", o art. 20 permite pedir que se demonstre, concretamente, por que ela é necessária e por que não há alternativa menos custosa. A conversa sai do abstrato e vai para os fatos.",
+    "limite": "O artigo exige motivação com base em consequências; não autoriza desconsiderar a lei nem decidir apenas por conveniência. Vale para todas as esferas, mas não substitui a análise jurídica do caso.",
+    "link": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del4657compilado.htm",
+    "conferido": true
+  },
+  {
+    "norma": "Decreto-Lei 4.657/1942 — LINDB (Lei de Introdução às Normas do Direito Brasileiro)",
+    "dispositivo": "Art. 22, caput e § 1º",
+    "o_que_diz": "Ao interpretar normas de gestão pública, devem ser considerados os obstáculos e as dificuldades reais do gestor e as exigências das políticas públicas a seu cargo, sem prejuízo dos direitos das pessoas atendidas. Quando se avalia a regularidade de uma conduta ou a validade de um ato, contam as circunstâncias práticas que impuseram, limitaram ou condicionaram a ação do agente.",
+    "como_usar": "Registre no processo o contexto em que você decidiu: falta de pessoal, sistema fora do ar, volume excepcional de demandas, urgência do caso. Exemplo: um núcleo de perícia com equipamento quebrado adota, por despacho fundamentado, um fluxo provisório mais simples para não paralisar os exames. Se a decisão for questionada depois, esse registro mostra as dificuldades reais que a lei manda considerar.",
+    "limite": "O artigo manda considerar o contexto, mas não transforma dificuldade em autorização para descumprir a lei ou ferir direitos. O registro precisa ser feito na época da decisão; justificativa reconstruída depois tem muito menos força.",
+    "link": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del4657compilado.htm",
+    "conferido": true
+  },
+  {
+    "norma": "Decreto-Lei 4.657/1942 — LINDB (Lei de Introdução às Normas do Direito Brasileiro)",
+    "dispositivo": "Art. 28",
+    "o_que_diz": "O agente público responde pessoalmente por suas decisões ou opiniões técnicas apenas em caso de dolo ou erro grosseiro. Em outras palavras, a lei protege quem decide de boa-fé, com cuidado e fundamentação, mesmo que a decisão venha a ser discutida depois. Os três parágrafos originalmente aprovados foram vetados; vale o caput, incluído pela Lei 13.655/2018.",
+    "como_usar": "Este é o artigo que dá tranquilidade a quem simplifica. Se você eliminou uma exigência com base em lei, registrou a motivação e ouviu a área jurídica quando cabível, sua decisão foi tomada com diligência. Exemplo: o chefe de um setor de compras que passou a aceitar cópias conferidas pelo servidor, em vez de autenticadas em cartório, com despacho fundamentado no art. 12 da Lei 14.133/2021, está agindo dentro da lei.",
+    "limite": "Não protege quem age com dolo ou comete erro grosseiro, e não dispensa o dever de agir com diligência. Também não impede apuração dos fatos; ele define quando há responsabilização pessoal.",
+    "link": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del4657compilado.htm",
+    "conferido": true
+  },
+  {
+    "norma": "Decreto-Lei 4.657/1942 — LINDB (Lei de Introdução às Normas do Direito Brasileiro)",
+    "dispositivo": "Art. 30, caput e parágrafo único",
+    "o_que_diz": "As autoridades públicas devem atuar para aumentar a segurança jurídica na aplicação das normas, inclusive por meio de regulamentos, súmulas administrativas e respostas a consultas. Esses instrumentos vinculam o órgão ou a entidade a que se destinam até que sejam revistos. Em linguagem simples: o órgão deve deixar claro como interpreta as regras, e essa orientação passa a valer para todos ali.",
+    "como_usar": "Em vez de cada servidor decidir sozinho se pode dispensar uma exigência, o setor pode pedir à chefia ou à assessoria jurídica uma orientação escrita, como uma instrução normativa ou resposta a consulta, dizendo, por exemplo, que cópias conferidas pelo servidor substituem a autenticação em cartório. Publicada a orientação, ela vincula o órgão e protege quem a segue, além de padronizar o atendimento.",
+    "limite": "A orientação vincula o próprio órgão ou entidade a que se destina, não outros órgãos nem o Judiciário. Ela não pode contrariar lei e pode ser revista a qualquer tempo.",
+    "link": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del4657compilado.htm",
+    "conferido": true
+  },
+  {
+    "norma": "Decreto 9.830/2019 — Regulamenta os arts. 20 a 30 da LINDB",
+    "dispositivo": "Arts. 12 e 13",
+    "o_que_diz": "O art. 12 define erro grosseiro como erro manifesto, evidente e inescusável, praticado com culpa grave, e esclarece que o simples nexo entre a conduta e o dano, ou o tamanho do prejuízo, não bastam para responsabilizar o agente. A complexidade da matéria deve ser considerada. O art. 13 diz que o controle não substitui o gestor e deve privilegiar a prevenção antes de processos sancionadores.",
+    "como_usar": "Se uma simplificação for questionada, o art. 12 ajuda a mostrar a diferença entre uma decisão técnica razoável e um erro grosseiro. Exemplo: o gestor que dispensou cópia autenticada com base na lei e em parecer jurídico não cometeu erro \"manifesto e inescusável\". E quem adota uma opinião técnica não responde automaticamente por ela (§ 6º), salvo se havia elementos para perceber o dolo ou o erro grosseiro.",
+    "limite": "Regulamento do Poder Executivo federal; estados e municípios podem ter normas próprias, embora a definição sirva de referência. O próprio decreto (art. 17) diz que o art. 12 não afasta sanções disciplinares, inclusive por culpa leve, e o art. 12, § 8º, mantém o dever de diligência.",
+    "link": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/decreto/d9830.htm",
+    "conferido": true
+  },
+  {
+    "norma": "Lei 13.460/2017 — Código de Defesa do Usuário do Serviço Público",
+    "dispositivo": "Art. 5º, II, IV, IX, XI, XIV e XV",
+    "o_que_diz": "No atendimento, agentes públicos devem observar, entre outras diretrizes: presunção de boa-fé do usuário; proibição de exigências não previstas na legislação; autenticação de documentos pelo próprio agente, sem reconhecimento de firma salvo dúvida de autenticidade; eliminação de formalidades cujo custo supere o risco; linguagem simples, sem siglas e jargões; e proibição de pedir nova prova de fato já comprovado por documento válido.",
+    "como_usar": "Use este artigo como roteiro de revisão da carta de serviços ou do checklist de atendimento. Para cada documento pedido, pergunte: está previsto em norma? já não foi comprovado por outro documento? o custo é maior que o risco? Exemplo: um setor que exigia declaração de \"nada consta\" assinada pela chefia anterior, sem previsão em norma, pode retirá-la e registrar a mudança citando o inciso IV.",
+    "limite": "Vale para a administração direta e indireta de todas as esferas (art. 1º, § 1º). Não dispensa exigências previstas em lei ou regulamento válido; a presunção de boa-fé admite prova em contrário.",
+    "link": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13460.htm",
+    "conferido": true
+  },
+  {
+    "norma": "Decreto 9.094/2017 — Simplificação do atendimento (Executivo federal)",
+    "dispositivo": "Art. 5º, III e §§ 1º e 2º, e art. 6º",
+    "o_que_diz": "O protocolo não pode recusar o recebimento de requerimentos, exceto quando o órgão for manifestamente incompetente; nesse caso, deve orientar o interessado. Se a incompetência só for percebida depois, o servidor remete o pedido ao órgão competente. Além disso, as exigências para o requerimento devem ser feitas desde logo e de uma só vez, admitindo-se exigência posterior apenas em caso de dúvida que surja depois.",
+    "como_usar": "Na prática, isso acaba com o vaivém de pedir um documento por semana. Ao analisar um requerimento incompleto, liste tudo o que falta numa única comunicação. E, se o pedido chegou ao lugar errado, encaminhe-o você mesmo ao setor certo, avisando o interessado, em vez de devolvê-lo. Exemplo: um pedido de cópia de laudo protocolado na unidade administrativa segue internamente para o instituto responsável.",
+    "limite": "O decreto vale para órgãos e entidades do Poder Executivo federal; estados e municípios têm normas próprias, embora a lógica sirva de referência (a regra da exigência única também está na Lei 14.129/2021, art. 3º, XII).",
+    "link": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/decreto/d9094.htm",
+    "conferido": true
+  },
+  {
+    "norma": "Lei 14.129/2021 — Lei do Governo Digital",
+    "dispositivo": "Art. 3º, X, XI, XII, XIII e XV",
+    "o_que_diz": "Entre os princípios e diretrizes do Governo Digital estão: simplificar a solicitação e o acompanhamento dos serviços, com foco no autosserviço; eliminar formalidades cujo custo supere o risco; fazer todas as exigências de uma única vez, admitindo exigência posterior só por dúvida superveniente; não exigir prova de fato já comprovado por documento ou informação válida; e presumir a boa-fé do usuário.",
+    "como_usar": "Ao desenhar ou revisar um serviço digital, como um formulário eletrônico de requisição de exames ou de solicitação de certidão, use esses incisos como requisitos: campos que já estão em base oficial não devem ser pedidos de novo, a lista de documentos deve aparecer completa logo no início e o usuário deve conseguir acompanhar o pedido sozinho. Cite o art. 3º no documento que justifica o novo fluxo.",
+    "limite": "Aplica-se diretamente à União; estados, Distrito Federal e municípios só ficam vinculados se adotarem a lei por ato normativo próprio (art. 2º, III). Mesmo sem adesão, os princípios servem de boa referência.",
+    "link": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14129.htm",
+    "conferido": true
+  },
+  {
+    "norma": "Lei 14.133/2021 — Lei de Licitações e Contratos",
+    "dispositivo": "Art. 12, III, IV e V",
+    "o_que_diz": "No processo licitatório, a falha em exigência meramente formal, que não comprometa a avaliação da qualificação do licitante nem a compreensão da proposta, não leva ao afastamento dele nem à invalidação do processo. A autenticidade de cópia pode ser comprovada perante agente da Administração, com o original ou declaração de advogado. E o reconhecimento de firma só é exigido se houver dúvida de autenticidade, salvo imposição legal.",
+    "como_usar": "Na sessão de um pregão, a melhor proposta veio com uma declaração assinada, mas sem a data preenchida, e o conteúdo é claro. Pelo inciso III, o agente de contratação não deve desclassificar a empresa por isso; pode sanear a falha e registrar a decisão em ata. Da mesma forma, cópias simples de documentos podem ser conferidas pelo agente, sem exigir autenticação em cartório.",
+    "limite": "Só se aplica a falhas puramente formais; documento essencial ausente ou informação que altere a substância da proposta não se salva por este inciso. Firma reconhecida continua exigível quando houver dúvida concreta ou previsão legal.",
+    "link": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm",
+    "conferido": true
+  },
+  {
+    "norma": "Lei 14.133/2021 — Lei de Licitações e Contratos",
+    "dispositivo": "Art. 169, caput, I a III, e § 3º",
+    "o_que_diz": "As contratações públicas passam por gestão de riscos e controle preventivo, organizado em três linhas de defesa: servidores e autoridades que atuam na contratação; assessoria jurídica e controle interno do próprio órgão; e órgão central de controle interno e tribunal de contas. Quando constatam simples impropriedade formal, essas instâncias devem sanear a falha e prevenir sua repetição, de preferência com melhoria de controles e capacitação.",
+    "como_usar": "O artigo muda o foco de \"achar culpado\" para \"corrigir e prevenir\". Se o controle interno encontrar, num processo de compra, um termo de referência sem numeração de páginas ou uma assinatura em campo trocado, o caminho previsto é o saneamento e a orientação. O servidor da primeira linha pode citar o § 3º, I, para propor ajuste do fluxo e capacitação, em vez de abertura de apuração.",
+    "limite": "Quando a irregularidade causar dano à Administração, a lei manda apurar as infrações e comunicar o Ministério Público, se for o caso (§ 3º, II). O saneamento vale para falhas formais, não para condutas que gerem prejuízo.",
+    "link": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14133.htm",
+    "conferido": true
+  },
+  {
+    "norma": "Lei 8.429/1992 — Lei de Improbidade Administrativa (com a redação da Lei 14.230/2021)",
+    "dispositivo": "Art. 1º, §§ 1º a 3º, e art. 10, caput e § 1º",
+    "o_que_diz": "Desde a Lei 14.230/2021, só existe improbidade em conduta dolosa, isto é, com vontade livre e consciente de alcançar o resultado ilícito; não basta ter agido voluntariamente. O simples exercício da função, sem prova de dolo com fim ilícito, afasta a improbidade. Para lesão ao erário, a perda patrimonial precisa ser efetiva e comprovada, e falha formal sem perda efetiva não gera ressarcimento.",
+    "como_usar": "Muitos servidores mantêm exigências inúteis por medo de \"responder por improbidade\". Este artigo mostra que simplificar de boa-fé, com fundamento legal e motivação, não se confunde com ato ímprobo. Exemplo: o servidor de um setor de compras que deixa de exigir uma certidão sem previsão legal, registrando a razão no processo, não está agindo com a intenção de causar prejuízo; está cumprindo a lei da desburocratização.",
+    "limite": "Afastar a improbidade não afasta outras esferas: ainda pode haver apuração disciplinar, civil ou penal, conforme o caso. A exigência de dolo não protege quem age com intenção de obter resultado ilícito.",
+    "link": "https://www.planalto.gov.br/ccivil_03/leis/l8429.htm",
+    "conferido": true
+  },
+  {
+    "norma": "Lei 13.874/2019 — Lei da Liberdade Econômica",
+    "dispositivo": "Art. 2º, II, e art. 3º, XII",
+    "o_que_diz": "A lei adota como princípio a boa-fé do particular perante o poder público e garante a toda pessoa, física ou jurídica, o direito de não ter exigida pela administração pública, direta ou indireta, certidão sem previsão expressa em lei. Esses direitos se ligam ao exercício de atividade econômica e aos atos públicos de liberação, como licenças, alvarás, cadastros e registros.",
+    "como_usar": "Em processos de credenciamento, cadastro de fornecedores ou licenciamento, revise a lista de certidões pedidas e verifique, uma a uma, qual lei as exige. As que não tiverem previsão legal expressa podem ser retiradas. Exemplo: um órgão que pedia \"certidão negativa de protesto\" no cadastro de prestadores de serviço sem base legal para isso pode eliminar a exigência, citando o art. 3º, XII.",
+    "limite": "Protege o particular no exercício de atividade econômica; não rege a relação funcional do servidor nem o direito tributário e financeiro (art. 1º, § 3º). Nos estados e municípios, os arts. 1º a 4º valem como norma geral para os atos públicos de liberação (art. 1º, § 4º).",
+    "link": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/lei/l13874.htm",
+    "conferido": true
+  },
+  {
+    "norma": "Lei Complementar 182/2021 — Marco Legal das Startups (CPSI)",
+    "dispositivo": "Art. 12, § 1º; art. 13, § 1º; arts. 14 e 15",
+    "o_que_diz": "Órgãos e entidades de qualquer esfera podem abrir licitação especial para testar soluções inovadoras. O edital pode se limitar a descrever o problema e os resultados esperados, sem especificar a solução técnica. Os selecionados firmam o Contrato Público para Solução Inovadora (CPSI), de até 12 meses, prorrogável por mais 12. Se o teste der certo, a Administração pode contratar o fornecimento com a mesma empresa sem nova licitação.",
+    "como_usar": "Quando ninguém sabe exatamente qual tecnologia resolve um problema, não é preciso inventar especificações. Exemplo: um instituto de perícia com fila de exames pode publicar edital descrevendo o problema, como reduzir o tempo de triagem de requisições, e deixar as empresas proporem soluções. A comissão avalia potencial de resolução, maturidade e custo-benefício, e só depois verifica a habilitação dos selecionados.",
+    "limite": "Serve para teste de soluções inovadoras, não para compras comuns; há limites legais de prazo e valor, e a comissão julgadora tem composição mínima obrigatória (art. 13, § 3º). Empresas estatais só adotam o regime no que couber, por regulamento interno.",
+    "link": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp182.htm",
+    "conferido": true
+  },
+  {
+    "norma": "Lei 13.709/2018 — LGPD (Lei Geral de Proteção de Dados Pessoais)",
+    "dispositivo": "Art. 7º, III, e art. 23, caput, I e III",
+    "o_que_diz": "A administração pública pode tratar e compartilhar dados pessoais necessários à execução de políticas públicas previstas em leis e regulamentos, ou respaldadas em contratos e convênios, sem depender de consentimento do titular. Esse tratamento deve atender à finalidade pública e às competências legais do órgão, que deve informar com clareza, preferencialmente no seu site, quando e para que trata dados, e indicar um encarregado.",
+    "como_usar": "A LGPD não é motivo para pedir de novo ao cidadão um dado que outro órgão já tem, nem para exigir \"termo de consentimento\" em todo atendimento. Se o compartilhamento atende a uma política pública prevista em norma, ele tem base legal própria. Exemplo: o setor que concede um auxílio previsto em lei pode confirmar a renda declarada em base oficial conveniada, com finalidade definida e acesso restrito, sem exigir autorização escrita do requerente.",
+    "limite": "O tratamento deve se limitar ao necessário para a finalidade pública, com segurança e transparência. Tratamento feito exclusivamente para segurança pública ou investigação e repressão de infrações penais está fora da LGPD (art. 4º, III), o que não dispensa sigilo e cuidado com os dados.",
+    "link": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm",
+    "conferido": true
+  },
+  {
+    "norma": "Lei 12.527/2011 — Lei de Acesso à Informação",
+    "dispositivo": "Art. 10, caput e §§ 1º a 3º",
+    "o_que_diz": "Qualquer interessado pode pedir acesso a informações por qualquer meio legítimo, bastando identificar-se e especificar a informação desejada. A identificação não pode trazer exigências que inviabilizem o pedido, os órgãos devem oferecer a opção de pedido pela internet e é proibido exigir que a pessoa explique os motivos da solicitação de informações de interesse público.",
+    "como_usar": "Ao receber um pedido de acesso, não condicione o atendimento a formulário específico, firma reconhecida, comprovante de residência ou justificativa do porquê a pessoa quer saber. Exemplo: um cidadão pede, por e-mail, a quantidade de atendimentos realizados por uma unidade no último ano. O pedido deve ser processado normalmente, sem que se pergunte para que ele quer o número.",
+    "limite": "Vale para órgãos e entidades de todas as esferas. A identificação do requerente continua necessária, e informações sigilosas ou pessoais seguem as restrições da própria lei; a proibição de exigir motivo vale para informação de interesse público.",
+    "link": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm",
+    "conferido": true
+  }
+]

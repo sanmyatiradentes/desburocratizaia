@@ -18,6 +18,7 @@
 <meta property="og:image" content="https://www.desburocratizaia.com.br/assets/simbolo-512.png">
 <meta property="og:locale" content="pt_BR">
 <meta name="twitter:card" content="summary">
+<link rel="stylesheet" href="/css/hoje.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600;1,700&family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -604,6 +605,8 @@ footer a:hover{text-decoration:underline}
   </a>
   <div class="nav-right">
     <div class="nav-links" id="nav-links">
+      <a href="#hoje">Hoje</a>
+      <a href="#trilhas">Trilhas</a>
       <a href="#diagnostico">O Problema</a>
       <a href="#modos">O que faz</a>
       <a href="#base-legal">Base Legal</a>
@@ -656,6 +659,50 @@ footer a:hover{text-decoration:underline}
         </div>
       </div>
     </div>
+  </div>
+</section>
+
+<!-- HOJE: leitura do dia, ferramenta do dia e lei a seu favor (js/hoje.js) -->
+<section id="hoje">
+  <div class="container">
+    <div class="hj-topo">
+      <div>
+        <div class="section-label">Leitura do dia</div>
+        <h2 class="section-title">Cinco minutos para <em>simplificar</em> hoje</h2>
+        <p class="section-sub">Lean, processos, kaizen, SMED, inovação e a lei que já está do seu lado — um pouco por dia, sempre com uma ação que cabe no expediente.</p>
+      </div>
+      <div class="hj-nav">
+        <button class="hj-seta" id="hoje-ant" aria-label="Dia anterior">‹</button>
+        <div class="hj-dia">
+          <span id="hoje-rotulo">Hoje</span>
+          <span id="hoje-data"></span>
+          <button id="hoje-voltar-hoje" style="visibility:hidden">voltar para hoje</button>
+        </div>
+        <button class="hj-seta" id="hoje-prox" aria-label="Próximo dia">›</button>
+      </div>
+    </div>
+    <div class="hj-extra" style="margin-bottom:1.25rem">
+      <button class="hj-btn" id="hj-ouvir-dia">Ouvir o dia</button>
+      <span id="hoje-seq"></span>
+    </div>
+    <div class="hj-grade">
+      <article class="hj-card principal" id="card-leitura"></article>
+      <div class="hj-lado">
+        <article class="hj-card" id="card-ferramenta"></article>
+        <article class="hj-card" id="card-lei"></article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TRILHAS DE 21 DIAS -->
+<section class="dark" id="trilhas">
+  <div class="container">
+    <div class="section-label">Trilhas de 21 dias</div>
+    <h2 class="section-title">Um passo por dia, <em>mudança</em> que fica</h2>
+    <p class="section-sub">Escolha uma trilha e faça um pequeno passo por dia. O seu progresso fica guardado só neste aparelho — sem cadastro.</p>
+    <div class="tr-lista" id="tr-lista"></div>
+    <div class="tr-detalhe" id="tr-detalhe"></div>
   </div>
 </section>
 
@@ -1488,5 +1535,7 @@ document.querySelectorAll('[data-drawer]').forEach(btn => btn.addEventListener('
 
 if(consentiu) verificarGemini();
 </script>
+<script src="/conteudo/diario.js" defer></script>
+<script src="/js/hoje.js" defer></script>
 </body>
 </html>

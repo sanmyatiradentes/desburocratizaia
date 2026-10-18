@@ -1,0 +1,191 @@
+[
+ {
+  "tema": "Antes de mudar, conte o que chega",
+  "eixo": "Gestão de processos",
+  "fonte": "John Seddon — Freedom from Command and Control",
+  "ideia": "John Seddon insiste que a primeira tarefa de quem quer melhorar um serviço não é desenhar o processo novo, e sim estudar a demanda. Ele propõe um ciclo que começa pelo checar, antes do planejar e do fazer: olhar o sistema como ele funciona hoje, do ponto de vista de quem o procura. Imagine a ouvidoria de uma prefeitura de porte médio que decide criar um formulário eletrônico porque as ligações não param. Se alguém passasse uma semana anotando o que cada pessoa pede, com as palavras dela, talvez descobrisse que boa parte das chamadas é sobre a mesma coleta de lixo atrasada, e que o formulário só daria outra porta de entrada para a mesma reclamação. Seddon chama atenção para isso: sem conhecer o tipo e a frequência do que chega, a gente resolve o problema que imagina, não o que existe. Contar a demanda parece trabalho miúdo, quase burocrático. Na verdade, é o que separa uma mudança que alivia de uma mudança que só troca a fila de lugar.",
+  "pratica": "Durante um dia, anote numa folha simples cada pedido que chegar ao seu setor, com as palavras de quem pediu. No fim, agrupe os pedidos parecidos e veja quais se repetem.",
+  "pergunta": "Você sabe, de fato, o que as pessoas mais pedem ao seu setor, ou só acha que sabe?",
+  "frase": "Quem conta a demanda para de adivinhar o problema."
+ },
+ {
+  "tema": "O balcão que só passa adiante",
+  "eixo": "Gestão de processos",
+  "fonte": "John Seddon — Systems Thinking in the Public Sector",
+  "ideia": "Em muitos órgãos, a solução para organizar o atendimento foi separar quem recebe de quem resolve. No setor de pessoal de uma secretaria estadual, por exemplo, o servidor que quer revisar um adicional é atendido num balcão que só registra o pedido e manda para a retaguarda, onde outra equipe, que nunca viu o requerente, vai analisar. Na planilha, isso parece economia de escala, com cada um especializado numa parte. John Seddon criticou esse desenho com força. Para ele, quando o primeiro contato não tem conhecimento nem autonomia para resolver, o pedido vira papel em trânsito, cresce a chance de faltar informação, e a pessoa volta ou liga de novo para saber o que houve. Seddon defendia pensar em economia de fluxo, e não de escala: o custo verdadeiro está no caminho inteiro, incluindo retrabalho e esperas, e não no preço de cada etapa isolada. Às vezes, colocar quem sabe resolver mais perto de quem pede sai mais barato do que qualquer central bem organizada.",
+  "pratica": "Escolha um tipo de pedido frequente e veja quantas pessoas tocam nele antes da resposta. Pergunte se o primeiro atendente poderia resolver sozinho com um pouco mais de conhecimento ou autonomia.",
+  "pergunta": "Quem atende primeiro no seu setor consegue resolver, ou só sabe encaminhar?",
+  "frase": "Atender não é receber. Atender é resolver."
+ },
+ {
+  "tema": "Meça o tempo que o cidadão sente",
+  "eixo": "Gestão de processos",
+  "fonte": "John Seddon — Freedom from Command and Control",
+  "ideia": "Pense no setor de licenciamento de obras de uma prefeitura que se orgulha de analisar projetos em dez dias. O número é verdadeiro, só que o relógio começa quando o processo chega à mesa do analista e para quando ele assina o parecer. Antes disso, o requerente esperou a conferência de documentos, e depois esperou a emissão da taxa e do alvará. Para quem pediu, foram meses. John Seddon propõe medir o serviço de ponta a ponta, do momento em que a pessoa pede até o momento em que ela tem o que precisava, e olhar não só a média, mas a variação entre o caso mais rápido e o mais lento. Ele trata isso como medir a capacidade do sistema de cumprir seu propósito, do ponto de vista de quem é atendido. Medidas fatiadas por setor costumam deixar cada parte satisfeita enquanto o todo vai mal. Quando a medida acompanha a experiência do cidadão, os pontos de espera aparecem sozinhos, e a conversa sobre melhoria muda de tom.",
+  "pratica": "Pegue cinco processos já concluídos e calcule, para cada um, quantos dias se passaram entre o pedido inicial e a entrega final. Compare o mais rápido com o mais lento.",
+  "pergunta": "O prazo que o seu setor comemora é o mesmo prazo que o cidadão viveu?",
+  "frase": "O relógio que importa é o de quem está esperando."
+ },
+ {
+  "tema": "Mais capacidade sem mais gente",
+  "eixo": "Gestão de processos",
+  "fonte": "Ken Miller — Extreme Government Makeover",
+  "ideia": "Num órgão ambiental estadual, a fila de licenças cresce todo ano, e a resposta de sempre é pedir concurso, mais analistas, mais orçamento. Às vezes isso é mesmo necessário. Ken Miller, que trabalhou com melhoria em governos nos Estados Unidos, propõe olhar antes para outra coisa: a capacidade escondida dentro do próprio trabalho. Em Extreme Government Makeover, ele argumenta que boa parte do tempo das equipes vai para esperar, refazer, corrigir pedidos incompletos e repassar processos de um lado para outro. Quando se melhora o sistema, essa energia volta para o que interessa, e a mesma equipe passa a entregar mais e melhor sem trabalhar mais horas. Miller faz questão de separar isso de corte: o objetivo não é dispensar quem ficou com tempo livre, é usar essa folga para atender quem está na fila ou fazer o que nunca sobrava tempo para fazer. Vista assim, a melhoria de processo deixa de ser ameaça e vira a forma mais honesta de fazer mais bem com o que já se tem.",
+  "pratica": "Observe uma hora de trabalho do seu dia e anote quanto dela foi gasto corrigindo, procurando, esperando ou explicando de novo. Esse pedaço é capacidade que pode voltar.",
+  "pergunta": "Se o retrabalho sumisse amanhã, o que a sua equipe finalmente teria tempo de fazer?",
+  "frase": "Antes de pedir mais braços, solte os que estão presos."
+ },
+ {
+  "tema": "O que acontece entre as caixinhas",
+  "eixo": "Gestão de processos",
+  "fonte": "Geary Rummler e Alan Brache — Melhores Desempenhos das Empresas",
+  "ideia": "Abra o organograma de qualquer secretaria e você verá caixas bem desenhadas: almoxarifado, compras, financeiro, jurídico. Agora acompanhe um pedido de material de limpeza para uma escola. Ele sai do almoxarifado com estoque zerado, vai para compras, que devolve pedindo especificação, segue para o jurídico, volta para compras, passa no financeiro para empenho e só então vira contrato. Os atrasos quase nunca estão dentro das caixas, onde cada um faz bem a sua parte. Estão nas passagens de uma caixa para outra. Geary Rummler e Alan Brache chamaram esse lugar de espaço em branco do organograma, a área que nenhum chefe enxerga como sua e onde ninguém responde pelo resultado completo. Eles defendiam que o desempenho de uma organização depende de gerenciar esses processos que atravessam os setores, e não só cada setor em separado. O organograma mostra quem manda em quem. Ele não mostra como o trabalho anda, e é justamente por esse caminho invisível que o cidadão espera.",
+  "pratica": "Desenhe à mão o caminho de um processo que passa pelo seu setor, marcando cada vez que ele muda de caixa. Em cada passagem, pergunte quem cuida para que ela funcione.",
+  "pergunta": "Quem, no seu órgão, responde pelo caminho inteiro de um pedido, e não só por um pedaço dele?",
+  "frase": "O atraso mora no corredor, não na sala."
+ },
+ {
+  "tema": "Três lugares onde o desempenho trava",
+  "eixo": "Gestão de processos",
+  "fonte": "Geary Rummler e Alan Brache — Melhores Desempenhos das Empresas",
+  "ideia": "Num hospital estadual, as cirurgias eletivas atrasam e a primeira reação é cobrar a equipe do centro cirúrgico. Geary Rummler e Alan Brache sugeriam olhar o desempenho em três níveis antes de apontar culpados. O primeiro é o da organização: os objetivos estão claros e as áreas sabem como se encaixam? O segundo é o do processo: o caminho do paciente, da indicação à cirurgia, está bem desenhado, com exames, avaliação e agendamento conversando entre si? O terceiro é o do trabalho de cada pessoa: quem executa sabe o que se espera, tem condições, informação e retorno sobre o que faz? Para eles, um problema num nível costuma aparecer como sintoma em outro. Uma equipe dedicada não consegue compensar um processo mal desenhado, e um processo bonito no papel não funciona se as pessoas não têm o que precisam. Pensar nos três níveis evita duas injustiças comuns: culpar o servidor pelo que é falha do desenho e redesenhar processos quando o que falta é clareza de rumo.",
+  "pratica": "Escolha um problema recorrente do seu setor e pergunte em qual dos três níveis ele nasce: rumo da organização, desenho do processo ou condições de quem executa.",
+  "pergunta": "O problema que você está tentando resolver é das pessoas, do processo ou do rumo?",
+  "frase": "Antes de cobrar alguém, descubra onde o problema mora."
+ },
+ {
+  "tema": "Todo processo precisa de um dono",
+  "eixo": "Gestão de processos",
+  "fonte": "Michael Hammer — A Agenda",
+  "ideia": "Pergunte numa repartição quem é responsável pelo pagamento de diárias e você ouvirá vários nomes: quem recebe o pedido, quem confere, quem autoriza, quem paga, quem cobra a prestação de contas. Cada um responde pela sua etapa. Ninguém responde pelo servidor que viajou e ficou dois meses esperando o dinheiro. Michael Hammer, em A Agenda, defendeu que cada processo importante tenha um dono, alguém com a missão de cuidar do caminho inteiro, do começo ao fim. Esse dono não precisa mandar em todos os setores envolvidos nem fazer o trabalho de todos. O papel dele é conhecer o desenho do processo, acompanhar como ele está indo, puxar a conversa quando algo trava entre um setor e outro e propor mudanças com base no resultado de ponta a ponta. Sem esse papel, cada chefe melhora o seu trecho e o todo continua igual. Com ele, passa a existir alguém que acorda pensando no resultado final, e não só na sua parte do serviço.",
+  "pratica": "Escolha um processo que atravessa vários setores e pergunte, na próxima reunião, quem acompanha o resultado completo dele. Se ninguém responder, proponha que alguém assuma esse papel.",
+  "pergunta": "Se o processo mais importante do seu setor travar amanhã, quem vai perceber primeiro?",
+  "frase": "Processo sem dono é processo de ninguém."
+ },
+ {
+  "tema": "Seja fácil de ser procurado",
+  "eixo": "Gestão de processos",
+  "fonte": "Michael Hammer — A Agenda",
+  "ideia": "Uma senhora vai ao posto do Detran para transferir um veículo herdado. Descobre que precisa de um documento de outro órgão, depois de uma vistoria em outro endereço, depois de uma taxa paga num terceiro lugar. Cada exigência pode ter razão de existir, mas o conjunto transforma um pedido simples numa peregrinação. Michael Hammer, em A Agenda, colocou como primeiro princípio para qualquer organização ser fácil de fazer negócio com ela. Para ele, quem procura um serviço não quer saber como a organização se divide por dentro, e não deveria ter que montar sozinho as peças que ela deixou soltas. O trabalho de juntar informações, conferir, consultar outros setores e acompanhar o andamento deveria ficar do lado de dentro, com quem conhece o caminho. No serviço público, isso tem um peso a mais, porque muitas vezes o cidadão não tem outra porta para bater. Ser fácil de ser procurado não é luxo nem gentileza extra. É uma forma concreta de respeito por quem precisa do serviço.",
+  "pratica": "Faça de conta que você é o cidadão e percorra, no papel, tudo que ele precisa fazer para obter um serviço do seu setor. Marque cada passo que o órgão poderia fazer por ele.",
+  "pergunta": "Quanto da complexidade do seu órgão hoje está nas costas de quem é atendido?",
+  "frase": "A bagunça de dentro não deveria virar fila do lado de fora."
+ },
+ {
+  "tema": "Poucas causas, muito atraso",
+  "eixo": "Gestão de processos",
+  "fonte": "Joseph Juran — Juran na Liderança pela Qualidade (princípio de Pareto)",
+  "ideia": "No setor de convênios de uma secretaria estadual, quase todo processo volta da análise com alguma diligência. A equipe sente que os problemas são infinitos e que cada caso tem um defeito diferente. Joseph Juran propôs um jeito de sair dessa sensação de afogamento. Ele observou que, na maior parte das situações, poucas causas respondem pela maior parte dos problemas, e chamou isso de princípio de Pareto, separando os poucos vitais dos muitos triviais, que mais tarde preferiu chamar de muitos úteis. Se alguém contasse os motivos das diligências de alguns meses, talvez visse que três ou quatro deles, como plano de trabalho incompleto ou certidão vencida, aparecem muito mais que todos os outros juntos. Juran não dizia que os demais problemas não importam. Dizia que o esforço de melhoria rende mais quando começa pelo pouco que pesa muito, e que é preciso contar antes de escolher, porque a impressão do dia a dia costuma enganar sobre o que é frequente e o que é só marcante.",
+  "pratica": "Separe os últimos vinte processos devolvidos ou com retrabalho no seu setor e anote o motivo de cada um. Ordene os motivos do mais frequente ao menos frequente e veja quantos explicam a maioria dos casos.",
+  "pergunta": "O problema que mais incomoda o seu setor é também o que mais acontece?",
+  "frase": "Conte primeiro. A urgência escolhe pior que os números."
+ },
+ {
+  "tema": "A corda que segura a entrada",
+  "eixo": "Gestão de processos",
+  "fonte": "Eliyahu Goldratt — A Meta (tambor-pulmão-corda)",
+  "ideia": "Numa vara judicial, toda manhã chegam processos novos e a assessoria começa a trabalhar em todos que pode, porque ninguém gosta de ver gente parada. Em pouco tempo há dezenas de minutas iniciadas, poucas terminadas e uma dúvida constante sobre qual delas é a mais urgente. Eliyahu Goldratt propôs um mecanismo para esse tipo de situação, conhecido como tambor, pulmão e corda, e a parte que costuma ser esquecida é justamente a corda. Ela é o combinado que amarra a entrada de trabalho no começo do fluxo ao que o ponto mais apertado consegue absorver. Só se libera um trabalho novo quando outro sai lá na frente. Em A Meta, ele ilustra isso com uma tropa de escoteiros em que a corda imaginária impede os mais rápidos de se distanciarem do grupo. Para quem está no início do fluxo, a lição é estranha: estar livre não é motivo suficiente para começar algo. Às vezes, o melhor uso do tempo é ajudar a terminar o que já está aberto, ou preparar o que vem depois.",
+  "pratica": "Combine com a equipe um número máximo de casos iniciados ao mesmo tempo no seu setor. Quando esse número for atingido, só comece um novo quando outro sair.",
+  "pergunta": "No seu setor, o trabalho começa porque alguém está livre ou porque o fluxo tem espaço para ele?",
+  "frase": "Começar não é andar. Terminar é."
+ },
+ {
+  "tema": "Achou o gargalo? Procure o próximo",
+  "eixo": "Gestão de processos",
+  "fonte": "Eliyahu Goldratt — A Meta (os cinco passos de focalização)",
+  "ideia": "A regulação de exames de uma secretaria municipal de saúde vivia travada na marcação de ultrassons. Depois de muito esforço, conseguiram mais horários e a fila de ultrassom caiu. Meses depois, a reclamação voltou, só que agora sobre a demora para o paciente retornar ao médico com o resultado. Eliyahu Goldratt previa exatamente isso. Ele propôs cinco passos para lidar com restrições: identificar o gargalo, tirar dele o máximo possível, ajustar todo o resto ao ritmo dele, ampliar sua capacidade quando o resto não bastar e, então, voltar ao começo, porque o gargalo terá mudado de lugar. Ele alertava ainda para um risco: não deixar que a inércia se torne a nova restrição, ou seja, continuar cuidando da etapa antiga por costume, quando o problema já está em outra. Melhorar processos, nesse jeito de ver, não é uma obra que se inaugura e termina. É um ciclo de atenção que sempre recomeça no ponto que, agora, segura o fluxo.",
+  "pratica": "Volte a uma melhoria que seu setor já fez e veja onde o trabalho passou a se acumular depois dela. Esse pode ser o próximo ponto a cuidar.",
+  "pergunta": "A etapa que você ainda vigia é a que hoje segura o fluxo, ou a que segurava antes?",
+  "frase": "Resolver um gargalo é ganhar o direito de encontrar o próximo."
+ },
+ {
+  "tema": "Uma pessoa cuidando do caso inteiro",
+  "eixo": "Gestão de processos",
+  "fonte": "Michael Hammer e James Champy — Reengenharia: Revolucionando a Empresa",
+  "ideia": "Na secretaria de fazenda de um município, um pedido de isenção de IPTU passa pelo protocolo, pelo cadastro imobiliário, pela fiscalização, pelo jurídico e de novo pelo cadastro. Cada setor confere um pedaço, e cada passagem acrescenta dias de espera e chances de algo se perder. Michael Hammer e James Champy, em Reengenharia, descreveram uma alternativa que viram dar resultado em várias organizações: em vez de fatiar o caso entre especialistas, entregá-lo a uma pessoa ou a uma pequena equipe responsável por ele do começo ao fim, apoiada por bons sistemas de informação e por especialistas para consultar quando surgir algo difícil. Eles chamaram esse papel de responsável pelo caso. A ideia não é que uma pessoa saiba tudo, mas que alguém conduza o pedido sem ficar empurrando de mesa em mesa, e que o cidadão saiba com quem falar. Os casos realmente complexos continuam indo para quem entende do assunto. Os comuns, que costumam ser a maioria, deixam de dar a volta pelo prédio inteiro.",
+  "pratica": "Escolha um tipo de pedido simples e frequente do seu setor e conte quantas mãos ele passa. Pense em quais passagens desapareceriam se uma única pessoa pudesse conduzi-lo até o fim.",
+  "pergunta": "Os pedidos mais comuns do seu setor precisam mesmo de tantas mãos?",
+  "frase": "Caso simples merece caminho curto."
+ },
+ {
+  "tema": "Mexer demais também estraga",
+  "eixo": "Gestão de processos",
+  "fonte": "W. Edwards Deming — The New Economics for Industry, Government, Education (experimento do funil)",
+  "ideia": "Na coordenação de uma unidade de pronto atendimento, a escala de enfermagem é refeita toda semana conforme o movimento da semana anterior. Se houve muito atendimento, aumenta-se o pessoal; se houve pouco, reduz-se. A intenção é boa, mas a escala vive bagunçada e nunca parece certa. W. Edwards Deming mostrava esse efeito com um exercício simples, conhecido como experimento do funil. Uma bolinha é solta por um funil sobre um alvo e cai um pouco fora do centro, por pura variação. Se, a cada queda, alguém move o funil para compensar o último desvio, o resultado fica pior, com as bolinhas mais espalhadas do que se o funil tivesse ficado parado. Deming via nisso o perigo de mexer no sistema sem entender a variação, um ajuste que parece zelo e, na prática, aumenta a instabilidade. Quando a variação é de causa comum, reagir a cada resultado isolado só amplia o problema. O caminho é estudar o sistema e mudar o que gera a variação, com calma e com dados de vários períodos.",
+  "pratica": "Lembre de uma regra, escala ou meta que seu setor ajusta com frequência. Antes do próximo ajuste, olhe os dados de vários meses e veja se a mudança responde a um padrão ou a um único resultado.",
+  "pergunta": "Você está corrigindo o sistema ou só reagindo ao último número?",
+  "frase": "Às vezes, a melhor intervenção é parar de mexer e olhar."
+ },
+ {
+  "tema": "Fazer bem o que nem precisava existir",
+  "eixo": "Gestão de processos",
+  "fonte": "Peter Drucker — O Gestor Eficaz",
+  "ideia": "No setor de patrimônio de uma universidade, a equipe ficou craque em conferir à mão, item por item, a lista de bens que o próprio sistema já confere quando registra a entrada. Faz isso rápido, sem erro, com um checklist caprichado. Ninguém, porém, perguntou se aquela conferência ainda tem razão de ser. Peter Drucker fazia uma distinção que ajuda nessa hora: eficiência é fazer as coisas do jeito certo, eficácia é fazer as coisas certas. Para ele, o trabalho de quem lida com conhecimento se mede sobretudo pela eficácia, porque não há ganho em fazer de forma impecável algo que não deveria estar sendo feito. Em O Gestor Eficaz, Drucker insiste que a pergunta sobre a contribuição vem antes da pergunta sobre o método: o que este trabalho entrega, e para quem? Melhorar processos sem essa pergunta é arriscado, porque se aperfeiçoa o que poderia simplesmente deixar de existir. A eficiência continua importante, só que vem depois. Primeiro se escolhe o que vale a pena fazer, depois se aprende a fazer bem.",
+  "pratica": "Escolha a tarefa que você faz com mais capricho e pergunte o que ela entrega, e para quem. Se não houver resposta clara, converse com sua chefia sobre a necessidade dela.",
+  "pergunta": "Quanto do seu esforço de hoje vai para fazer melhor algo que talvez nem precisasse ser feito?",
+  "frase": "Rapidez no caminho errado só leva mais depressa ao lugar errado."
+ },
+ {
+  "tema": "Se não fizéssemos, começaríamos hoje?",
+  "eixo": "Gestão de processos",
+  "fonte": "Peter Drucker — Desafios Gerenciais para o Século XXI",
+  "ideia": "Toda organização acumula rotinas como uma casa acumula objetos na garagem. Numa secretaria municipal de educação, ainda se preenche um mapa mensal de frequência em papel criado quando não havia sistema, além do registro que hoje já é feito no sistema. Ninguém lembra exatamente por que o mapa continua. Peter Drucker propunha o abandono sistemático: de tempos em tempos, colocar cada atividade, serviço ou rotina diante de uma pergunta direta, se não estivéssemos fazendo isso hoje, começaríamos agora, sabendo o que sabemos? Quando a resposta é não, o passo seguinte não é mais um estudo, é planejar como parar. Drucker via nisso uma condição para inovar, porque recursos presos ao passado não ficam livres para o que é novo. No serviço público, parar exige cuidado, já que algumas rotinas têm base legal ou atendem alguém que não aparece à primeira vista. Mas a pergunta continua valendo, e fazê-la com regularidade evita que o setor carregue para sempre o peso de decisões antigas.",
+  "pratica": "Liste três rotinas do seu setor e faça para cada uma a pergunta de Drucker. Para a que receber o não mais claro, descubra quem precisaria concordar para ela parar.",
+  "pergunta": "Qual tarefa do seu setor ninguém criaria hoje, mas todos continuam fazendo?",
+  "frase": "Parar também é melhorar."
+ },
+ {
+  "tema": "Conheça o processo como ele é",
+  "eixo": "Gestão de processos",
+  "fonte": "ABPMP — BPM CBOK, Guia para o Gerenciamento de Processos de Negócio",
+  "ideia": "Na pró-reitoria de uma universidade federal, a emissão de diplomas atrasa e alguém sugere redesenhar o fluxo inteiro numa oficina de uma tarde. Em pouco tempo surge um desenho elegante, que ignora que boa parte dos diplomas trava por pendências na biblioteca e no histórico, coisas que só quem opera o dia a dia conhece. O BPM CBOK, guia organizado pela associação internacional de profissionais de processos, a ABPMP, trata o gerenciamento de processos como um ciclo contínuo, que passa por planejar, analisar o processo atual, desenhar o processo futuro, implantar, monitorar e refinar. A etapa de análise existe justamente para entender o que acontece de verdade, com suas exceções, gargalos e improvisos, e não o que está escrito no manual. O guia também lembra que o desenho futuro precisa ser acompanhado depois de implantado, porque nenhum processo fica bom de uma vez por todas. Pular a análise economiza uma tarde e costuma custar meses de ajustes, retrabalho e desconfiança da equipe com a próxima mudança.",
+  "pratica": "Antes de propor qualquer mudança num processo, sente com quem o executa e peça que conte um caso recente que deu errado, do começo ao fim. Anote o que não aparece no fluxo oficial.",
+  "pergunta": "O fluxo que você conhece é o que está no papel ou o que acontece na mesa de quem faz?",
+  "frase": "Desenho bonito em cima de diagnóstico ruim é só um desenho."
+ },
+ {
+  "tema": "Quem entrega, quem recebe",
+  "eixo": "Gestão de processos",
+  "fonte": "Mapeamento SIPOC — Gestão da Qualidade e Seis Sigma",
+  "ideia": "A merenda de uma rede municipal chega às escolas com frequência faltando itens. A nutricionista culpa o fornecedor, o fornecedor culpa o pedido, a escola culpa a secretaria. Uma ferramenta simples, usada há décadas na gestão da qualidade e popularizada pelo Seis Sigma, ajuda a colocar todo mundo na mesma página antes de qualquer briga. Chama-se SIPOC, das iniciais em inglês de fornecedores, entradas, processo, saídas e clientes. Numa folha só, a equipe descreve o processo em poucos passos e anota quem fornece o quê, o que precisa entrar para o trabalho começar, o que sai no final e quem recebe esse resultado. No caso da merenda, apareceriam o cardápio, a previsão de alunos por escola, o contrato, o pedido semanal, a entrega e a cozinheira que recebe os gêneros. Só de escrever, fica visível onde uma entrada chega incompleta ou atrasada. O SIPOC não resolve o problema sozinho, mas mostra o tamanho do processo e quem precisa estar na conversa.",
+  "pratica": "Faça um SIPOC de um processo do seu setor numa folha de papel, com cinco colunas e no máximo sete passos no meio. Confira com um colega se faltou algum fornecedor ou cliente.",
+  "pergunta": "Você sabe quem recebe o que o seu setor entrega, e o que essa pessoa precisa de verdade?",
+  "frase": "Antes de mudar o processo, descubra quem está nas pontas dele."
+ },
+ {
+  "tema": "Quando o padrão está no especialista",
+  "eixo": "Gestão de processos",
+  "fonte": "Henry Mintzberg — Criando Organizações Eficazes",
+  "ideia": "Num instituto médico-legal, o trabalho essencial é feito por profissionais de formação longa, que examinam, interpretam e assinam sob sua responsabilidade técnica. Tentar controlar esse trabalho com ordens detalhadas da chefia ou com formulários que engessam cada decisão costuma dar errado. Henry Mintzberg ajuda a entender por quê. Ao estudar como as organizações coordenam o trabalho, ele descreveu configurações diferentes e chamou de burocracia profissional aquela em que a coordenação vem principalmente da padronização das habilidades, aprendidas na formação e na prática, e não da supervisão direta nem de regras sobre cada passo. Hospitais, universidades e órgãos periciais têm muito disso. Mintzberg também apontou as fraquezas desse arranjo: cada profissional tende a enxergar só o seu caso, a coordenação entre especialidades é difícil e mudanças impostas de cima encontram resistência. Melhorar processos nesses lugares pede respeitar a autonomia técnica e, ao mesmo tempo, cuidar do que fica entre os especialistas, como o fluxo de amostras, as agendas e a comunicação.",
+  "pratica": "Separe, num processo do seu setor, o que depende do julgamento técnico de quem executa e o que é só circulação, agenda e papel. Concentre a melhoria na segunda parte.",
+  "pergunta": "Você está tentando padronizar o julgamento do especialista ou o caminho em volta dele?",
+  "frase": "Respeite o saber técnico e organize o caminho até ele."
+ },
+ {
+  "tema": "Melhorar aos poucos ou reinventar",
+  "eixo": "Gestão de processos",
+  "fonte": "Thomas Davenport — Process Innovation (Reengenharia de Processos)",
+  "ideia": "Na sala do empreendedor de uma prefeitura pequena, abrir um negócio exige ir a vários balcões, e a equipe passa anos aparando arestas: um formulário mais claro aqui, um prazo menor ali. Tudo ajuda, mas o caminho continua o mesmo. Thomas Davenport, em Process Innovation, propôs separar duas coisas. A melhoria de processos trabalha dentro do desenho atual, em passos menores e contínuos. A inovação de processos repensa o desenho desde o começo, com metas ambiciosas, e costuma se apoiar na tecnologia da informação e numa nova forma de organizar o trabalho. Davenport não tratava uma como inimiga da outra. Via as duas como ferramentas para momentos diferentes, e alertava que a inovação pede escolher poucos processos realmente importantes, ter uma visão clara de onde se quer chegar e cuidar das pessoas que vão viver a mudança. Saber qual das duas a situação pede evita tanto passar a vida remendando um caminho que não tem mais conserto quanto derrubar tudo quando um ajuste bastaria.",
+  "pratica": "Pense num processo do seu setor que já recebeu muitos ajustes pequenos. Pergunte se ele ainda precisa de remendos ou se chegou a hora de redesenhar o caminho inteiro.",
+  "pergunta": "O processo que você vive ajustando ainda tem conserto ou pede um desenho novo?",
+  "frase": "Tem hora de lixar a madeira e tem hora de trocar a porta."
+ },
+ {
+  "tema": "Só variedade absorve variedade",
+  "eixo": "Gestão de processos",
+  "fonte": "W. Ross Ashby — Introdução à Cibernética (lei da variedade requisita), aplicada por John Seddon",
+  "ideia": "No centro de referência de assistência social de um bairro, cada família chega com uma história diferente: um benefício bloqueado, uma criança fora da escola, um aluguel atrasado, tudo ao mesmo tempo. Se o atendimento só souber seguir um roteiro fixo, a família sai com um encaminhamento para cada problema e volta semanas depois sem nada resolvido. W. Ross Ashby, um dos pioneiros da cibernética, formulou a lei da variedade requisita, que diz, em resumo, que um sistema só consegue lidar com a variedade do ambiente se tiver variedade suficiente de respostas. John Seddon levou essa ideia para o serviço público. Para ele, a demanda das pessoas é variada por natureza, e tentar padronizá-la à força costuma gerar retrabalho e demanda repetida. O melhor lugar para absorver essa variedade é a linha de frente, com servidores que conhecem o serviço, têm autonomia para decidir e sabem a quem recorrer. Padronizar continua útil, mas para o que é de fato repetido, não para o que muda a cada pessoa que entra pela porta.",
+  "pratica": "Liste os pedidos que o seu setor costuma encaminhar a outro lugar por não caberem no roteiro. Veja quais poderiam ser resolvidos ali mesmo com um pouco mais de autonomia ou conhecimento.",
+  "pergunta": "O roteiro do seu atendimento foi feito para as pessoas reais ou para uma pessoa média que nunca aparece?",
+  "frase": "Gente diferente pede atendimento capaz de se adaptar."
+ },
+ {
+  "tema": "Controle o resultado, cuide da causa",
+  "eixo": "Gestão de processos",
+  "fonte": "Vicente Falconi — Gerenciamento da Rotina do Trabalho do Dia a Dia",
+  "ideia": "Na farmácia central de um município, o resultado que interessa ao cidadão é simples: o remédio estar lá quando ele chega com a receita. Vicente Falconi, que ajudou a difundir a gestão da qualidade no Brasil, propõe que cada pessoa com responsabilidade sobre um processo saiba distinguir dois tipos de acompanhamento. Os itens de controle medem o resultado do processo, como a quantidade de medicamentos em falta no mês. Os itens de verificação acompanham as causas que mais influenciam esse resultado, como o pedido enviado no prazo, o estoque mínimo atualizado e a conferência das entregas. Em Gerenciamento da Rotina do Trabalho do Dia a Dia, Falconi defende que a rotina bem cuidada começa por padronizar o que funciona, acompanhar esses itens e agir rápido quando algo sai do esperado, tratando a anomalia na sua causa. Só olhar o resultado é descobrir o problema tarde demais. Só olhar as causas é perder de vista para que serve o trabalho. A rotina boa olha as duas coisas, todo dia.",
+  "pratica": "Escolha um resultado que importa no seu setor e escreva ao lado duas ou três causas que mais influenciam esse resultado. Combine com a equipe quem acompanha cada uma.",
+  "pergunta": "No seu setor, vocês acompanham só o resultado ou também o que leva até ele?",
+  "frase": "Resultado se cobra, causa se cuida."
+ }
+]

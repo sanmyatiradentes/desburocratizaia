@@ -1,0 +1,230 @@
+[
+  {
+    "id": "decidir-sem-medo",
+    "nome": "Decidir sem medo",
+    "subtitulo": "Em 21 dias, você troca a paralisia por decisões bem fundamentadas, que mostram sua boa-fé e o cuidado que teve.",
+    "para_quem": "Para quem trava diante de um processo por medo de ser responsabilizado e quer decidir, ou propor uma decisão, com segurança.",
+    "fontes": "Decreto-Lei 4.657/1942 (LINDB), arts. 20, 22, 28 e 30, incluídos pela Lei 13.655/2018, Decreto 9.830/2019 (art. 12), Lei 8.429/1992 com a redação da Lei 14.230/2021 (art. 1º), Lei 9.784/1999 (art. 50), Lei 13.726/2018 (art. 3º), Amy Edmondson (A Organização sem Medo)",
+    "dias": [
+      {
+        "titulo": "Dê nome ao seu medo",
+        "acao": "Escolha uma decisão que você está adiando. Escreva em duas linhas qual é a decisão e do que exatamente você tem medo.",
+        "por_que": "Medo sem nome paralisa. Quando você escreve, ele vira uma pergunta concreta, e pergunta concreta tem resposta."
+      },
+      {
+        "titulo": "Leia o artigo 28 da LINDB",
+        "acao": "Leia o art. 28 da Lei de Introdução às Normas do Direito Brasileiro (LINDB): “O agente público responderá pessoalmente por suas decisões ou opiniões técnicas em caso de dolo ou erro grosseiro.” Copie a frase num lugar onde você a veja.",
+        "por_que": "Dolo é a intenção de fazer algo errado. A lei deixa claro que a responsabilidade pessoal pela decisão ou opinião técnica está ligada ao dolo ou ao erro grosseiro, e não a qualquer falha."
+      },
+      {
+        "titulo": "Entenda o que é erro grosseiro",
+        "acao": "Leia o art. 12, § 1º, do Decreto federal 9.830/2019, que regulamenta a LINDB. Depois explique com suas palavras, numa frase, o que é erro grosseiro.",
+        "por_que": "O decreto define erro grosseiro como o erro “manifesto, evidente e inescusável”, com culpa grave e elevado grau de negligência, imprudência ou imperícia. Ou seja, é o descuido evidente, e não a dúvida honesta."
+      },
+      {
+        "titulo": "Separe erro honesto de grosseiro",
+        "acao": "Pense na decisão do Dia 1. Anote o que seria um erro honesto nela (escolher entre caminhos razoáveis) e o que seria descuido evidente (ignorar um fato óbvio, não ler a norma, não ouvir quem devia ser ouvido).",
+        "por_que": "Ver a diferença no seu próprio caso mostra onde mora o risco de verdade. Quase sempre ele está no descuido, que você consegue evitar."
+      },
+      {
+        "titulo": "Anote as dificuldades reais",
+        "acao": "Leia o art. 22 da LINDB. Liste as limitações reais do seu caso: prazo, falta de pessoal, sistema fora do ar, informação que não chegou.",
+        "por_que": "O art. 22 manda considerar “os obstáculos e as dificuldades reais do gestor” na interpretação das normas de gestão pública. Mas só se pode considerar o que está registrado."
+      },
+      {
+        "titulo": "Conheça a improbidade depois de 2021",
+        "acao": "Leia os §§ 1º, 2º e 3º do art. 1º da Lei 8.429/1992, na redação dada pela Lei 14.230/2021. Anote, em uma linha, o que a lei passou a exigir para haver improbidade.",
+        "por_que": "Hoje a improbidade exige dolo, isto é, vontade livre e consciente de alcançar um resultado ilícito, e não basta o simples exercício da função. As esferas disciplinar e de contas têm regras próprias, por isso motivar bem continua essencial."
+      },
+      {
+        "titulo": "Converse com quem já decidiu",
+        "acao": "Procure um colega experiente e pergunte: “Como você decide quando a norma não é clara?”. Ouça sem pressa e anote uma ideia que sirva para você.",
+        "por_que": "Amy Edmondson chama de segurança psicológica o ambiente em que é seguro fazer perguntas e admitir dúvidas. Perguntar cedo é um sinal de cuidado, não de fraqueza."
+      },
+      {
+        "titulo": "Descreva os fatos em poucas linhas",
+        "acao": "Escreva os fatos do caso em até cinco linhas: o que foi pedido, por quem, quando e o que consta do processo. Deixe opiniões de fora.",
+        "por_que": "Toda boa motivação começa pelos fatos. Se eles estão claros, a decisão fica mais fácil de explicar e de defender."
+      },
+      {
+        "titulo": "Liste ao menos três caminhos",
+        "acao": "Escreva três saídas possíveis para o caso, incluindo “não fazer nada” e “fazer em etapas”. Para cada uma, anote uma vantagem e uma desvantagem.",
+        "por_que": "O parágrafo único do art. 20 da LINDB pede que a motivação mostre a necessidade e a adequação da medida “inclusive em face das possíveis alternativas”. Quem mostra que comparou caminhos mostra que decidiu com cuidado."
+      },
+      {
+        "titulo": "Pese as consequências práticas",
+        "acao": "Para o caminho que parece melhor, responda: o que muda para o cidadão, para a equipe e para o órgão? Escreva uma linha para cada um.",
+        "por_que": "O art. 20 da LINDB proíbe decidir com base em valores jurídicos abstratos, como “interesse público” solto no texto, sem considerar as consequências práticas da decisão."
+      },
+      {
+        "titulo": "Procure o que já foi orientado",
+        "acao": "Busque parecer, súmula administrativa, orientação ou resposta a consulta do seu órgão sobre casos parecidos. Veja também se uma lei já resolve: o art. 3º da Lei 13.726/2018, por exemplo, dispensa reconhecimento de firma e autenticação de cópia na relação com o cidadão.",
+        "por_que": "O art. 30 da LINDB manda as autoridades aumentarem a segurança jurídica por meio de regulamentos, súmulas administrativas e respostas a consultas, que vinculam o órgão até serem revistos. Seguir uma orientação existente dá firmeza à decisão."
+      },
+      {
+        "titulo": "Escreva a motivação com clareza",
+        "acao": "Junte o que fez nos últimos dias em um texto curto: fatos, norma aplicada, caminhos comparados, consequências e conclusão. Use frases simples, como se explicasse a um cidadão.",
+        "por_que": "O art. 50 da Lei 9.784/1999 exige motivação com indicação dos fatos e dos fundamentos jurídicos, e o § 1º pede que ela seja “explícita, clara e congruente”. Texto claro protege quem decide e respeita quem lê."
+      },
+      {
+        "titulo": "Consulte a assessoria jurídica",
+        "acao": "Se a dúvida for jurídica, mande à assessoria uma pergunta objetiva, com os fatos e o que você já pesquisou. Pergunte uma coisa de cada vez.",
+        "por_que": "Pela Lei 9.784/1999 (art. 50, § 1º), a motivação pode consistir em concordância com pareceres anteriores. E o Decreto 9.830/2019 (art. 12, § 6º) diz que a responsabilidade pela opinião técnica não passa automaticamente a quem a adotou para decidir."
+      },
+      {
+        "titulo": "Guarde tudo no processo",
+        "acao": "Confira se os fatos, as alternativas, as dificuldades e as consultas feitas estão juntados ao processo. O que estiver só no seu e-mail ou na sua cabeça, junte hoje.",
+        "por_que": "O Decreto 9.830/2019 (art. 12, § 2º) diz que não haverá dolo ou erro grosseiro se não ficar comprovada, nos autos, situação que os caracterize. O registro é a melhor prova da sua boa-fé."
+      },
+      {
+        "titulo": "Peça ajuda antes do prazo",
+        "acao": "Se algo ainda está travado, fale hoje com sua chefia. Leve o caso já organizado e diga onde precisa de apoio.",
+        "por_que": "Pedir ajuda cedo dá tempo para corrigir rota. Pedir na véspera transforma uma dúvida em urgência."
+      },
+      {
+        "titulo": "Dê o primeiro passo",
+        "acao": "Se a decisão é sua, decida e assine. Se cabe a outra autoridade, encaminhe sua proposta fundamentada a quem tem a competência.",
+        "por_que": "A lei protege quem age de boa-fé, com fundamentação e sem erro grosseiro. Depois de tudo o que você reuniu, adiar já não é prudência."
+      },
+      {
+        "titulo": "Combine como vai acompanhar",
+        "acao": "Marque na agenda uma data para conferir o resultado da decisão. Anote o que vai olhar: prazo cumprido, reclamação, efeito no atendimento.",
+        "por_que": "Acompanhar permite ajustar cedo se algo sair diferente do previsto. Corrigir a tempo também é sinal de diligência."
+      },
+      {
+        "titulo": "Registre o que aprendeu",
+        "acao": "Escreva cinco linhas sobre o caso: o que foi difícil, o que ajudou e o que faria diferente. Guarde junto às suas anotações.",
+        "por_que": "Cada decisão bem feita ensina a próxima. O registro curto vira um atalho para você e para quem vier depois."
+      },
+      {
+        "titulo": "Monte seu roteiro de decisão",
+        "acao": "Transforme o que fez nesta trilha em uma lista de cinco perguntas para usar sempre: fatos, norma, alternativas, consequências, registro. Cabe em meia página.",
+        "por_que": "Um roteiro simples reduz o medo nas próximas vezes. Você não começa do zero, começa da lista."
+      },
+      {
+        "titulo": "Compartilhe com um colega",
+        "acao": "Mostre seu roteiro a um colega que também anda travado e conte como foi seu caso. Ofereça ajuda na primeira decisão dele.",
+        "por_que": "Para Amy Edmondson, a segurança psicológica é construída pela equipe. Quando alguém fala abertamente de dúvidas e cuidados, os outros se sentem livres para fazer o mesmo."
+      },
+      {
+        "titulo": "Olhe para trás",
+        "acao": "Releia o que escreveu no Dia 1. Compare o medo de antes com o que você sabe agora e escolha a próxima decisão que não vai mais adiar.",
+        "por_que": "Ver o caminho percorrido mostra que o medo diminuiu porque você se preparou. Essa confiança fundamentada é o que fica."
+      }
+    ]
+  },
+  {
+    "id": "inovar-com-pouco",
+    "nome": "Inovar com pouco",
+    "subtitulo": "Em 21 dias, você tira uma ideia de melhoria do papel, testa em pequena escala e mostra o resultado, sem orçamento novo.",
+    "para_quem": "Para quem tem uma ideia para melhorar o serviço, mas não sabe por onde começar nem como convencer a chefia.",
+    "fontes": "Tim Brown (Design Thinking), Eric Ries (A Startup Enxuta), Lei 13.460/2017 (arts. 5º, 6º e 23), Lei 14.129/2021 (art. 44), Lei 13.726/2018 (art. 1º)",
+    "dias": [
+      {
+        "titulo": "Escolha um incômodo do usuário",
+        "acao": "Pense no serviço que você presta e anote uma coisa que incomoda o cidadão: uma fila, uma volta desnecessária, uma dúvida que sempre aparece. Escolha só uma.",
+        "por_que": "Inovar começa por um problema real de quem usa o serviço, e não por uma ferramenta da moda. Um problema só já dá trabalho suficiente para 21 dias."
+      },
+      {
+        "titulo": "Ouça três usuários",
+        "acao": "Converse rapidamente com três pessoas atendidas e pergunte: “O que foi mais difícil para você hoje?”. Anote as palavras delas, sem corrigir.",
+        "por_que": "A Lei 13.460/2017 (art. 6º, I) garante ao usuário o direito de participar do acompanhamento e da avaliação dos serviços. Ouvir é o jeito mais simples de cumprir isso."
+      },
+      {
+        "titulo": "Faça o caminho do usuário",
+        "acao": "Percorra o serviço como se fosse o cidadão: por onde ele entra, o que lê, o que preenche, quanto espera. Anote cada passo e onde ele trava.",
+        "por_que": "O design thinking começa pela empatia, que é enxergar o serviço do lado de quem o usa. De dentro, muita coisa parece óbvia, mas de fora não é."
+      },
+      {
+        "titulo": "Escreva o problema, não a solução",
+        "acao": "Escreva o problema em uma frase, sem falar em sistema, formulário ou aplicativo. Exemplo de formato: “Quem procura tal serviço precisa voltar mais de uma vez porque…”.",
+        "por_que": "Quando a solução vem antes do problema, as outras ideias somem. Problema bem descrito abre espaço para respostas melhores e mais baratas."
+      },
+      {
+        "titulo": "Transforme em pergunta",
+        "acao": "Reescreva o problema começando com “Como podemos…?”. Exemplo de formato: “Como podemos fazer o cidadão resolver isso em uma só ida?”.",
+        "por_que": "Essa pergunta é uma prática comum do design thinking. Ela convida a equipe a pensar em saídas, em vez de discutir culpados."
+      },
+      {
+        "titulo": "Meça como está hoje",
+        "acao": "Escolha um número simples e fácil de contar: tempo de espera, quantas vezes a pessoa volta, quantos pedidos voltam com erro. Conte durante alguns atendimentos e anote.",
+        "por_que": "Sem saber como era antes, não há como mostrar que melhorou depois. Uma contagem simples, feita do mesmo jeito, já vale como ponto de partida."
+      },
+      {
+        "titulo": "Veja o que a lei permite",
+        "acao": "Confira se a etapa que você quer mudar está prevista em lei ou norma. Se estiver, ela fica; mexa só no que é costume ou excesso.",
+        "por_que": "A Lei 13.460/2017 (art. 5º, XI) manda eliminar formalidades e exigências cujo custo econômico ou social seja superior ao risco envolvido. Mas exigência legal se cumpre, e quem decide mudanças é o gestor."
+      },
+      {
+        "titulo": "Gere ideias com a equipe",
+        "acao": "Reúna dois ou três colegas por 15 minutos, leia a pergunta “Como podemos…?” e anote todas as ideias, sem julgar nenhuma. Busque quantidade.",
+        "por_que": "No design thinking, a fase de gerar ideias separa criar de avaliar. Julgar cedo demais mata boas ideias antes que elas apareçam."
+      },
+      {
+        "titulo": "Escolha a ideia mais simples",
+        "acao": "Das ideias de ontem, escolha a que custa quase nada, depende só da sua equipe e pode ser desfeita fácil se não funcionar.",
+        "por_que": "Ideia simples começa logo e expõe menos o serviço a riscos. Ser fácil de desfazer é o que permite testar com tranquilidade."
+      },
+      {
+        "titulo": "Escreva sua hipótese",
+        "acao": "Escreva em uma frase: “Se fizermos tal mudança, esperamos tal resultado, e vamos medir pelo número do Dia 6”.",
+        "por_que": "Eric Ries, em A Startup Enxuta, trata cada mudança como um experimento, com uma hipótese a ser testada. Assim, o resultado ensina algo, dê certo ou não."
+      },
+      {
+        "titulo": "Desenhe um piloto pequeno",
+        "acao": "Defina o tamanho do teste: um balcão, um turno, um tipo de pedido. Marque data de início e de fim, de uma a duas semanas.",
+        "por_que": "Ries chama de produto mínimo viável a menor versão capaz de gerar aprendizado. Piloto pequeno e com prazo limita o risco e acelera a resposta."
+      },
+      {
+        "titulo": "Combine com a chefia",
+        "acao": "Mostre à sua chefia, em poucos minutos, o problema, a hipótese e o piloto. Peça autorização e ouça os cuidados que ela apontar.",
+        "por_que": "Quem decide e assina é o gestor. Envolver a chefia desde o início dá respaldo ao teste e evita surpresas."
+      },
+      {
+        "titulo": "Comece o teste",
+        "acao": "Explique a mudança à equipe envolvida e comece o piloto. Se fizer sentido, avise os usuários com uma frase simples no balcão ou na mensagem.",
+        "por_que": "Começar pequeno e no dia combinado cria ritmo. Equipe que entende o porquê ajuda a fazer o teste funcionar."
+      },
+      {
+        "titulo": "Acompanhe e anote",
+        "acao": "Ao fim do dia, anote em três linhas o que aconteceu: o número medido, uma surpresa e um ajuste que pareça necessário.",
+        "por_que": "Anotações curtas no calor da hora guardam detalhes que se perdem em uma semana. Elas vão sustentar a sua conclusão."
+      },
+      {
+        "titulo": "Meça depois",
+        "acao": "Ao fim do piloto, conte o mesmo número do Dia 6, do mesmo jeito. Coloque lado a lado o antes e o depois.",
+        "por_que": "Medir do mesmo jeito é o que torna a comparação justa. Se o modo de contar muda, a diferença pode ser só do método."
+      },
+      {
+        "titulo": "Ouça os usuários de novo",
+        "acao": "Faça a mesma pergunta do Dia 2 a três pessoas atendidas durante o piloto. Compare as respostas com as primeiras.",
+        "por_que": "O número mostra uma parte da história, e a fala do usuário mostra o resto. A Lei 13.460/2017 (art. 23) inclui a satisfação do usuário entre os aspectos que o órgão deve avaliar."
+      },
+      {
+        "titulo": "Aprenda com o que não deu certo",
+        "acao": "Liste o que não funcionou e escreva por que você acha que não funcionou. Separe o que foi falha da ideia do que foi falha do jeito de testar.",
+        "por_que": "Para Eric Ries, o objetivo do experimento é o aprendizado validado, isto é, aprendizado confirmado por dados reais. Um resultado ruim também ensina."
+      },
+      {
+        "titulo": "Decida: ajustar, manter ou parar",
+        "acao": "Com o antes, o depois e o que aprendeu, escolha um caminho: manter como está, ajustar e testar de novo, ou encerrar a ideia.",
+        "por_que": "Ries chama essa escolha de pivotar ou perseverar: mudar de rota ou seguir em frente. Parar uma ideia que não funcionou também é uma boa decisão."
+      },
+      {
+        "titulo": "Apresente em uma página",
+        "acao": "Monte uma página para o gestor: problema, o que foi testado, número antes e depois, fala dos usuários, custo e próximos passos. Indique a base legal que apoia a mudança.",
+        "por_que": "Proposta curta e com dados é mais fácil de aprovar. A Lei 13.726/2018 (art. 1º) pede a supressão ou simplificação de formalidades cujo custo seja superior ao risco de fraude, o que ajuda a fundamentar."
+      },
+      {
+        "titulo": "Espalhe a ideia",
+        "acao": "Conte o resultado a outro setor que tenha um problema parecido e ofereça seu roteiro. Se seu órgão tiver um laboratório de inovação, leve o caso até lá.",
+        "por_que": "A Lei 14.129/2021 (art. 44) prevê que os entes públicos podem criar laboratórios de inovação para experimentar métodos na gestão e nos serviços. Uma ideia testada vale mais quando chega a outros."
+      },
+      {
+        "titulo": "Olhe para trás",
+        "acao": "Releia o incômodo que escolheu no Dia 1 e o que aconteceu desde então. Anote o que aprendeu sobre o serviço, sobre a equipe e sobre você, e escolha o próximo incômodo.",
+        "por_que": "Olhar o caminho mostra que dá para inovar com o que já se tem. O próximo ciclo começa mais rápido porque você já sabe os passos."
+      }
+    ]
+  }
+]

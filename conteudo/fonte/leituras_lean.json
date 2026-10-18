@@ -1,0 +1,191 @@
+[
+ {
+  "tema": "Parar na hora em que deu errado",
+  "eixo": "Lean",
+  "fonte": "Taiichi Ohno — O Sistema Toyota de Produção (jidoka)",
+  "ideia": "Num laboratório de perícia, uma técnica percebe que a etiqueta de uma amostra não bate com a do formulário. A tentação é anotar num papelzinho, seguir o lote e resolver depois. Ohno ensinava o contrário. Ele tomou emprestada uma ideia dos teares de Sakichi Toyoda, que paravam sozinhos quando um fio se rompia, e fez dela um pilar da Toyota: o jidoka, a autonomação, que é a máquina e a pessoa com autoridade para parar quando algo sai do normal. Na linha de montagem, qualquer operário podia puxar uma corda e interromper o trabalho para chamar ajuda. Parece perda de tempo, mas é o contrário. O defeito que segue adiante se multiplica, vira retrabalho em outro setor, às vezes vira um erro que chega ao cidadão ou ao juiz. O defeito que para na hora é pequeno, ainda tem pistas frescas e ensina alguma coisa. Parar não é sinal de fracasso da equipe. É sinal de que a equipe leva a qualidade a sério desde a primeira etapa.",
+  "pratica": "Combine com a sua equipe um sinal simples para quando algo sair do padrão, como uma bandeja separada ou uma mensagem no grupo, e a regra de que quem achar o problema pode parar aquele item na hora.",
+  "pergunta": "Quantos erros que você corrige hoje poderiam ter sido barrados lá no começo?",
+  "frase": "Erro que segue viagem chega maior do que saiu."
+ },
+ {
+  "tema": "A água alta esconde as pedras",
+  "eixo": "Lean",
+  "fonte": "Taiichi Ohno — O Sistema Toyota de Produção (estoque esconde problemas)",
+  "ideia": "No almoxarifado de uma secretaria de educação, as prateleiras estão cheias de caixas de papel, toner e material de limpeza. Parece segurança, mas Ohno via o estoque em excesso com desconfiança. Para ele, o excesso escondia os problemas de verdade: a entrega que atrasa, a previsão que erra, o pedido feito no susto. No pensamento lean se usa uma imagem para isso, a de um rio. Com a água alta, o barco passa por cima das pedras e ninguém as vê. Quando o nível baixa, as pedras aparecem e é possível tirá-las do caminho. No serviço público, a pilha de processos guardados por precaução, as cópias extras de formulário e o material comprado em dobro funcionam como essa água alta. Ninguém sofre hoje, mas também ninguém descobre por que a compra demora tanto ou por que uma escola sempre pede mais que a outra. Baixar o estoque com cuidado, um item de cada vez, não é para criar falta. É para enxergar o que o excesso vinha cobrindo.",
+  "pratica": "Escolha um item que o seu setor guarda em grande quantidade e pergunte qual problema faria falta dele se o estoque fosse menor. Anote a resposta como uma pedra a ser removida.",
+  "pergunta": "Que pilha no seu setor existe só para ninguém precisar olhar um problema?",
+  "frase": "Prateleira cheia nem sempre é tranquilidade. Às vezes é esconderijo."
+ },
+ {
+  "tema": "Perfeição como bússola, não como chegada",
+  "eixo": "Lean",
+  "fonte": "James Womack e Daniel Jones — A Mentalidade Enxuta nas Empresas (perfeição)",
+  "ideia": "O setor de diárias e passagens de um órgão estadual acabou de reduzir pela metade o tempo para liberar uma viagem. Todo mundo comemora, com razão, e a tendência é dar o assunto por encerrado. Womack e Jones colocaram justamente aí o quinto dos seus princípios do pensamento enxuto. Depois de definir o valor, enxergar o fluxo de valor, fazer o trabalho fluir e deixar que a demanda puxe a produção, vem a perfeição. Eles não falam de um estado final impecável. Falam de uma direção. Cada melhoria deixa à mostra novos desperdícios que antes estavam encobertos, e a equipe percebe que dá para ir além. Por isso o trabalho nunca termina de verdade, e isso não é motivo de cansaço, mas de fôlego. Quem trata a melhoria como projeto com data para acabar volta aos poucos ao jeito antigo. Quem trata a perfeição como bússola continua perguntando o que ainda atrapalha o servidor que viaja e o cidadão que depende do trabalho dele.",
+  "pratica": "Pegue a última melhoria que a sua equipe fez e liste o próximo desperdício que ela deixou à vista. Escolha um para atacar neste mês.",
+  "pergunta": "Que melhoria recente do seu setor foi tratada como ponto final quando era só o começo?",
+  "frase": "Melhorar uma vez é conquista. Continuar é cultura."
+ },
+ {
+  "tema": "Siga o pedido do começo ao fim",
+  "eixo": "Lean",
+  "fonte": "James Womack e Daniel Jones — A Mentalidade Enxuta nas Empresas (fluxo de valor)",
+  "ideia": "Numa prefeitura pequena, um comerciante pede alvará para abrir uma padaria. O pedido passa pela tributação, pela vigilância sanitária, pelo meio ambiente e pelo setor de obras. Cada setor conhece bem a sua parte, mas ninguém conhece o caminho inteiro. Womack e Jones propuseram olhar exatamente esse caminho, que chamaram de fluxo de valor: todas as ações necessárias para levar um produto ou serviço do pedido até a entrega. Ao desenhar esse fluxo, eles sugeriam separar as ações em três grupos. Há as que criam valor para quem pediu, as que não criam valor mas ainda não podem ser eliminadas, e as que não criam valor e podem sair já. A surpresa costuma estar no tamanho do terceiro grupo. Muitas etapas existem só porque um setor não confia no outro ou porque ninguém revisou a rotina em anos. Enxergar o fluxo completo exige sair da própria mesa e conversar com os vizinhos, porque o desperdício quase sempre mora nas fronteiras entre setores.",
+  "pratica": "Reúna uma pessoa de cada setor por onde passa um pedido comum e desenhem juntos, numa folha, todas as etapas. Marquem de outra cor as que podem sair já.",
+  "pergunta": "Você conhece o caminho inteiro que o pedido percorre ou só o trecho que passa por você?",
+  "frase": "O desperdício gosta de morar na fronteira entre dois setores."
+ },
+ {
+  "tema": "Não corte o futuro para fechar o mês",
+  "eixo": "Lean",
+  "fonte": "Jeffrey Liker — O Modelo Toyota (princípio 1)",
+  "ideia": "Na secretaria de administração, chega a ordem de economizar. A primeira coisa a cair é o curso de capacitação que preparava a equipe para o novo modelo de contratos. A planilha do mês fica bonita, e daqui a um ano os processos voltam cheios de erros que ninguém sabia evitar. Jeffrey Liker, ao estudar a Toyota, abriu a sua lista de quatorze princípios justamente com isso: basear as decisões de gestão numa filosofia de longo prazo, mesmo que isso custe alguma coisa no curto prazo. Ele mostrava que a empresa protegia o que sustentava a sua capacidade de servir bem ao cliente, como pessoas treinadas e processos estáveis, mesmo em tempos difíceis. No serviço público isso tem um peso especial, porque o órgão vai continuar existindo depois de qualquer gestão. Pensar no longo prazo não é ignorar o orçamento. É perguntar, antes de cortar, quem vai pagar a conta dessa economia mais adiante, e se essa conta não vai sair bem mais cara para o cidadão.",
+  "pratica": "Antes da próxima decisão de corte ou de mudança que você puder influenciar, escreva em uma linha qual efeito ela terá daqui a um ano. Leve essa linha para a conversa.",
+  "pergunta": "Que economia de hoje pode virar retrabalho no ano que vem?",
+  "frase": "O órgão fica. A decisão boa pensa em quem vem depois."
+ },
+ {
+  "tema": "Decida devagar, implante depressa",
+  "eixo": "Lean",
+  "fonte": "Jeffrey Liker — O Modelo Toyota (princípio 13, nemawashi)",
+  "ideia": "O RH de uma secretaria resolve mudar a escala de atendimento do balcão. A decisão sai numa reunião rápida, a portaria é publicada na segunda e na terça metade da equipe já descobriu motivos para a escala não funcionar. Seguem semanas de ajustes, reclamações e exceções. Liker descreve na Toyota um caminho quase inverso, no seu princípio treze: tomar decisões devagar, por consenso, considerando com cuidado todas as alternativas, e depois implementar rapidamente. Os japoneses chamam a etapa de preparação de nemawashi, palavra que vem do cuidado de preparar as raízes antes de transplantar uma árvore. Na prática, significa conversar antes com quem será afetado, ouvir objeções, testar a ideia com quem conhece o detalhe do trabalho. Isso parece lento, mas quando a decisão finalmente sai, as dúvidas já foram respondidas e as pessoas entendem o porquê. A mudança anda sem tropeços. O tempo que se economiza correndo na decisão costuma ser gasto em dobro remendando a implantação.",
+  "pratica": "Antes de propor a sua próxima mudança, converse individualmente com três pessoas que serão afetadas e pergunte o que poderia dar errado. Ajuste a proposta com o que ouvir.",
+  "pergunta": "Quantas mudanças no seu órgão foram rápidas para decidir e lentas para funcionar?",
+  "frase": "Raiz bem preparada aguenta o transplante."
+ },
+ {
+  "tema": "Tecnologia que serve às pessoas",
+  "eixo": "Lean",
+  "fonte": "Jeffrey Liker — O Modelo Toyota (princípio 8)",
+  "ideia": "Uma secretaria de assistência social recebe tablets para que as equipes façam as visitas domiciliares sem papel. Em pouco tempo descobre-se que o aplicativo não funciona sem internet, justamente nas comunidades onde a visita mais importa. Os técnicos voltam a anotar no caderno e passam a noite digitando. Liker mostra que a Toyota tinha uma postura curiosa diante da tecnologia, registrada no seu princípio oito: usar apenas tecnologia confiável e testada, que sirva às pessoas e aos processos. Não era aversão à novidade. Era a convicção de que primeiro se entende bem o trabalho, depois se testa a ferramenta em pequena escala, e só então ela é espalhada. A tecnologia entra para apoiar quem faz, não para obrigar todos a se adaptarem a ela. No serviço público, muitas compras de sistema seguem a ordem contrária, e a equipe passa anos contornando a ferramenta. Perguntar como o trabalho acontece de verdade antes de escolher a solução evita muita dor de cabeça e muito dinheiro jogado fora.",
+  "pratica": "Se houver um sistema ou equipamento novo a caminho do seu setor, peça para testar com duas ou três pessoas por uma semana antes de valer para todos. Anote o que atrapalhou.",
+  "pergunta": "A ferramenta que você usa hoje foi escolhida olhando o seu trabalho ou o catálogo do fornecedor?",
+  "frase": "Ferramenta boa se encaixa no trabalho, não o contrário."
+ },
+ {
+  "tema": "O fornecedor também é parte do serviço",
+  "eixo": "Lean",
+  "fonte": "Jeffrey Liker — O Modelo Toyota (princípio 11)",
+  "ideia": "A fiscal do contrato de limpeza de um hospital estadual passa o mês anotando falhas para aplicar glosa no fim. A empresa recebe a notificação, paga, e no mês seguinte as mesmas falhas voltam. Ninguém sai ganhando, muito menos o paciente. Liker descreve no princípio onze da Toyota uma relação diferente: respeitar a rede de parceiros e fornecedores, desafiando-os e ajudando-os a melhorar. A Toyota era exigente, mas tratava o fornecedor como extensão do próprio processo, porque um defeito na peça dele virava defeito no carro dela. No serviço público a lei põe limites claros à relação com contratados, e isso precisa ser respeitado. Mas dentro desses limites cabe muita coisa: explicar com clareza o que se espera, mostrar os dados de falha cedo, sentar para entender a causa, combinar como medir. Fiscalizar continua sendo dever. A diferença é usar a fiscalização para o serviço melhorar, e não só para registrar que piorou. A punição tem seu lugar, mas sozinha raramente conserta alguma coisa.",
+  "pratica": "Se você acompanha algum contrato, marque uma conversa curta com o preposto para mostrar as falhas mais frequentes do mês e perguntar o que está causando cada uma.",
+  "pergunta": "O seu acompanhamento de contrato ajuda o serviço a melhorar ou só documenta que piorou?",
+  "frase": "Fiscalizar bem é também ajudar o serviço a dar certo."
+ },
+ {
+  "tema": "Até o sucesso merece um hansei",
+  "eixo": "Lean",
+  "fonte": "Jeffrey Liker — O Modelo Toyota (princípio 14, hansei)",
+  "ideia": "Termina o mutirão de vacinação num posto de saúde. A equipe está exausta, o resultado foi bom, e todo mundo só quer ir para casa. Na campanha do ano seguinte, os mesmos gargalos aparecem na fila de cadastro, porque ninguém registrou o que deu errado. Liker encerra os quatorze princípios da Toyota com a ideia de se tornar uma organização que aprende por meio da reflexão incansável, que os japoneses chamam de hansei, e da melhoria contínua. Hansei não é uma sessão de culpa nem uma reunião para elogios. É parar com honestidade e perguntar o que aconteceu, o que se esperava, onde as duas coisas se afastaram e o que fazer diferente. Na cultura da Toyota, até um projeto bem-sucedido passava por essa reflexão, porque sempre havia algo a aprender. No serviço público, onde tantas ações se repetem todo ano, guardar essas lições é um presente para a próxima equipe, que muitas vezes nem será a mesma.",
+  "pratica": "Ao terminar a próxima ação importante do seu setor, reserve quinze minutos com quem participou para responder três perguntas: o que deu certo, o que deu errado e o que mudaríamos. Guarde a resposta num lugar fácil de achar.",
+  "pergunta": "Onde ficaram registradas as lições da última grande tarefa que a sua equipe fez?",
+  "frase": "Quem não olha para trás tropeça na mesma pedra no ano seguinte."
+ },
+ {
+  "tema": "Melhore o caminho antes do gesto",
+  "eixo": "Lean",
+  "fonte": "Shigeo Shingo — O Sistema Toyota de Produção do Ponto de Vista da Engenharia de Produção",
+  "ideia": "Num cartório judicial, a chefia investe num curso para que os servidores digitem e juntem documentos mais rápido. Os servidores ficam de fato mais ágeis, mas o processo continua levando o mesmo tempo para andar. Shigeo Shingo ajuda a entender o porquê. Ele propôs ver a produção como uma rede formada por dois eixos diferentes. Um é o processo, que é o caminho do objeto de trabalho, aquilo que se transforma, espera, é transportado e inspecionado. O outro é a operação, que é o que a pessoa ou a máquina faz. Shingo insistia que melhorar a operação sem olhar o processo dá pouco resultado, porque a maior parte do tempo o objeto não está sendo trabalhado, e sim esperando ou viajando. No cartório, os autos passam dias parados entre uma etapa e outra, e alguns minutos a menos na juntada quase não aparecem. Olhar primeiro o caminho do processo, e só depois o gesto de cada um, é onde costuma estar o ganho grande.",
+  "pratica": "Escolha um processo concluído recentemente e calcule, pelas datas de movimentação, quanto tempo ele passou sendo trabalhado e quanto passou esperando.",
+  "pergunta": "Você está tentando trabalhar mais rápido quando o problema é o tempo em que nada acontece?",
+  "frase": "Mão ligeira não salva caminho comprido."
+ },
+ {
+  "tema": "O caso de sempre e o caso raro",
+  "eixo": "Lean",
+  "fonte": "John Bicheno e Matthias Holweg — The Lean Toolbox (runners, repeaters e strangers)",
+  "ideia": "Numa agência do INSS, o pedido simples de uma certidão entra na mesma fila e passa pelas mesmas mãos que um caso complicado, cheio de vínculos antigos e documentos estranhos. O caso simples espera o difícil, e o difícil é atendido às pressas. John Bicheno, no seu manual de ferramentas lean, discute uma forma de separar a demanda conhecida no meio britânico como runners, repeaters e strangers. Os runners são os pedidos que chegam o tempo todo, quase iguais. Os repeaters aparecem com regularidade, mas não sempre. Os strangers são raros e cada um tem a sua particularidade. A ideia é dar a cada grupo um tratamento adequado: para os frequentes, um fluxo próprio, rápido e padronizado; para os raros, tempo e gente experiente. Misturar tudo numa fila só faz o comum andar devagar e o raro ser mal analisado. Separar não é dar privilégio a ninguém. É reconhecer que trabalhos diferentes pedem caminhos diferentes, e que tratar tudo igual acaba sendo injusto com todos.",
+  "pratica": "Conte os pedidos que o seu setor recebeu na última semana e separe em três montes: os que chegam sempre, os que chegam de vez em quando e os raros. Veja se os do primeiro monte poderiam ter um caminho próprio.",
+  "pergunta": "O pedido mais simples do seu setor está esperando atrás do mais complicado?",
+  "frase": "Fila única para tudo é justa só na aparência."
+ },
+ {
+  "tema": "Encarar o problema antes de resolver",
+  "eixo": "Lean",
+  "fonte": "Michael Ballé, Daniel Jones, Jacques Chaize e Orest Fiume — The Lean Strategy",
+  "ideia": "Numa delegacia, os boletins de ocorrência voltam com frequência do cartório por falta de informação. O delegado manda fazer um modelo novo de formulário, e os boletins continuam voltando. A pressa em resolver passou por cima da etapa de entender. Michael Ballé e seus coautores defendem que o lean é antes de tudo uma estratégia de aprendizagem, e não um pacote de ferramentas aplicado de cima para baixo. Eles descrevem um caminho que começa por encontrar os problemas onde o trabalho acontece, segue por encará-los de frente com as pessoas envolvidas, depois por dar a eles um enquadramento claro, uma direção de melhoria, e por fim formar as pessoas para que aprendam resolvendo. O ponto central é que o líder não chega com a resposta pronta. Ele ajuda a equipe a enxergar o problema com clareza, porque um problema bem compreendido muitas vezes já carrega metade da solução. Formulário novo só resolve quando se sabe exatamente por que o antigo falhava.",
+  "pratica": "Pegue um problema que se repete no seu setor e, antes de propor qualquer solução, junte três exemplos reais dele e converse com quem o produziu para entender como ele aconteceu.",
+  "pergunta": "Qual solução recente no seu trabalho foi escolhida antes de alguém entender o problema?",
+  "frase": "Problema bem entendido já vem com meio caminho andado."
+ },
+ {
+  "tema": "Caminhar para aprender, não para vigiar",
+  "eixo": "Lean",
+  "fonte": "James Womack — Caminhadas pelo Gemba (Gemba Walks)",
+  "ideia": "A diretora de uma escola estadual resolve circular pelos setores toda manhã. Nas primeiras semanas, os funcionários escondem papéis, mudam de assunto e esperam ela passar. A caminhada virou fiscalização, e ninguém aprende nada com fiscalização. James Womack, um dos autores que popularizaram o pensamento enxuto, escreveu bastante sobre essas caminhadas pelo lugar onde o trabalho acontece. Ele sugeria que o gestor fosse com três perguntas na cabeça. Qual é o propósito deste trabalho, do ponto de vista de quem é atendido? Como está o processo que leva até esse propósito, onde ele trava, espera ou se repete? E como as pessoas que fazem o trabalho estão envolvidas em melhorá-lo? O foco está no processo, e não em flagrar alguém fazendo errado. Quando a equipe percebe isso, a conversa muda. Os problemas deixam de ser escondidos e passam a ser mostrados, porque quem caminha está ali para ajudar. Na escola, o mesmo passeio pode virar o melhor momento do dia.",
+  "pratica": "Faça hoje uma volta de quinze minutos por um setor que você coordena ou com o qual trabalha e pergunte apenas onde o trabalho está travando, sem dar ordens nem correções.",
+  "pergunta": "Quando você chega num setor, as pessoas mostram os problemas ou escondem?",
+  "frase": "Chefe que caminha para ouvir encontra problema que relatório nenhum mostra."
+ },
+ {
+  "tema": "Aproxime as mesas que trabalham juntas",
+  "eixo": "Lean",
+  "fonte": "Kenichi Sekine — One-Piece Flow",
+  "ideia": "No instituto de identificação, a emissão de uma carteira passa pela conferência de documentos no térreo, pela coleta de digitais no primeiro andar e pela impressão numa sala no fim do corredor. Entre uma etapa e outra, as fichas se acumulam em caixas até que alguém as leve adiante. Kenichi Sekine escreveu sobre o fluxo de peça única e sobre como reorganizar o espaço para torná-lo possível. Ele mostrava que, quando as etapas de um trabalho ficam espalhadas, os itens tendem a andar em lotes, e o lote cria espera, transporte e estoque intermediário. A proposta era aproximar fisicamente as etapas que se seguem, montando células de trabalho, muitas vezes em formato de U, para que cada item passe de uma mão a outra quase sem parar. Nem sempre dá para mover paredes no serviço público, mas às vezes basta trocar duas mesas de lugar ou juntar numa mesma sala quem faz etapas vizinhas. A distância física entre as pessoas costuma virar tempo de espera para o cidadão.",
+  "pratica": "Desenhe num papel a planta do seu setor e trace o caminho que um pedido faz entre as mesas. Veja se alguma troca de lugar encurtaria esse trajeto.",
+  "pergunta": "Quantos passos separam duas pessoas que fazem etapas seguidas do mesmo trabalho?",
+  "frase": "Quando as mesas se aproximam, o pedido para de esperar na caixa."
+ },
+ {
+  "tema": "Eficiente para quem, afinal",
+  "eixo": "Lean",
+  "fonte": "Zoe Radnor e Stephen Osborne — Lean: A Failed Theory for Public Services? (Public Management Review, 2013)",
+  "ideia": "Uma central de atendimento municipal reduz o tempo médio de cada ligação e comemora. Os atendentes passam a encerrar as chamadas mais cedo, e o cidadão liga de novo, e de novo, até alguém resolver. Por dentro, o serviço ficou mais eficiente. Por fora, ficou pior. Zoe Radnor e Stephen Osborne estudaram como o lean vinha sendo aplicado em serviços públicos e fizeram uma crítica importante. Muitas iniciativas tratavam o serviço como se fosse uma fábrica e olhavam só para a eficiência interna dos processos, deixando de lado quem recebe o serviço. Para os autores, serviço público não é um produto que sai pronto de uma linha. Ele se realiza na relação com o cidadão, que participa, explica a sua situação e vive o resultado. Por isso a pergunta central não pode ser apenas quanto custa ou quanto demora cada etapa, mas se a experiência e o resultado para a pessoa atendida melhoraram. Lean que esquece o cidadão vira só corte de minutos.",
+  "pratica": "Escolha um indicador que o seu setor acompanha e pergunte se ele melhora quando o cidadão é melhor atendido ou se pode melhorar mesmo quando o cidadão sai pior.",
+  "pergunta": "A última melhoria do seu setor foi sentida pelo cidadão ou só pela planilha?",
+  "frase": "Ganhar minutos por dentro não vale se o cidadão perde horas por fora."
+ },
+ {
+  "tema": "Todo mundo em cima do problema, agora",
+  "eixo": "Lean",
+  "fonte": "Steven Spear — The High-Velocity Edge",
+  "ideia": "Numa unidade de pronto atendimento, um paciente recebe uma medicação em horário errado porque a prescrição foi transcrita de forma confusa. Corrige-se o caso, registra-se em algum lugar e o plantão segue. Semanas depois, algo parecido acontece com outro paciente. Steven Spear estudou organizações que aprendem mais rápido que as outras, como a Toyota e alguns hospitais, e descreveu capacidades que elas têm em comum. Uma delas é o que ele chama de enxamear o problema. Quando algo sai do esperado, a organização não se limita a contornar e seguir. Ela contém o dano e, logo em seguida, junta as pessoas certas para investigar enquanto as pistas ainda estão frescas, entender a causa e testar uma correção. Spear observava que pequenos problemas resolvidos na hora evitam que eles se somem e virem um grande desastre mais tarde. Esperar a reunião do mês para discutir o que aconteceu é deixar as evidências esfriarem e o problema se repetir enquanto isso.",
+  "pratica": "Na próxima vez que algo sair errado no seu setor, chame ainda no mesmo dia as duas ou três pessoas envolvidas para entender, em quinze minutos, como aconteceu.",
+  "pergunta": "Quanto tempo passa, no seu setor, entre um erro acontecer e alguém investigar a causa?",
+  "frase": "Problema investigado na hora conta a verdade. Uma semana depois, só conta versões."
+ },
+ {
+  "tema": "Lean sem respeito não é lean",
+  "eixo": "Lean",
+  "fonte": "Bob Emiliani — Real Lean",
+  "ideia": "Uma secretaria de fazenda contrata um projeto de melhoria de processos. Em poucos meses, os fluxos ficam mais curtos e a primeira consequência anunciada é a redução de gratificações e o remanejamento de quem sobrou. Na rodada seguinte, ninguém mais aponta desperdício nenhum. Bob Emiliani passou anos criticando o que considerava uma versão falsa do lean, que pega as ferramentas da Toyota e esquece metade do sistema. Ele lembrava que o modo de trabalho da Toyota se apoia em dois pilares, a melhoria contínua e o respeito pelas pessoas, e que um não se sustenta sem o outro. Quando a melhoria vira sinônimo de corte e ameaça, as pessoas aprendem a esconder os problemas para se proteger, e a melhoria morre. Respeito, para Emiliani, não é gentileza superficial. É não culpar as pessoas pelos defeitos do sistema, ouvir quem faz o trabalho e garantir que ninguém seja prejudicado por ajudar a melhorar. No serviço público, isso decide se uma iniciativa dura uma gestão ou vira cultura.",
+  "pratica": "Se você lidera alguma melhoria, diga claramente à equipe o que será feito com o tempo ganho, por exemplo atender mais gente ou reduzir a fila, antes de pedir que apontem desperdícios.",
+  "pergunta": "As pessoas da sua equipe ganham ou perdem quando ajudam a melhorar o processo?",
+  "frase": "Quem tem medo de perder o lugar não aponta o desperdício."
+ },
+ {
+  "tema": "O talento que ficou na gaveta",
+  "eixo": "Lean",
+  "fonte": "Jeffrey Liker — O Modelo Toyota (o oitavo desperdício)",
+  "ideia": "No setor de triagem de uma defensoria pública, uma servidora monta sozinha, em casa, uma planilha que organiza os atendimentos por prazo. Ela comenta com a chefia, que agradece e não muda nada. A planilha fica no computador dela, e o setor continua usando o caderno. Ohno listou sete desperdícios na produção, e Jeffrey Liker, ao escrever sobre o modelo Toyota, acrescentou um oitavo que fala direto ao serviço público: a criatividade dos funcionários que não é aproveitada. É o desperdício de não ouvir, de não envolver e de não deixar quem conhece o trabalho por dentro propor como fazê-lo melhor. Ele não aparece em nenhum relatório de custos, mas pesa muito. Todo órgão tem gente que sabe mais do que o cargo pede, que já pensou numa solução para aquele gargalo e só nunca foi chamada. Quando a ideia dessas pessoas morre na gaveta, perde-se a melhoria e perde-se também a vontade de tentar de novo, o que é ainda mais caro.",
+  "pratica": "Pergunte hoje a uma pessoa da sua equipe o que ela mudaria no trabalho se pudesse, e combine uma data para testarem juntos a ideia dela em pequena escala.",
+  "pergunta": "Que ideia boa de um colega está esquecida porque ninguém deu espaço para ela?",
+  "frase": "Ideia não aproveitada também é desperdício. Talvez o mais caro de todos."
+ },
+ {
+  "tema": "Fique parado dentro do círculo",
+  "eixo": "Lean",
+  "fonte": "Taiichi Ohno — o círculo de giz (história difundida no pensamento lean)",
+  "ideia": "O novo coordenador do protocolo de uma universidade federal passa a primeira semana em reuniões e lendo relatórios. Quando enfim propõe mudanças, a equipe percebe que ele nunca viu um processo chegar ao balcão. Uma história muito contada no mundo lean ajuda a pensar nisso. Diz-se que Taiichi Ohno desenhava um círculo de giz no chão da fábrica, colocava ali um gerente ou engenheiro novo e pedia que ele ficasse horas apenas observando a linha, até enxergar sozinho os problemas que ninguém mais via. No começo a pessoa não notava nada de errado. Com o passar do tempo, começavam a aparecer as esperas, os movimentos repetidos, as improvisações. A lição não é sobre castigo nem sobre ficar em pé. É sobre a paciência de observar de verdade antes de opinar. Uma passada rápida pelo setor mostra só a superfície. Ficar tempo suficiente no mesmo lugar, olhando o mesmo trabalho se repetir, revela o que a pressa nunca deixa ver, e dá à proposta de mudança uma base que relatório nenhum oferece.",
+  "pratica": "Reserve trinta minutos sem celular e sem interromper ninguém para apenas observar um ponto do seu setor, como o balcão ou a mesa de triagem. Anote tudo que se repete.",
+  "pergunta": "Há quanto tempo você não observa, sem pressa, o trabalho acontecer no lugar onde ele acontece?",
+  "frase": "Quem olha com calma enxerga o que a pressa esconde."
+ },
+ {
+  "tema": "Quantos cliques custa um atendimento",
+  "eixo": "Lean",
+  "fonte": "Taiichi Ohno — O Sistema Toyota de Produção (desperdício de movimento)",
+  "ideia": "Numa secretaria municipal de saúde, a enfermeira termina o atendimento e precisa registrar a mesma vacina em dois sistemas diferentes, abrindo várias telas, digitando o número do cartão do SUS duas vezes e procurando o menu certo em cada um. No fim do dia, foi quase uma hora só nisso. Entre os desperdícios que Ohno descreveu está o movimento desnecessário, todo gesto que a pessoa faz e que não acrescenta nada ao trabalho, como se esticar para pegar uma ferramenta longe ou andar à procura de uma peça. Na fábrica ele via isso no corpo do operário. No serviço público de hoje, boa parte desse movimento migrou para a tela: cliques sobrando, abas abertas, copiar e colar entre sistemas, rolar até achar um campo, fazer login de novo. Cada gesto parece pequeno, mas se repete dezenas de vezes por dia e por pessoa. Olhar o trabalho digital com o mesmo olhar que Ohno tinha para a linha de montagem mostra quanto tempo se perde entre um campo e outro, sem que nenhum cidadão seja melhor atendido por isso.",
+  "pratica": "Conte quantos cliques e quantas telas você usa para concluir a tarefa que mais repete no dia. Leve o número a quem cuida do sistema e pergunte o que pode ser encurtado.",
+  "pergunta": "Que tarefa digital do seu dia exige mais gestos do que o trabalho realmente pede?",
+  "frase": "Clique que sobra também cansa e também custa."
+ },
+ {
+  "tema": "Capricho que ninguém pediu",
+  "eixo": "Lean",
+  "fonte": "Taiichi Ohno — O Sistema Toyota de Produção (desperdício de processamento)",
+  "ideia": "Na procuradoria de um município, todo pedido de prorrogação de contrato, mesmo o mais simples e repetido, recebe um parecer extenso, com histórico doutrinário e várias páginas de citações. O gestor só precisa saber se pode ou não prorrogar e com quais cuidados. Ohno incluiu entre os desperdícios o processamento em excesso, que é fazer no trabalho mais do que quem recebe precisa. Na fábrica, podia ser um acabamento que o cliente nem via ou uma etapa de usinagem além da especificação. No serviço público, aparece como o parecer longo para a dúvida simples, a terceira conferência de um dado já conferido, a assinatura a mais, a exigência de documento que não muda a decisão. Muitas vezes nasce de boa intenção, de zelo e de medo de errar. Mas tem custo: cada caso comum que recebe tratamento de caso raro tira tempo justamente dos casos que precisariam dele. Ajustar o tamanho do esforço ao que o caso pede não é desleixo. É respeito ao tempo de quem faz e de quem espera.",
+  "pratica": "Escolha um documento ou etapa que o seu setor produz com frequência e pergunte a quem o recebe que partes ele de fato usa. Veja o que pode ficar mais curto.",
+  "pergunta": "Que parte do seu trabalho é feita com um capricho que ninguém usa?",
+  "frase": "Fazer além do necessário também é fazer errado, só que com mais esforço."
+ }
+]

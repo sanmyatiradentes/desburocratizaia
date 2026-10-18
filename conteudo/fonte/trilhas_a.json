@@ -1,0 +1,344 @@
+[
+  {
+    "id": "kaizen-no-setor",
+    "nome": "Kaizen no seu setor",
+    "subtitulo": "Em 21 dias, sua equipe ganha o hábito de melhorar um pouco toda semana, sem projeto grande nem verba nova.",
+    "para_quem": "Para quem coordena ou integra uma equipe e quer que as melhorias venham de quem faz o trabalho, e não de cima.",
+    "fontes": "Masaaki Imai (Kaizen; Gemba Kaizen), Mike Rother (Toyota Kata), W. Edwards Deming (Saindo da Crise)",
+    "dias": [
+      {
+        "titulo": "Vá onde o trabalho acontece",
+        "acao": "Passe 15 minutos no balcão, na mesa ou na sala onde o serviço é feito de verdade. Só observe e anote o que vê, sem corrigir ninguém.",
+        "por_que": "Masaaki Imai chama esse lugar de gemba, o local real do trabalho. Para ele, a melhoria começa ali, e não na sala de reunião."
+      },
+      {
+        "titulo": "Anote cinco pequenas irritações",
+        "acao": "Liste cinco coisas que atrapalham o dia: uma espera, uma busca, um retrabalho, uma pergunta repetida. Vale coisa miúda.",
+        "por_que": "Kaizen quer dizer melhoria contínua em passos pequenos. Problema pequeno é bom porque dá para resolver logo."
+      },
+      {
+        "titulo": "Pergunte a quem faz",
+        "acao": "Converse 10 minutos com um colega e pergunte: “O que mais te faz perder tempo aqui?”. Ouça até o fim, sem explicar nem defender o jeito atual.",
+        "por_que": "Quem executa a tarefa conhece detalhes que a chefia não vê. Ouvir sem rebater mostra que a opinião conta."
+      },
+      {
+        "titulo": "Ouça mais duas pessoas",
+        "acao": "Repita a pergunta de ontem com duas pessoas de funções diferentes, por exemplo quem atende e quem confere. Anote as respostas com as palavras delas.",
+        "por_que": "Cada função enxerga um pedaço do trabalho. Juntar os olhares evita melhorar uma parte e piorar a outra."
+      },
+      {
+        "titulo": "Monte o quadro de ideias",
+        "acao": "Cole uma folha na parede ou abra um grupo da equipe com três colunas: Ideia, Testando, Feito. Coloque lá o que você ouviu e convide todos a acrescentar.",
+        "por_que": "Uma ideia à vista não se perde e mostra que a melhoria é da equipe toda. O quadro é a memória do kaizen."
+      },
+      {
+        "titulo": "Escolha uma direção",
+        "acao": "Com base no que ouviu, escreva numa frase para onde o setor quer ir, por exemplo: “Atender sem pedir o mesmo documento duas vezes”. Mostre a frase à equipe e ajuste junto.",
+        "por_que": "Em Toyota Kata, Mike Rother mostra que a melhoria precisa de um rumo claro. Sem direção, cada um melhora para um lado."
+      },
+      {
+        "titulo": "Descreva como é hoje",
+        "acao": "Escreva em cinco linhas como o trabalho escolhido funciona hoje. Inclua um dado que você mesmo consiga contar esta semana, como quantas vezes um pedido volta para correção.",
+        "por_que": "Rother chama isso de condição atual. Só dá para medir avanço se você souber de onde partiu."
+      },
+      {
+        "titulo": "Defina o próximo degrau",
+        "acao": "Escolha um alvo pequeno, que dê para alcançar em uma semana, rumo à direção do dia 6. Escreva como o trabalho vai estar quando chegar lá.",
+        "por_que": "No Toyota Kata, isso é a condição-alvo: um degrau próximo, e não a meta final. Degrau curto mantém a equipe animada."
+      },
+      {
+        "titulo": "Escolha a menor mudança possível",
+        "acao": "Pegue no quadro uma ideia que se teste sem gastar e sem mudar norma, como reorganizar uma bancada ou mudar a ordem de dois passos. Se depender de decisão do gestor, leve a proposta a ele hoje.",
+        "por_que": "Mudança pequena se testa rápido e erra barato. O que envolve regra ou autorização segue para quem decide."
+      },
+      {
+        "titulo": "Teste a mudança na prática",
+        "acao": "Coloque a ideia em prática hoje com quem faz o trabalho. Combine quanto tempo o teste vai durar e o que vocês vão observar.",
+        "por_que": "Deming difundiu o ciclo planejar, fazer, verificar e agir. Testar é o “fazer”: a ideia sai do papel em escala pequena."
+      },
+      {
+        "titulo": "Faça as cinco perguntas",
+        "acao": "Pergunte a quem está testando: Qual é o alvo? Como está agora? O que está atrapalhando? Qual o próximo passo? Quando vamos ver o resultado? Leve 10 minutos, no máximo.",
+        "por_que": "São as perguntas do kata de coaching descrito por Rother. Elas ajudam a pessoa a pensar, em vez de receber a resposta pronta."
+      },
+      {
+        "titulo": "Anote o que aprendeu",
+        "acao": "Escreva em três linhas: o que vocês esperavam, o que aconteceu e o que isso ensinou. Cole no quadro, na coluna Testando.",
+        "por_que": "Esse é o “verificar” do ciclo de Deming. Comparar o esperado com o real transforma tentativa em aprendizado."
+      },
+      {
+        "titulo": "Agradeça em público",
+        "acao": "Diga para a equipe, com nome, quem deu a ideia e quem fez o teste. Um minuto basta, no começo do expediente ou no grupo.",
+        "por_que": "Reconhecimento simples estimula novas ideias. Imai insiste que o kaizen depende do envolvimento das pessoas."
+      },
+      {
+        "titulo": "Faça a primeira conversa semanal",
+        "acao": "Reúna a equipe 15 minutos, em pé, na frente do quadro. Passe pelas três colunas e escolham juntos a próxima ideia a testar.",
+        "por_que": "Uma conversa curta e frequente mantém o hábito vivo sem virar reunião pesada."
+      },
+      {
+        "titulo": "Mantenha, ajuste ou desista",
+        "acao": "Olhe o teste da semana e decida com a equipe: manter como está, ajustar um ponto ou abandonar. Registre a decisão no quadro.",
+        "por_que": "É o “agir” do ciclo. Desistir de uma ideia que não funcionou também é resultado, e evita insistir no erro."
+      },
+      {
+        "titulo": "Escreva o jeito novo",
+        "acao": "Se a mudança ficou, descreva o novo jeito numa página: passos curtos, uma foto se ajudar. Peça a quem faz o trabalho para revisar.",
+        "por_que": "Imai lembra que sem padrão não há kaizen: o padrão guarda a melhoria e vira o ponto de partida da próxima."
+      },
+      {
+        "titulo": "Ensine para quem não participou",
+        "acao": "Mostre a página de ontem a um colega que não estava no teste e peça que ele faça a tarefa seguindo o texto. Observe onde ele trava e corrija o texto.",
+        "por_que": "Um padrão bom é aquele que outra pessoa entende sozinha. Onde ela trava, o texto precisa melhorar."
+      },
+      {
+        "titulo": "Tire o medo da conversa",
+        "acao": "Diga claramente à equipe que ideia que não deu certo não gera bronca. Deixe um jeito de mandar sugestões sem se identificar, como uma caixinha ou um formulário anônimo.",
+        "por_que": "Afastar o medo é um dos 14 pontos de Deming. Com medo, as pessoas escondem problemas em vez de apontá-los."
+      },
+      {
+        "titulo": "Conte para o setor vizinho",
+        "acao": "Separe 10 minutos para mostrar a um setor próximo o quadro e uma melhoria que funcionou. Pergunte se eles têm algo parecido para trocar.",
+        "por_que": "Melhoria contada se espalha. E o setor vizinho costuma ser quem recebe o seu trabalho, então ele vê efeitos que você não vê."
+      },
+      {
+        "titulo": "Combine o ritmo daqui para frente",
+        "acao": "Marque na agenda a conversa semanal de 15 minutos em dia e hora fixos. Combine um rodízio para conduzir, assim o hábito não depende de uma pessoa só.",
+        "por_que": "O kaizen é contínuo por definição. Ritmo fixo e condução dividida fazem o hábito durar depois da trilha."
+      },
+      {
+        "titulo": "Olhe para trás e celebre",
+        "acao": "Reúna a equipe na frente do quadro e conte quantas ideias surgiram, quantas foram testadas e quais ficaram. Celebre com um café e pergunte o que cada um quer melhorar no próximo mês.",
+        "por_que": "Ver o caminho feito dá sentido ao esforço. Celebrar o que a equipe construiu é o melhor convite para continuar."
+      }
+    ]
+  },
+  {
+    "id": "enxugar-um-processo",
+    "nome": "Enxugue um processo",
+    "subtitulo": "Em 21 dias, você mapeia um processo do seu setor, separa o que tem base legal do que é costume e leva ao gestor uma proposta testada.",
+    "para_quem": "Para quem lida com um processo cheio de etapas, carimbos e esperas e quer propor um caminho mais curto com segurança jurídica.",
+    "fontes": "James Womack e Daniel Jones (A Mentalidade Enxuta nas Empresas), Mike Rother e John Shook (Aprendendo a Enxergar), John Seddon (Freedom from Command and Control)",
+    "dias": [
+      {
+        "titulo": "Escolha um processo só",
+        "acao": "Escolha um processo real do setor que incomode o cidadão ou a equipe e que tenha começo e fim claros. Um só: o resto espera.",
+        "por_que": "Foco em um processo permite ir até o fim em três semanas. Tentar arrumar tudo de uma vez costuma não arrumar nada."
+      },
+      {
+        "titulo": "Descubra o que é valor",
+        "acao": "Converse 10 minutos com quem recebe o resultado, seja cidadão ou outro setor, e pergunte o que ele realmente precisa no final. Anote com as palavras dele.",
+        "por_que": "Para Womack e Jones, o primeiro princípio enxuto é definir valor do ponto de vista de quem recebe, e não de quem faz."
+      },
+      {
+        "titulo": "Marque onde começa e termina",
+        "acao": "Escreva qual fato abre o processo, como o pedido protocolado, e qual fato o encerra, como a entrega ao interessado. Combine isso com a equipe.",
+        "por_que": "Medir do pedido à entrega mostra o tempo que o usuário sente, e não só o tempo de cada mesa."
+      },
+      {
+        "titulo": "Siga um pedido real",
+        "acao": "Pegue um pedido recente e acompanhe o caminho dele: cada mesa, sistema, assinatura e parada. Anote tudo na ordem em que acontece.",
+        "por_que": "Rother e Shook recomendam caminhar pelo fluxo de verdade. O processo real quase sempre difere do que está no papel."
+      },
+      {
+        "titulo": "Desenhe o fluxo à mão",
+        "acao": "Numa folha grande ou com papéis adesivos, desenhe cada etapa como uma caixa e ligue com setas. Marque também onde o processo fica parado esperando.",
+        "por_que": "É a ideia do mapa do fluxo de valor, de Aprendendo a Enxergar: ver o processo inteiro numa folha só revela onde ele emperra."
+      },
+      {
+        "titulo": "Cronometre o trabalho de fato",
+        "acao": "Em duas ou três etapas, cronometre só o tempo em que alguém está mexendo no processo: lendo, conferindo, assinando. Use o cronômetro do celular.",
+        "por_que": "Esse é o tempo de trabalho. Ele costuma ser bem menor do que o tempo total, e é isso que você vai comparar amanhã."
+      },
+      {
+        "titulo": "Meça o tempo de espera",
+        "acao": "Pegue alguns processos já encerrados e veja as datas de entrada e saída de cada etapa. Some a espera total e coloque ao lado do tempo de trabalho de ontem.",
+        "por_que": "Comparar espera com trabalho mostra onde está o atraso de verdade. Muitas vezes o problema não é trabalhar mais rápido, e sim esperar menos."
+      },
+      {
+        "titulo": "Conte os pedidos que voltam",
+        "acao": "Por um dia, anote os contatos que chegam porque algo falhou: pedido devolvido, documento faltando, gente perguntando onde está o processo.",
+        "por_que": "John Seddon chama isso de demanda de falha: trabalho criado porque o sistema não acertou na primeira vez. Reduzir essa demanda libera a equipe."
+      },
+      {
+        "titulo": "Pinte cada etapa de uma cor",
+        "acao": "No mapa, marque cada etapa: verde se agrega valor para quem recebe, amarelo se é necessária por lei ou segurança, vermelho se parece desnecessária. Em caso de dúvida, use amarelo.",
+        "por_que": "Separar o que agrega valor do que é só costume é o centro do pensamento enxuto. Na dúvida, a etapa fica até ser verificada."
+      },
+      {
+        "titulo": "Ache a base legal de cada exigência",
+        "acao": "Para cada documento, assinatura ou carimbo exigido, procure qual lei, decreto ou norma interna o pede e anote o artigo. Onde não achar, escreva “não encontrei”.",
+        "por_que": "No serviço público, só a lei autoriza exigir algo do cidadão. Saber a base de cada exigência protege você e o gestor."
+      },
+      {
+        "titulo": "Confira o que a lei já dispensa",
+        "acao": "Leia a Lei 13.726/2018, a lei da desburocratização, e veja se alguma exigência do seu processo está entre as que ela dispensa. Confira também se há norma estadual ou municipal sobre o tema.",
+        "por_que": "Essa lei dispensa, por exemplo, reconhecimento de firma e autenticação de cópia em várias situações. Às vezes a regra mudou e o costume ficou."
+      },
+      {
+        "titulo": "Converse com o jurídico",
+        "acao": "Leve à assessoria jurídica as exigências marcadas como “não encontrei” e pergunte, em 15 minutos, se há alguma base que você não viu.",
+        "por_que": "Retirar uma exigência com fundamentação é seguro. Retirar sem conferir pode criar risco. O jurídico ajuda a separar uma coisa da outra."
+      },
+      {
+        "titulo": "Desenhe o fluxo novo",
+        "acao": "Faça um segundo mapa sem as etapas vermelhas confirmadas e com menos paradas. Mantenha tudo o que a lei exige.",
+        "por_que": "Womack e Jones falam em fazer o valor fluir sem interrupções. O fluxo novo entrega o mesmo resultado com menos espera."
+      },
+      {
+        "titulo": "Coloque a proposta numa página",
+        "acao": "Em uma página, escreva o que muda, por que muda e a base legal de cada retirada. Deixe claro que a decisão é do gestor.",
+        "por_que": "Uma página curta e fundamentada é fácil de ler e de aprovar. O servidor propõe, o gestor decide."
+      },
+      {
+        "titulo": "Apresente ao gestor",
+        "acao": "Mostre ao gestor os dois mapas lado a lado e a proposta, em 10 minutos. Peça autorização para testar o fluxo novo como piloto por um período definido.",
+        "por_que": "Um piloto com prazo diminui o risco da decisão. O gestor aprova um teste, e não uma mudança definitiva às cegas."
+      },
+      {
+        "titulo": "Combine o piloto com a equipe",
+        "acao": "Se o piloto foi autorizado, reúna quem executa o processo e combine quem faz o quê, por quanto tempo e o que será medido. Se não foi, anote o motivo e ajuste a proposta.",
+        "por_que": "Quem faz o trabalho precisa entender e ajudar a desenhar o teste. Assim o piloto mede o fluxo, e não a resistência a ele."
+      },
+      {
+        "titulo": "Rode o piloto",
+        "acao": "Comece a usar o fluxo novo e acompanhe de perto os primeiros pedidos. Anote qualquer tropeço no mesmo dia.",
+        "por_que": "Os primeiros dias mostram falhas que o desenho não previu. Corrigir cedo evita que o piloto seja julgado por um detalhe."
+      },
+      {
+        "titulo": "Meça de novo",
+        "acao": "Repita as medições dos dias 6 e 7 nos pedidos do piloto: tempo de trabalho e tempo de espera. Coloque os números ao lado dos de antes.",
+        "por_que": "Medir do mesmo jeito permite comparar com honestidade. Sem a mesma régua, a melhoria vira só impressão."
+      },
+      {
+        "titulo": "Ouça quem usou",
+        "acao": "Pergunte a dois servidores e, se possível, a dois usuários o que melhorou e o que piorou. Ouça com atenção as críticas.",
+        "por_que": "Seddon defende estudar o sistema pelos olhos de quem o usa. A crítica de hoje evita um problema na versão oficial."
+      },
+      {
+        "titulo": "Formalize o que funcionou",
+        "acao": "Leve ao gestor os resultados do piloto e peça que o fluxo novo vire o oficial, com o ato ou a orientação interna que ele considerar adequada. Se houver Carta de Serviços, sugira atualizá-la.",
+        "por_que": "Sem formalização, o processo antigo volta aos poucos. A Carta de Serviços, prevista na Lei 13.460/2017, informa o cidadão sobre o caminho novo."
+      },
+      {
+        "titulo": "Olhe para trás e celebre",
+        "acao": "Coloque o mapa antigo e o novo lado a lado e mostre à equipe o que mudou. Agradeça a quem ajudou e escolham juntos o próximo processo.",
+        "por_que": "Womack e Jones chamam de busca da perfeição: cada processo enxuto abre caminho para o próximo. Celebrar mantém a vontade de seguir."
+      }
+    ]
+  },
+  {
+    "id": "smed-preparar-rapido",
+    "nome": "SMED: prepare em minutos",
+    "subtitulo": "Em 21 dias, você reduz o tempo de preparação de uma atividade do setor deixando pronto antes tudo o que não precisa ser feito na hora.",
+    "para_quem": "Para quem perde tempo montando sala, juntando documentos ou preparando material toda vez que uma atividade começa.",
+    "fontes": "Shigeo Shingo (A Revolution in Manufacturing: The SMED System; Sistema de Troca Rápida de Ferramenta)",
+    "dias": [
+      {
+        "titulo": "Entenda a troca rápida",
+        "acao": "Pense em uma atividade do setor que exige preparação antes de começar. Anote quanto tempo você acha que essa preparação leva hoje.",
+        "por_que": "Shigeo Shingo criou o SMED, sigla em inglês para troca de ferramenta em poucos minutos. A ideia vale para qualquer preparação, não só para máquinas."
+      },
+      {
+        "titulo": "Escolha uma preparação",
+        "acao": "Escolha uma preparação real e frequente: abrir um processo de compra, montar a sala de atendimento, preparar um exame ou perícia, organizar uma audiência. Só uma.",
+        "por_que": "Começar por uma preparação que se repete muito faz cada minuto ganho valer várias vezes."
+      },
+      {
+        "titulo": "Acompanhe uma preparação inteira",
+        "acao": "Na próxima vez que ela acontecer, acompanhe do começo ao fim com o cronômetro do celular. Anote cada passo e quanto tempo levou.",
+        "por_que": "Shingo começava observando a preparação real. O tempo medido costuma ser diferente do tempo que achamos."
+      },
+      {
+        "titulo": "Numere cada passo",
+        "acao": "Passe a limpo a lista de ontem com os passos numerados e o tempo de cada um. Inclua os pequenos, como procurar a caneta ou ligar o computador.",
+        "por_que": "Passo que não está na lista não pode ser melhorado. Os pequenos, somados, costumam pesar."
+      },
+      {
+        "titulo": "Separe o antes e o na hora",
+        "acao": "Marque cada passo: interno se só dá para fazer na hora, com a atividade parada ou alguém esperando; externo se daria para fazer antes. Seja honesto.",
+        "por_que": "Esse é o primeiro passo do SMED: separar preparação interna de externa. Muita coisa feita na hora poderia estar pronta antes."
+      },
+      {
+        "titulo": "Conte o tempo de busca",
+        "acao": "Na lista, sublinhe todo passo que é procurar algo: papel, modelo, senha, material, contato. Some esses minutos.",
+        "por_que": "Buscar na hora é sinal clássico de preparação externa virando interna. Shingo mostrou que boa parte do tempo se perde assim."
+      },
+      {
+        "titulo": "Pergunte o que sempre falta",
+        "acao": "Converse 10 minutos com quem faz a preparação e pergunte: “O que sempre falta ou atrasa na hora?”. Anote tudo.",
+        "por_que": "Quem prepara todo dia conhece os tropeços que se repetem. A resposta dela vira a lista de prioridades."
+      },
+      {
+        "titulo": "Mova dois passos para antes",
+        "acao": "Escolha dois passos marcados como externos e combine quando eles serão feitos antes da atividade, por exemplo no fim do dia anterior.",
+        "por_que": "O segundo passo do SMED é converter preparação interna em externa. Cada passo movido encurta a espera de quem está na hora."
+      },
+      {
+        "titulo": "Monte um kit pronto",
+        "acao": "Junte numa caixa, gaveta ou pasta tudo o que a preparação pede, sempre no mesmo lugar. Escreva na etiqueta para que serve.",
+        "por_que": "Kit pronto elimina a busca. É uma aplicação direta da ideia de Shingo de ter tudo à mão antes de começar."
+      },
+      {
+        "titulo": "Crie um modelo de documento",
+        "acao": "Pegue o texto que se reescreve a cada vez, como um despacho, uma ata ou um termo, e transforme em modelo com espaços para preencher. Guarde numa pasta que todos achem.",
+        "por_que": "Modelo pronto leva para antes o trabalho de redigir. Na hora, só se completa o que muda de um caso para outro."
+      },
+      {
+        "titulo": "Faça um checklist curto",
+        "acao": "Escreva uma lista de conferência que caiba numa tela ou num cartão, só com o que não pode faltar. Cole no kit ou na porta da sala.",
+        "por_que": "Lista curta é lida de verdade. Ela confere a preparação externa antes que a atividade comece."
+      },
+      {
+        "titulo": "Teste a preparação nova",
+        "acao": "Na próxima preparação, use o kit, o modelo e o checklist. Cronometre do mesmo jeito do dia 3.",
+        "por_que": "Medir igual permite comparar. Esse é o momento de ver se as mudanças funcionam na prática."
+      },
+      {
+        "titulo": "Encurte o que ficou na hora",
+        "acao": "Olhe os passos internos que sobraram e pergunte: dá para fazer em paralelo, mudar a ordem ou deixar o sistema já aberto? Teste uma dessas ideias.",
+        "por_que": "O terceiro passo do SMED é aperfeiçoar todas as operações, internas e externas. Depois de mover o que dá, encurta-se o que resta."
+      },
+      {
+        "titulo": "Torne o esquecimento difícil",
+        "acao": "Escolha o item que mais costuma ser esquecido e crie um jeito de não esquecer, como um lugar marcado no kit ou uma cor que denuncie a falta. Teste por uma semana.",
+        "por_que": "Shingo também desenvolveu o poka-yoke, à prova de erro: em vez de depender da memória, o próprio arranjo mostra o que falta."
+      },
+      {
+        "titulo": "Compare antes e depois",
+        "acao": "Coloque lado a lado o tempo do dia 3 e o tempo dos testes. Mostre à equipe sem exagerar: só os números que vocês mediram.",
+        "por_que": "Resultado medido convence mais que opinião. E mostrar com honestidade dá credibilidade para as próximas mudanças."
+      },
+      {
+        "titulo": "Padronize numa página",
+        "acao": "Junte numa página a foto do kit, o checklist e o local dos modelos. Se a preparação envolve documentos exigidos por lei, como numa compra, confirme que todos continuam lá.",
+        "por_que": "O SMED muda quando e como se prepara, não o que a lei exige. O padrão guarda o ganho e protege a conformidade."
+      },
+      {
+        "titulo": "Ensine outra pessoa",
+        "acao": "Peça a um colega que nunca fez essa preparação que a faça sozinho, usando só a página de ontem. Observe onde ele trava e ajuste.",
+        "por_que": "Se outra pessoa prepara bem sozinha, a melhoria não depende de quem a criou."
+      },
+      {
+        "titulo": "Combine quem repõe o kit",
+        "acao": "Defina quem confere e repõe o kit e em que momento, por exemplo toda sexta no fim do dia. Escreva isso na etiqueta.",
+        "por_que": "Kit incompleto volta a gerar busca na hora. A reposição combinada mantém a preparação externa funcionando."
+      },
+      {
+        "titulo": "Aplique a outra preparação",
+        "acao": "Escolha uma segunda preparação do setor e faça hoje só a separação entre o que dá para fazer antes e o que é na hora.",
+        "por_que": "A lógica de Shingo se repete em qualquer preparação. Na segunda vez, você já enxerga muito mais rápido."
+      },
+      {
+        "titulo": "Mostre a outro setor",
+        "acao": "Separe 10 minutos para mostrar a um setor vizinho o kit, o checklist e a comparação de tempos. Pergunte qual preparação toma mais tempo deles.",
+        "por_que": "Muitas preparações se parecem entre setores. Um kit que funciona pode ser adaptado em poucos dias."
+      },
+      {
+        "titulo": "Celebre o tempo devolvido",
+        "acao": "Reúna a equipe e mostre o tempo que a preparação deixou de consumir. Agradeça a quem montou o kit e pergunte onde investir esse tempo agora.",
+        "por_que": "O minuto que não se gasta preparando volta para o atendimento e para o trabalho que importa. Isso merece ser comemorado."
+      }
+    ]
+  }
+]

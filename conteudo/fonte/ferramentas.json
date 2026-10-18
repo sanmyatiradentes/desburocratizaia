@@ -1,0 +1,405 @@
+[
+  {
+    "nome": "5S",
+    "origem": "Prática japonesa de organização do local de trabalho, difundida pela tradição Lean",
+    "em_uma_frase": "Arrumar o espaço de trabalho para que tudo tenha lugar, o que não serve saia e achar qualquer coisa leve segundos.",
+    "como_usar": [
+      "Separe o que se usa toda semana do que está parado ali sem motivo.",
+      "Defina um lugar fixo e identificado para cada coisa que ficou.",
+      "Limpe e repare no que a bagunça estava escondendo.",
+      "Combine com a equipe uma olhada rápida no fim da semana para manter."
+    ],
+    "exemplo": "No almoxarifado de uma secretaria, ninguém sabia ao certo o que havia nas prateleiras do fundo. A equipe tirou uma manhã, separou o material de uso frequente, etiquetou as prateleiras por tipo e deixou num canto o que estava parado, para o gestor decidir o destino conforme as regras de patrimônio e de desfazimento. Os itens mais pedidos foram para perto do balcão. Na semana seguinte, os pedidos passaram a ser atendidos sem aquela caça ao tesouro, e o inventário ficou bem mais fácil de conferir.",
+    "armadilha": "O 5S vira burocracia quando se transforma em auditoria de mesa, com planilha de notas, foto de gaveta e ranking de setores. O objetivo é achar as coisas rápido, não ganhar selo."
+  },
+  {
+    "nome": "5 Porquês",
+    "origem": "Sakichi Toyoda; difundido por Taiichi Ohno no Sistema Toyota de Produção",
+    "em_uma_frase": "Perguntar “por quê?” várias vezes seguidas até sair do sintoma e chegar a uma causa que dá para resolver.",
+    "como_usar": [
+      "Escreva o problema como um fato, sem culpado: o que aconteceu, onde e quando.",
+      "Pergunte por que isso aconteceu e anote a resposta que dá para comprovar.",
+      "Repita a pergunta sobre cada resposta até chegar a algo que a equipe consiga mudar.",
+      "Teste a causa ao contrário: se ela sumir, o problema some?"
+    ],
+    "exemplo": "No protocolo, muitos processos voltavam ao requerente para complementar documentos. Por quê? Faltava comprovante de endereço. Por quê? O requerente não sabia que precisava. Por quê? A lista de documentos no site estava desatualizada. Por quê? Ninguém era responsável por revisá-la quando a norma mudava. A solução não foi cobrar mais atenção do atendente, e sim designar quem atualiza a lista sempre que a norma for alterada. Antes de mexer, a equipe conferiu com a chefia quais documentos a norma de fato exige.",
+    "armadilha": "Vira burocracia quando os cinco porquês viram formulário que precisa ter exatamente cinco linhas, ou quando a cadeia termina sempre em “falta de atenção do servidor”. Às vezes bastam três perguntas; o que não pode é parar na pessoa em vez de chegar ao processo."
+  },
+  {
+    "nome": "Gemba (ir ver onde o trabalho acontece)",
+    "origem": "Sistema Toyota de Produção (genchi genbutsu, “vá e veja”); termo popularizado por Masaaki Imai",
+    "em_uma_frase": "Sair da sala e ver, com os próprios olhos, o trabalho acontecendo, antes de opinar sobre ele.",
+    "como_usar": [
+      "Escolha um processo e vá até onde ele acontece, sem clima de inspeção.",
+      "Observe em silêncio por um tempo e anote o que vê, não o que acha.",
+      "Pergunte a quem faz o que atrapalha o dia, com curiosidade e sem cobrar.",
+      "Volte com duas ou três observações concretas e converse com a equipe antes de decidir."
+    ],
+    "exemplo": "A coordenação de um posto de saúde recebia reclamações de demora na recepção e já pensava em pedir mais um servidor. Antes, a coordenadora passou uma manhã sentada perto do balcão, só observando. Viu que a recepcionista se levantava toda hora para buscar fichas numa sala do outro lado do corredor e repetia a mesma explicação sobre horários para quase todo mundo. Mudar o armário de lugar e afixar um cartaz claro com os horários resolveu boa parte da fila, sem contratar ninguém.",
+    "armadilha": "Gemba vira burocracia quando se torna visita de autoridade com roteiro, comitiva e relatório de não conformidades. Se a equipe sente que está sendo fiscalizada, mostra o trabalho do jeito que acha que você quer ver, e você não aprende nada."
+  },
+  {
+    "nome": "PDCA",
+    "origem": "Ciclo de Shewhart, difundido por W. Edwards Deming",
+    "em_uma_frase": "Planejar uma mudança pequena, fazer, checar se funcionou e ajustar; depois girar de novo.",
+    "como_usar": [
+      "Planeje: defina o problema, a mudança que vai testar e como vai saber se deu certo.",
+      "Faça a mudança em pequena escala e por um tempo combinado.",
+      "Cheque o resultado comparando com como era antes.",
+      "Aja: se funcionou, padronize; se não, ajuste e rode o ciclo outra vez."
+    ],
+    "exemplo": "A secretaria de uma escola recebia muitas dúvidas repetidas no período de matrícula. Plano: montar um quadro de perguntas frequentes na entrada e no grupo de mensagens dos pais. Fez: testou durante uma semana. Checou: anotou num papel, ao lado do telefone, os assuntos das ligações, antes e depois. Agiu: as dúvidas sobre documentos diminuíram, mas as sobre transporte escolar continuaram, então a equipe reescreveu essa parte em linguagem mais simples e rodou o ciclo de novo no período seguinte.",
+    "armadilha": "PDCA vira burocracia quando cada letra ganha um relatório, uma ata e uma aprovação. O ciclo deve ser curto e leve; se leva meses para dar uma volta, deixou de ser ferramenta de aprendizado e virou rito."
+  },
+  {
+    "nome": "Kanban",
+    "origem": "Sistema Toyota de Produção — Taiichi Ohno; adaptado ao trabalho de escritório por David J. Anderson",
+    "em_uma_frase": "Um quadro com colunas, como “a fazer”, “fazendo” e “feito”, que mostra o trabalho e limita quanta coisa anda ao mesmo tempo.",
+    "como_usar": [
+      "Desenhe três ou quatro colunas que reflitam as etapas reais do trabalho.",
+      "Coloque cada demanda num cartão e posicione onde ela está hoje.",
+      "Combine um limite de cartões na coluna “fazendo” por pessoa.",
+      "Olhe o quadro todo dia e puxe trabalho novo só quando algo terminar."
+    ],
+    "exemplo": "A equipe de TI de uma prefeitura vivia com a sensação de que tudo era urgente e nada terminava. Montou um quadro na parede com as colunas “chegou”, “em análise”, “em atendimento”, “aguardando usuário” e “resolvido”. Cada técnico podia ter no máximo dois chamados em atendimento ao mesmo tempo. Em poucos dias, ficou visível que muita coisa travava em “aguardando usuário”, e a equipe passou a ligar para o usuário em vez de esperar o e-mail de volta.",
+    "armadilha": "Kanban vira burocracia quando o quadro tem colunas demais, cores com legenda de duas páginas e alguém encarregado só de atualizar cartões. Se o quadro dá mais trabalho do que ajuda, simplifique até voltar a ser útil."
+  },
+  {
+    "nome": "Mapa do fluxo de valor (VSM)",
+    "origem": "Mike Rother e John Shook, Learning to See (1998), a partir das práticas da Toyota",
+    "em_uma_frase": "Desenhar, de ponta a ponta, todas as etapas de um processo, incluindo as esperas, para ver onde o tempo realmente se perde.",
+    "como_usar": [
+      "Escolha um processo e defina onde ele começa e onde termina para quem é atendido.",
+      "Siga um caso real e desenhe cada etapa num papel grande, com setas.",
+      "Anote, entre as etapas, quanto tempo o caso ficou parado esperando.",
+      "Marque com a equipe as etapas que não agregam valor nem são exigidas por norma."
+    ],
+    "exemplo": "Um setor de compras queria entender por que uma aquisição simples demorava tanto. A equipe pegou um processo já concluído e reconstruiu o caminho: pedido, pesquisa de preços, parecer, autorização, empenho. No mapa, ficou claro que o trabalho em si era rápido; o grosso do tempo era espera em caixas de entrada e idas e vindas entre setores para colher assinaturas que a norma não exigia. Todas as etapas legais continuaram; o gestor retirou apenas as assinaturas sem base normativa.",
+    "armadilha": "O mapa vira burocracia quando passa a ser um trabalho de semanas, com software caro e ícones padronizados, e termina pendurado na parede sem que nada mude. Ele é um meio para conversar sobre o fluxo, não um produto final."
+  },
+  {
+    "nome": "SIPOC",
+    "origem": "Gestão da Qualidade Total, muito usado no Seis Sigma; sem autor único reconhecido",
+    "em_uma_frase": "Uma tabela de cinco colunas que mostra quem fornece, o que entra, o que se faz, o que sai e para quem.",
+    "como_usar": [
+      "Escreva no meio o processo em quatro a sete etapas grandes, sem detalhar.",
+      "Liste à direita o que sai do processo e quem recebe.",
+      "Liste à esquerda o que entra e quem fornece.",
+      "Pergunte, para cada entrada, se ela é de fato usada lá na frente."
+    ],
+    "exemplo": "O RH de uma autarquia queria revisar a concessão de licença para capacitação. Montou o SIPOC numa folha: fornecedores (servidor, chefia imediata, escola de governo), entradas (requerimento, plano de estudo, manifestação da chefia), processo, saídas (portaria publicada) e clientes (servidor e setor de lotação). Ao olhar as entradas, a equipe notou que pedia uma declaração da chefia que repetia o que já constava da manifestação. A proposta de retirar a duplicidade foi levada ao gestor, depois de conferir que nenhuma norma a exigia.",
+    "armadilha": "SIPOC vira burocracia quando é exigido como anexo obrigatório de qualquer projeto, preenchido depois que o trabalho já foi feito só para cumprir tabela. Ele serve no começo, para alinhar a conversa, e cabe numa folha."
+  },
+  {
+    "nome": "Diagrama de Ishikawa (espinha de peixe)",
+    "origem": "Kaoru Ishikawa — criado nos anos 1940 e difundido a partir dos anos 1960",
+    "em_uma_frase": "Um desenho em forma de espinha de peixe que organiza as possíveis causas de um problema por categoria.",
+    "como_usar": [
+      "Escreva o problema na cabeça do peixe, de forma clara e específica.",
+      "Desenhe as espinhas com categorias simples: pessoas, métodos, materiais, equipamentos, ambiente e informação.",
+      "Reúna quem faz o trabalho e anote as causas possíveis em cada espinha.",
+      "Escolha as duas ou três causas mais prováveis e vá verificar se são verdadeiras."
+    ],
+    "exemplo": "Num instituto de perícia, laudos de um tipo de exame estavam saindo depois do prazo pedido pela autoridade. A equipe desenhou a espinha de peixe. Em equipamentos, apareceu um aparelho que ficava parado aguardando manutenção. Em informação, requisições chegavam sem dados básicos do caso. Em métodos, cada perito montava o texto do laudo de um jeito. Foram checar: a requisição incompleta era a causa mais frequente. A primeira ação foi combinar com quem requisita um modelo com os campos essenciais.",
+    "armadilha": "A espinha de peixe vira burocracia quando vira um cartaz bonito cheio de causas que ninguém verifica. Ela levanta hipóteses; sem ir conferir, é só uma lista de palpites bem desenhada."
+  },
+  {
+    "nome": "Poka-yoke (à prova de erro)",
+    "origem": "Shigeo Shingo, anos 1960, na Toyota",
+    "em_uma_frase": "Desenhar o processo para que o erro fique difícil de acontecer, ou apareça na hora, sem depender de atenção redobrada.",
+    "como_usar": [
+      "Liste os erros que mais se repetem num processo.",
+      "Pergunte, para cada um, como o próprio formulário ou sistema poderia impedi-lo.",
+      "Prefira barreiras simples: campo obrigatório, lista de opções, cor, encaixe que só entra de um jeito.",
+      "Teste com quem usa e veja se o erro parou de aparecer."
+    ],
+    "exemplo": "No agendamento on-line de um Detran, muita gente chegava no dia sem o documento certo e precisava remarcar. Em vez de colocar mais um aviso em letras miúdas, a equipe mudou a tela: ao escolher o serviço, o sistema mostra a lista exata de documentos daquele serviço e pede que a pessoa marque cada item antes de confirmar. A mensagem de confirmação repete a lista. Acertar os documentos deixou de depender de alguém ler um texto longo.",
+    "armadilha": "Poka-yoke vira burocracia quando a “prova de erro” é mais uma assinatura, mais um visto ou mais uma conferência humana. Se a solução depende de alguém prestar mais atenção, ainda não é à prova de erro."
+  },
+  {
+    "nome": "SMED (troca rápida / preparação)",
+    "origem": "Shigeo Shingo, desenvolvido entre os anos 1950 e 1960",
+    "em_uma_frase": "Encurtar a preparação entre uma tarefa e outra, deixando pronto antes tudo o que pode ser feito antes.",
+    "como_usar": [
+      "Observe uma troca, do fim de uma tarefa ao começo da seguinte, e anote cada passo.",
+      "Separe o que só pode ser feito com o trabalho parado do que pode ser adiantado.",
+      "Leve para antes tudo o que pode ser preparado com antecedência.",
+      "Simplifique o que sobrou e transforme em rotina."
+    ],
+    "exemplo": "Na troca de turno de um plantão, a passagem de serviço demorava: quem chegava precisava ler anotações soltas, procurar chaves e perguntar o que estava em andamento. A equipe separou o que dava para preparar antes: um resumo do turno preenchido ao longo do plantão, chaves e rádios já conferidos num ponto fixo, casos em andamento listados num quadro. Na hora da troca, sobrou só a conversa sobre o que realmente importava. A passagem ficou mais curta e com menos coisas esquecidas.",
+    "armadilha": "Troca rápida vira burocracia quando o resumo de passagem cresce até virar um relatório de três páginas que ninguém lê. Prepare antes só o que de fato encurta a troca."
+  },
+  {
+    "nome": "Padronização do trabalho (trabalho padrão)",
+    "origem": "Sistema Toyota de Produção — Taiichi Ohno, com raízes no programa Training Within Industry (TWI)",
+    "em_uma_frase": "Registrar a melhor forma conhecida, hoje, de fazer uma tarefa, para todos fazerem igual e melhorarem a partir dela.",
+    "como_usar": [
+      "Escolha uma tarefa que cada pessoa faz de um jeito e que gera retrabalho.",
+      "Reúna quem faz e combine a sequência que funciona melhor hoje.",
+      "Registre em uma página, com passos curtos e, se ajudar, imagens.",
+      "Revise sempre que alguém achar um jeito melhor."
+    ],
+    "exemplo": "Num centro de assistência social, o cadastro de famílias era feito de formas diferentes por cada técnico, e informações importantes às vezes ficavam de fora. A equipe sentou junto, comparou os jeitos de cada um e montou uma folha com a sequência da entrevista e os campos que não podem faltar. A folha fica na mesa de atendimento. Um técnico recém-chegado passou a fazer cadastros completos desde a primeira semana, e a equipe já mudou a folha duas vezes com sugestões de quem atende.",
+    "armadilha": "Padronização vira burocracia quando o padrão é escrito por quem não faz o trabalho, tem trinta páginas e precisa de três aprovações para mudar uma vírgula. Padrão bom é curto, feito com a equipe e fácil de melhorar."
+  },
+  {
+    "nome": "Kaizen relâmpago (evento kaizen)",
+    "origem": "Tradição Lean; formato de evento difundido no Ocidente a partir dos anos 1990",
+    "em_uma_frase": "Reunir uma equipe pequena por poucos dias, dedicada a melhorar um único processo, testando as mudanças ali mesmo.",
+    "como_usar": [
+      "Escolha um processo delimitado e um problema claro para atacar.",
+      "Reserve a equipe que faz o trabalho, com apoio de quem decide.",
+      "Observe, proponha e teste mudanças durante o próprio evento.",
+      "Feche com o que mudou, quem cuida de cada mudança e o que fica para depois."
+    ],
+    "exemplo": "O setor de protocolo de uma secretaria dedicou alguns dias a um único fluxo: o recebimento de requerimentos de servidores. A equipe, junto com a chefia, acompanhou casos reais, reorganizou o balcão, juntou dois formulários que pediam as mesmas informações e criou um roteiro de triagem logo na entrada. O que dependia de mudança de norma foi listado e levado ao gestor. Ao fim, as mudanças já estavam funcionando, e cada uma tinha um responsável para acompanhar nas semanas seguintes.",
+    "armadilha": "O kaizen relâmpago vira burocracia quando vira evento de vitrine, com abertura solene, crachá e apresentação final, mas sem ninguém para cuidar das mudanças depois. Sem acompanhamento, tudo volta ao que era em poucas semanas."
+  },
+  {
+    "nome": "Diagrama de espaguete",
+    "origem": "Tradição Lean e estudo de métodos de trabalho",
+    "em_uma_frase": "Desenhar numa planta o caminho que uma pessoa ou um documento percorre, para enxergar o vaivém desnecessário.",
+    "como_usar": [
+      "Faça um esboço simples da planta do setor.",
+      "Acompanhe uma pessoa ou um documento e trace cada deslocamento com uma linha.",
+      "Olhe onde as linhas se embolam e se cruzam.",
+      "Reorganize a posição das coisas para encurtar os caminhos mais frequentes."
+    ],
+    "exemplo": "No arquivo de um órgão, a equipe sentia que andava o dia inteiro. Uma servidora acompanhou um colega durante a busca de várias caixas e riscou numa planta cada ida e volta. O desenho parecia um prato de macarrão: o livro de registro ficava numa ponta, o carrinho na outra, e as caixas mais procuradas no fundo. Mudar o livro de lugar, deixar o carrinho perto das estantes e trazer para a frente as séries mais consultadas encurtou bastante o trajeto.",
+    "armadilha": "Vira burocracia quando se exige cronometragem de cada passo e relatório de deslocamento por servidor, como se fosse controle de pessoas. O desenho é sobre o arranjo do espaço, não sobre vigiar quem anda."
+  },
+  {
+    "nome": "Matriz esforço × impacto",
+    "origem": "Tradição de gestão de projetos e melhoria contínua, sem autor único",
+    "em_uma_frase": "Um quadro de quatro partes que separa as ideias pelo esforço que exigem e pelo efeito que trazem, para escolher por onde começar.",
+    "como_usar": [
+      "Liste as ideias de melhoria que a equipe já tem.",
+      "Desenhe um quadrado com dois eixos: esforço e impacto.",
+      "Posicione cada ideia, em conversa rápida com quem conhece o trabalho.",
+      "Comece pelas de pouco esforço e muito impacto, e decida o que fazer com as demais."
+    ],
+    "exemplo": "O gabinete de uma secretaria tinha uma lista enorme de sugestões da equipe e nenhuma andava. Numa reunião curta, cada sugestão foi para a matriz. Criar um modelo de despacho para os pedidos mais comuns ficou no quadrante de pouco esforço e muito impacto, assim como organizar a agenda em blocos. Já trocar o sistema de tramitação ficou em muito esforço. O gabinete fez as rápidas primeiro e encaminhou a mudança grande para planejamento com a área de TI.",
+    "armadilha": "A matriz vira burocracia quando ganha pontuação com pesos, fórmulas e planilha de critérios para decidir o óbvio. Ela é uma conversa curta, não um processo seletivo."
+  },
+  {
+    "nome": "A3 (resolução de problemas numa folha)",
+    "origem": "Prática da Toyota; difundida no Ocidente por John Shook em Managing to Learn (2008)",
+    "em_uma_frase": "Contar a história de um problema e da solução numa única folha grande: situação, causa, proposta, teste e resultado.",
+    "como_usar": [
+      "Divida uma folha grande em blocos: contexto, situação atual, causa, meta, contramedidas e acompanhamento.",
+      "Preencha a lápis, com desenhos e pouco texto.",
+      "Mostre a folha a quem é afetado e ajuste com o que ouvir.",
+      "Use a mesma folha para registrar o que foi testado e o que aconteceu."
+    ],
+    "exemplo": "A ouvidoria de um órgão recebia manifestações que ficavam muito tempo sem resposta da área técnica. A ouvidora fez um A3: desenhou o fluxo atual, mostrou onde as manifestações paravam, apontou como causa principal a falta de um responsável definido em cada área e propôs um ponto focal por setor, com prazo interno combinado dentro do prazo legal. Levou a folha para conversar com as chefias, ajustou o texto com as sugestões e usou o verso para acompanhar o teste.",
+    "armadilha": "O A3 vira burocracia quando se torna formulário obrigatório, com campos fixos, modelo oficial e protocolo para aprovação. O valor está na conversa que a folha provoca, não no papel preenchido."
+  },
+  {
+    "nome": "Gestão visual (quadro de gestão à vista)",
+    "origem": "Sistema Toyota de Produção e tradição Lean",
+    "em_uma_frase": "Deixar a situação do trabalho visível para todos num relance, num quadro na parede ou numa tela, sem precisar perguntar.",
+    "como_usar": [
+      "Escolha as poucas informações que a equipe precisa ver todo dia.",
+      "Monte um quadro simples, à vista, com cores ou ímãs.",
+      "Atualize na hora em que as coisas acontecem, não no fim do mês.",
+      "Use o quadro para conversar e decidir, não para enfeitar."
+    ],
+    "exemplo": "No setor de laudos de um instituto de perícia, ninguém sabia ao certo quantos casos estavam em cada fase. A equipe montou um quadro com uma coluna por fase e um cartão por caso, só com o número e a data em que a autoridade pediu. Cartões com prazo próximo ganharam uma marca de cor. Bastava passar pelo corredor para ver onde estava acumulando. A chefia passou a redistribuir casos olhando o quadro, e os peritos pararam de ser interrompidos com a pergunta “como está o caso tal?”.",
+    "armadilha": "Gestão visual vira burocracia quando o quadro é cheio de gráficos que só a chefia entende, atualizados uma vez por mês para mostrar em reunião. Se a equipe não usa o quadro para agir no dia, ele é decoração."
+  },
+  {
+    "nome": "Andon (sinal para pedir ajuda)",
+    "origem": "Sistema Toyota de Produção, ligado ao jidoka",
+    "em_uma_frase": "Um sinal simples e combinado para avisar, na hora, que algo saiu do normal e alguém precisa de ajuda.",
+    "como_usar": [
+      "Combine com a equipe quais situações merecem acionar o sinal.",
+      "Escolha um sinal simples: uma plaquinha, uma luz, uma mensagem num grupo específico.",
+      "Defina quem responde e em quanto tempo.",
+      "Agradeça quem aciona e trate o que provocou o sinal."
+    ],
+    "exemplo": "Na recepção de um posto de saúde, quando aparecia um caso fora do comum, como um paciente sem documento ou o sistema fora do ar, a recepcionista resolvia sozinha enquanto a fila crescia. A unidade combinou um sinal: uma plaquinha vermelha no balcão e uma mensagem curta no grupo da coordenação. Quem estivesse disponível vinha ajudar em poucos minutos. No fim do dia, a equipe olhava rapidamente os motivos dos chamados para ver o que se repetia.",
+    "armadilha": "Andon vira burocracia quando pedir ajuda exige abrir chamado, preencher formulário ou justificar por escrito. Se acionar o sinal dá trabalho ou rende bronca, ninguém aciona, e os problemas ficam escondidos."
+  },
+  {
+    "nome": "Fluxo contínuo e lotes menores",
+    "origem": "Sistema Toyota de Produção — Taiichi Ohno, com raízes na linha de montagem de Henry Ford",
+    "em_uma_frase": "Fazer cada caso andar assim que possível, em vez de juntar pilhas para despachar tudo de uma vez.",
+    "como_usar": [
+      "Observe onde o trabalho fica parado esperando juntar volume.",
+      "Pergunte por que se espera juntar: há motivo real ou é costume?",
+      "Teste passar adiante em lotes menores, ou um a um.",
+      "Compare quanto tempo cada caso leva do começo ao fim, antes e depois."
+    ],
+    "exemplo": "Num gabinete, os documentos para assinatura do secretário eram juntados numa pasta e levados uma vez por semana. Quando um documento chegava logo depois, esperava a semana inteira. O gabinete passou a levar a pasta duas vezes ao dia, em horários fixos combinados com o secretário, e a usar a assinatura eletrônica nos tipos de documento em que ela já era admitida. O volume de trabalho era o mesmo, mas os documentos deixaram de ficar dias parados só esperando a pilha crescer.",
+    "armadilha": "Vira burocracia quando “fluxo contínuo” vira meta de despachar tudo no mesmo dia, sob cobrança, sem mexer no que trava. Lote menor serve para reduzir espera, não para apressar pessoas."
+  },
+  {
+    "nome": "Puxar em vez de empurrar",
+    "origem": "Sistema Toyota de Produção — Taiichi Ohno, inspirado na reposição dos supermercados americanos",
+    "em_uma_frase": "Fazer ou repor só quando há necessidade real lá na frente, em vez de produzir e estocar pela previsão.",
+    "como_usar": [
+      "Identifique o que é feito ou enviado “por via das dúvidas”.",
+      "Defina um sinal de reposição: quando o estoque chega a certo ponto, pede-se mais.",
+      "Combine quem dispara o pedido e quem atende.",
+      "Acompanhe por algumas semanas e ajuste o ponto de reposição."
+    ],
+    "exemplo": "O almoxarifado de uma rede de escolas mandava material de limpeza para todas as unidades em datas fixas, na mesma quantidade. Umas ficavam sem, outras acumulavam caixas no depósito. A mudança foi repor pelo consumo: cada escola tem um ponto mínimo marcado na prateleira e, quando chega nele, faz o pedido pelo sistema. O almoxarifado atende em dias combinados. A compra continua seguindo o planejamento anual e as regras de licitação; o que mudou foi a distribuição.",
+    "armadilha": "Vira burocracia quando cada reposição exige justificativa por escrito e aprovação da chefia, mesmo dentro do ponto combinado. O sinal deve bastar; quem precisa não deveria ter que pedir licença para pedir."
+  },
+  {
+    "nome": "Jidoka (parar ao detectar o problema)",
+    "origem": "Sakichi Toyoda, com o tear que parava sozinho quando um fio se rompia; um dos pilares do Sistema Toyota de Produção",
+    "em_uma_frase": "Parar e corrigir assim que um problema aparece, em vez de deixar o defeito seguir adiante e estourar lá na frente.",
+    "como_usar": [
+      "Combine o que conta como problema que faz parar em cada etapa.",
+      "Autorize quem está na etapa a interromper e devolver na hora.",
+      "Corrija a causa imediata e anote o que aconteceu.",
+      "Olhe as anotações juntas de tempos em tempos e ataque o que se repete."
+    ],
+    "exemplo": "No setor de compras, processos seguiam com a pesquisa de preços incompleta e só eram barrados no parecer jurídico, depois de passar por várias mesas. A equipe combinou que a primeira pessoa a receber o processo confere os itens essenciais da pesquisa, conforme a norma, e, se faltar algo, devolve no mesmo dia com o motivo. Ninguém precisa pedir autorização para isso. Os pareceres passaram a tratar do que é jurídico, e as devoluções tardias diminuíram.",
+    "armadilha": "Jidoka vira burocracia quando cada parada exige relatório de ocorrência e apuração de responsabilidade. Parar é para corrigir e aprender, não para achar culpado; senão, todo mundo prefere deixar passar."
+  },
+  {
+    "nome": "Os 8 desperdícios (DOWNTIME)",
+    "origem": "Os sete desperdícios de Taiichi Ohno; o oitavo (talento não aproveitado) e a sigla DOWNTIME vieram depois, na tradição Lean ocidental",
+    "em_uma_frase": "Uma lista de oito tipos de atividade que consomem tempo sem ajudar ninguém, para treinar o olho a enxergá-los.",
+    "como_usar": [
+      "Apresente a lista à equipe: defeitos, excesso de produção, espera, talento não aproveitado, transporte, estoque, movimentação e processamento extra.",
+      "Acompanhe um processo e marque onde aparece cada desperdício.",
+      "Escolha um ou dois para atacar primeiro.",
+      "Volte à lista de tempos em tempos, porque o olho se acostuma."
+    ],
+    "exemplo": "A secretaria de uma escola aplicou a lista à emissão de histórico escolar. Encontrou espera (o pedido aguardava a assinatura da direção, que vinha uma vez por semana), processamento extra (a mesma informação era digitada em dois sistemas), defeitos (nomes grafados errado, que exigiam nova emissão) e talento não aproveitado (uma servidora que sabia montar modelos no editor de texto e nunca tinha sido consultada). A equipe começou pelo modelo pronto, que reduziu os erros de digitação.",
+    "armadilha": "A lista vira burocracia quando se transforma em caça ao desperdício alheio, com formulário para registrar falhas de colegas. Ela serve para olhar o processo, não para apontar pessoas."
+  },
+  {
+    "nome": "Demanda de falha (failure demand)",
+    "origem": "John Seddon — Freedom from Command and Control e Systems Thinking in the Public Sector",
+    "em_uma_frase": "A procura que só existe porque algo não foi feito, ou não foi feito direito, da primeira vez.",
+    "como_usar": [
+      "Durante alguns dias, anote cada contato que chega e o motivo, nas palavras do cidadão.",
+      "Separe o que é pedido novo do que é retorno por falha: cobrança, dúvida repetida, correção.",
+      "Escolha o motivo de falha mais frequente e vá atrás da causa no processo.",
+      "Corrija na origem e veja se aquele tipo de contato diminui."
+    ],
+    "exemplo": "A ouvidoria de uma secretaria achava que precisava de mais gente para dar conta das manifestações. Durante uma semana, a equipe anotou o motivo de cada contato. Boa parte não era reclamação nova, e sim gente perguntando sobre um pedido já feito e sem resposta, ou reclamando de uma carta que não explicava nada. Isso é demanda de falha. Em vez de reforçar o atendimento, a equipe ajudou a área responsável a reescrever a carta e a avisar o cidadão a cada etapa do pedido.",
+    "armadilha": "Vira burocracia quando a classificação dos contatos ganha códigos, subcódigos e relatórios mensais, e ninguém vai consertar a causa. Contar a falha não resolve; o que resolve é mudar o processo que a gera."
+  },
+  {
+    "nome": "Heijunka (nivelar a carga)",
+    "origem": "Sistema Toyota de Produção",
+    "em_uma_frase": "Distribuir o trabalho de forma mais equilibrada ao longo dos dias, para evitar picos de correria e vales de ociosidade.",
+    "como_usar": [
+      "Observe como a carga se distribui pelos dias da semana ou do mês.",
+      "Separe o que é pico de verdade do que é criado pela forma de agendar.",
+      "Redistribua o que dá para mover: agendamentos, tarefas internas, entregas.",
+      "Acompanhe e ajuste até a semana ficar mais equilibrada."
+    ],
+    "exemplo": "Num instituto de perícia, os exames agendados se concentravam no começo da semana, porque era quando as requisições chegavam em bloco. Segunda e terça eram de correria; quinta e sexta, mais tranquilas. A equipe passou a distribuir os agendamentos não urgentes pelos cinco dias, sem mexer nos casos urgentes nem nos que têm prazo legal. As tarefas internas, como a revisão de laudos, foram para os horários de menor movimento. A carga ficou mais estável e o atendimento, mais previsível.",
+    "armadilha": "Vira burocracia quando o nivelamento vira cota diária rígida, que obriga a recusar ou adiar quem chega com necessidade real. Nivelar é organizar o que dá para mover, não criar fila artificial."
+  },
+  {
+    "nome": "Takt (ritmo da demanda)",
+    "origem": "Palavra alemã para compasso; conceito adotado pelo Sistema Toyota de Produção",
+    "em_uma_frase": "O ritmo da demanda: o tempo disponível dividido pela quantidade de pedidos, que diz de quanto em quanto tempo um precisa ficar pronto.",
+    "como_usar": [
+      "Levante quantos atendimentos chegam, em média, em cada período do dia.",
+      "Divida o tempo de atendimento disponível por essa quantidade.",
+      "Compare esse ritmo com o tempo que cada atendimento leva hoje.",
+      "Ajuste a organização, como guichês abertos e horários, para acompanhar o ritmo."
+    ],
+    "exemplo": "Num posto do Detran, a equipe queria entender por que a fila crescia em certos horários. Contou quantas pessoas chegavam por hora ao longo do dia e calculou o ritmo: em alguns horários, chegava gente mais rápido do que os guichês abertos conseguiam atender. Em vez de pedir mais servidores, a unidade reorganizou os intervalos e as tarefas internas para manter mais guichês abertos justamente nos horários de pico, e deixou o trabalho de retaguarda para os horários de menor movimento.",
+    "armadilha": "Takt vira burocracia quando vira meta individual de atendimentos por hora, cobrada de cada servidor. Ele mede o ritmo da demanda para organizar o serviço, não para cronometrar pessoas."
+  },
+  {
+    "nome": "Gráfico de Pareto",
+    "origem": "Vilfredo Pareto, economista italiano; aplicado à qualidade por Joseph Juran",
+    "em_uma_frase": "Um gráfico de barras em ordem decrescente que mostra quais poucas causas respondem pela maior parte dos problemas.",
+    "como_usar": [
+      "Junte os registros de um período e classifique por tipo ou motivo.",
+      "Conte quantos há de cada tipo e ordene do maior para o menor.",
+      "Desenhe as barras nessa ordem.",
+      "Ataque primeiro os dois ou três tipos do começo."
+    ],
+    "exemplo": "A equipe de TI de um órgão sentia que atendia de tudo. Classificou os chamados de um mês por motivo e fez o gráfico. As primeiras barras eram senha bloqueada, impressora sem conexão e dúvida sobre o sistema de processos. Com isso, a equipe preparou um passo a passo para o próprio usuário desbloquear a senha, revisou a configuração das impressoras e gravou um vídeo curto sobre as dúvidas mais frequentes do sistema. O resto da lista continuou sendo atendido normalmente.",
+    "armadilha": "Vira burocracia quando o gráfico é produzido todo mês para relatório e ninguém age sobre as barras do topo. Gráfico sem ação é só papel."
+  },
+  {
+    "nome": "Checklist enxuto",
+    "origem": "Prática da aviação e da saúde; difundida por Atul Gawande em The Checklist Manifesto (2009)",
+    "em_uma_frase": "Uma lista curta só com os itens que não podem ser esquecidos, conferida na hora certa, sem substituir o bom senso.",
+    "como_usar": [
+      "Liste os erros ou esquecimentos que mais causam retrabalho.",
+      "Transforme cada um num item curto, verificável com sim ou não.",
+      "Corte tudo o que é óbvio ou que nunca falha.",
+      "Use por algumas semanas e retire o que não estiver ajudando."
+    ],
+    "exemplo": "No RH de uma secretaria, processos de admissão voltavam porque faltava algum documento ou uma etapa no sistema. A equipe montou um checklist de uma página, só com os itens que costumavam ser esquecidos, conferidos com a norma de admissão. A lista é usada no momento de fechar o processo, antes de encaminhar. Itens que todo mundo sempre fazia certo ficaram de fora, para a lista continuar curta e ser realmente lida. Ela fica na mesa, não vai anexada ao processo.",
+    "armadilha": "Checklist vira burocracia quando cresce até ter dezenas de itens, exige assinatura em cada linha e passa a ser anexado ao processo como prova. Lista longa ninguém lê; lista que vira documento obrigatório é só mais uma exigência."
+  },
+  {
+    "nome": "Voz do cidadão (voz do cliente)",
+    "origem": "Gestão da Qualidade e Seis Sigma, onde é chamada de Voice of the Customer",
+    "em_uma_frase": "Ouvir diretamente quem usa o serviço para entender o que importa para essa pessoa, antes de decidir o que mudar.",
+    "como_usar": [
+      "Escolha um serviço e converse com algumas pessoas que acabaram de usá-lo.",
+      "Pergunte o que foi mais difícil e o que esperavam, com perguntas abertas.",
+      "Anote as frases como foram ditas, sem interpretar.",
+      "Agrupe o que se repete e traduza em uma ou duas mudanças possíveis."
+    ],
+    "exemplo": "Num centro de assistência social, a equipe achava que o maior incômodo era a espera. Conversou com algumas famílias na saída do atendimento. O que mais apareceu foi outra coisa: as pessoas não entendiam o que acontecia depois da entrevista nem quando teriam retorno. A equipe criou um papel simples, entregue no final, explicando os próximos passos e como acompanhar o pedido. A espera continuou a mesma no começo, mas as voltas só para perguntar diminuíram.",
+    "armadilha": "Vira burocracia quando ouvir o cidadão vira pesquisa de satisfação longa, com notas de 1 a 10, aplicada todo mês e arquivada. Uma conversa curta com perguntas abertas ensina mais do que um formulário que ninguém analisa."
+  },
+  {
+    "nome": "Lead time × tempo de toque",
+    "origem": "Tradição Lean, usada no mapeamento do fluxo de valor",
+    "em_uma_frase": "Comparar o tempo total que um pedido leva do início ao fim com o tempo em que alguém de fato trabalha nele.",
+    "como_usar": [
+      "Pegue alguns casos concluídos e anote a data de entrada e a de saída.",
+      "Estime, com quem trabalhou, quanto tempo de trabalho efetivo cada um recebeu.",
+      "Compare os dois tempos e veja onde o caso ficou parado.",
+      "Ataque a espera mais longa antes de tentar acelerar quem trabalha."
+    ],
+    "exemplo": "O arquivo de um órgão recebia pedidos de cópia de processos antigos, e o cidadão reclamava da demora. A equipe pegou alguns pedidos recentes e comparou: localizar a caixa, digitalizar e enviar tomava pouco tempo de trabalho, mas o pedido passava dias esperando a autorização de outro setor e depois aguardando o próximo malote. Ficou claro que acelerar a digitalização quase não mudaria nada. O gestor revisou quais pedidos precisavam de autorização prévia, respeitando as regras de acesso à informação, e a espera caiu.",
+    "armadilha": "Vira burocracia quando se exige que cada servidor registre, minuto a minuto, o tempo gasto em cada caso. Uma estimativa honesta de alguns casos basta para enxergar que o problema costuma ser a espera."
+  },
+  {
+    "nome": "Teste piloto (piloto pequeno antes de normatizar)",
+    "origem": "Prática de melhoria contínua; corresponde ao “fazer” do PDCA em pequena escala",
+    "em_uma_frase": "Experimentar uma mudança em escala pequena, por tempo combinado, antes de transformá-la em regra para todos.",
+    "como_usar": [
+      "Escolha uma unidade, um tipo de caso ou um período curto para testar.",
+      "Combine antes o que vai observar para saber se funcionou.",
+      "Rode o teste com um canal aberto para quem estiver usando relatar problemas.",
+      "Decida com o gestor se amplia, ajusta ou abandona, e só então normatize."
+    ],
+    "exemplo": "Um setor de protocolo queria substituir o requerimento em papel por um formulário eletrônico. Em vez de publicar uma portaria valendo para todos os pedidos, testou por algumas semanas só com um tipo de requerimento, mantendo o papel como alternativa para quem preferisse. Os primeiros dias mostraram que um campo confundia as pessoas e que faltava a opção de anexar arquivo pelo celular. O formulário foi corrigido antes de ser ampliado, e a norma veio depois, já com o que o teste ensinou.",
+    "armadilha": "O piloto vira burocracia quando precisa de projeto formal, comissão e portaria só para começar. Se o teste não altera direitos nem exigências legais, deve ser simples de iniciar e de encerrar."
+  },
+  {
+    "nome": "Reunião em pé de 15 minutos (huddle)",
+    "origem": "Gestão diária da tradição Lean; parente da reunião diária do Scrum",
+    "em_uma_frase": "Um encontro rápido, em pé, no começo do turno, para ver o dia, combinar prioridades e levantar o que está travando.",
+    "como_usar": [
+      "Marque sempre o mesmo horário e o mesmo lugar, de preferência perto do quadro da equipe.",
+      "Siga três perguntas: o que temos hoje, o que está travado e quem precisa de ajuda.",
+      "Anote o que pede ação e quem cuida, sem tentar resolver tudo ali.",
+      "Termine no horário, mesmo que sobre assunto."
+    ],
+    "exemplo": "Numa equipe de plantão, cada turno começava com informações desencontradas. A chefia passou a reunir todos em pé, perto do quadro, por quinze minutos no início do turno. Revisavam os casos em andamento, quem estava escalado para quê, equipamentos com problema e quem precisava de apoio. Os assuntos que pediam conversa longa eram anotados e tratados depois, só com os envolvidos. A equipe passou a começar o turno sabendo o que esperar e a quem recorrer.",
+    "armadilha": "Vira burocracia quando a reunião em pé vira reunião sentada de uma hora, com ata, lista de presença e slides. Quinze minutos é o limite, não a meta."
+  },
+  {
+    "nome": "Toyota Kata (rotina de melhoria e coaching)",
+    "origem": "Mike Rother, Toyota Kata (2009)",
+    "em_uma_frase": "Uma rotina diária de pequenos experimentos rumo a um objetivo, com alguém mais experiente fazendo perguntas em vez de dar respostas.",
+    "como_usar": [
+      "Defina com a equipe uma condição-alvo próxima, alcançável em algumas semanas.",
+      "Descreva como o processo está hoje, com fatos.",
+      "Escolha o próximo pequeno passo e diga o que espera que aconteça.",
+      "Faça uma conversa curta diária com as cinco perguntas do coaching e anote o que aprendeu."
+    ],
+    "exemplo": "A coordenação de um posto de saúde queria que os pacientes de retorno não precisassem passar duas vezes pela recepção. Definiu isso como condição-alvo para as próximas semanas. Todo dia, por poucos minutos, a coordenadora perguntava à enfermeira responsável pelo teste: qual é o alvo, como está hoje, que obstáculo está atacando agora, qual o próximo passo e quando vamos ver o resultado. Cada dia trazia um ajuste pequeno, como mudar a ordem da triagem ou o lugar das fichas, até o fluxo funcionar.",
+    "armadilha": "Toyota Kata vira burocracia quando as perguntas do coaching viram questionário de cobrança, com resposta por escrito e nota para quem acerta. A rotina é de aprendizado; se a pessoa tem medo de errar o experimento, ela para de experimentar."
+  }
+]

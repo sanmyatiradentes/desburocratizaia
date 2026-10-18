@@ -1,0 +1,200 @@
+[
+ {
+  "tema": "Ajuste é sinal de que algo falta",
+  "eixo": "SMED e fluxo",
+  "fonte": "Shigeo Shingo — A Revolution in Manufacturing: The SMED System",
+  "ideia": "Na procuradoria de uma prefeitura, todo parecer começa do mesmo modelo, e todo parecer passa pelo mesmo ritual: trocar o cabeçalho, corrigir a numeração, apagar o parágrafo do caso anterior, conferir de novo a fonte e o espaçamento. Ninguém chama isso de trabalho, mas leva um bom pedaço da manhã. Shigeo Shingo olhava para as trocas de ferramenta nas fábricas e percebia que uma parte enorme do tempo ia para ajustes, aquele vai e volta de apertar, testar, afrouxar e testar de novo até acertar. Para ele, ajuste não era habilidade a ser admirada, era sintoma. Se a peça precisa ser ajustada toda vez, é porque falta uma referência fixa, uma medida já definida, um encaixe que faça a coisa ficar certa logo na primeira tentativa. A saída não era ajustar mais rápido, era tornar o ajuste desnecessário. No modelo de parecer, isso significa campos já marcados, trechos que mudam separados dos que nunca mudam e formatação travada. O que hoje se corrige à mão pode nascer certo.",
+  "pratica": "Abra o modelo que você mais usa e anote tudo o que precisa corrigir antes de começar a escrever. Escolha uma dessas correções e deixe-a resolvida no próprio modelo.",
+  "pergunta": "Que ajuste você repete tanto que já nem percebe que está ajustando?",
+  "frase": "Quem acerta de primeira não é sortudo. Preparou o encaixe."
+ },
+ {
+  "tema": "Padronize o encaixe, não o mundo",
+  "eixo": "SMED e fluxo",
+  "fonte": "Shigeo Shingo — A Revolution in Manufacturing: The SMED System",
+  "ideia": "No CRAS de um município, cada computador do atendimento foi configurado por uma pessoa diferente, em épocas diferentes. Num, o sistema abre direto; noutro, é preciso achar o atalho escondido; no terceiro, a impressora padrão é a da sala ao lado. Quando alguém troca de mesa para cobrir uma colega, perde os primeiros minutos se achando. Shingo enfrentou problema parecido com moldes de tamanhos diferentes, cada um exigindo um acerto próprio na máquina. Em vez de tentar padronizar todos os moldes, o que seria caro e inútil, ele sugeriu padronizar apenas a parte que encosta na máquina, como a altura e o ponto de fixação. Cada molde continuava sendo o que era, mas todos se encaixavam do mesmo jeito. Essa ideia vale muito para o serviço público. Não precisamos que todos os casos sejam iguais, porque não são. Precisamos que a porta de entrada seja igual: o mesmo lugar para os arquivos, o mesmo caminho no sistema, o mesmo jeito de nomear as coisas. Aí qualquer colega senta e começa.",
+  "pratica": "Escolha uma coisa que muda de mesa para mesa no seu setor, como pastas, atalhos ou nomes de arquivo, e proponha à equipe um único jeito de fazer.",
+  "pergunta": "Se um colega sentasse hoje na sua cadeira, quanto tempo levaria para começar a trabalhar?",
+  "frase": "Casos diferentes, porta igual. Assim todo mundo entra."
+ },
+ {
+  "tema": "Dois fazem junto o que um faria em fila",
+  "eixo": "SMED e fluxo",
+  "fonte": "Shigeo Shingo — A Revolution in Manufacturing: The SMED System",
+  "ideia": "Numa equipe de perícia que chega a um local de crime, há um jeito de trabalhar em que tudo acontece em sequência: primeiro alguém fotografa tudo, depois a mesma pessoa mede, depois descreve, depois recolhe os vestígios. Há outro jeito, em que as tarefas que não dependem umas das outras são divididas, e enquanto um registra o ambiente o outro organiza o material e prepara as embalagens. Shingo chamava isso de operações em paralelo. Ele observava que, em máquinas grandes, um único operador gastava muito tempo só andando de um lado para o outro, e que duas pessoas trabalhando juntas, cada uma de um lado e combinando os passos, terminavam a troca em bem menos da metade do tempo, porque sumiam as idas e vindas. O cuidado que ele pedia era a combinação prévia, para ninguém atrapalhar ninguém nem ficar esperando sinal. Paralelo sem roteiro vira confusão. Com roteiro, o mesmo trabalho, feito pelas mesmas pessoas e com o mesmo rigor, simplesmente termina antes.",
+  "pratica": "Pegue uma tarefa da sua equipe que hoje é feita em sequência e marque quais passos não dependem dos anteriores. Combine quem pode fazer cada um ao mesmo tempo.",
+  "pergunta": "Quais etapas do seu trabalho esperam umas pelas outras sem precisar?",
+  "frase": "Fila de tarefas nem sempre é ordem. Às vezes é só costume."
+ },
+ {
+  "tema": "Cronometre a preparação antes de mudar",
+  "eixo": "SMED e fluxo",
+  "fonte": "Shigeo Shingo — A Revolution in Manufacturing: The SMED System",
+  "ideia": "Num hospital público, a sala de cirurgia fica parada entre um procedimento e outro. Sai um paciente, alguém limpa, alguém repõe o material, alguém confere o equipamento, e o próximo paciente espera no corredor. Todo mundo sabe que esse intervalo é longo, mas quase ninguém sabe dizer quanto dura e em quê ele se gasta. Shingo começava sempre pelo mesmo lugar: observar a troca do jeito que ela acontece de verdade, passo a passo, anotando o tempo de cada parte, às vezes com cronômetro, às vezes filmando e conversando com quem faz. Só depois disso dava para separar o que exige a máquina parada do que poderia ser feito antes ou depois. Sem essa fotografia honesta, qualquer melhoria vira palpite, e palpite costuma atacar o que incomoda mais, não o que pesa mais. O primeiro passo do método parece simples demais para valer a pena, e por isso é tão pulado. Medir a preparação com calma, junto com quem a executa, já revela metade das respostas.",
+  "pratica": "Escolha uma preparação que se repete no seu setor e anote, num papel, cada passo e quanto tempo ele leva. Faça isso junto com quem executa, sem julgar.",
+  "pergunta": "Você sabe quanto tempo o seu setor gasta preparando antes de produzir?",
+  "frase": "Antes de encurtar o caminho, conheça o caminho."
+ },
+ {
+  "tema": "Deixe o pedido correr sem parar",
+  "eixo": "SMED e fluxo",
+  "fonte": "James Womack e Daniel Jones — A Mentalidade Enxuta nas Empresas",
+  "ideia": "Na secretaria de uma escola estadual, a matrícula de um aluno transferido passa por várias mãos: quem recebe os papéis, quem confere o histórico, quem lança no sistema, quem define a turma. Cada etapa leva poucos minutos, mas entre uma e outra o pedido descansa em caixas, pastas e escaninhos, às vezes por dias. Womack e Jones explicam que, depois de enxergar o valor e mapear o caminho, o passo seguinte do pensamento enxuto é fazer o trabalho fluir. Isso quer dizer organizar as etapas para que o pedido avance de uma para a outra sem paradas, em vez de cada setor acumular o seu pedaço e passar adiante em blocos. Os autores reconhecem que isso contraria nossa intuição de organizar tudo por departamento e por tarefa. Parece mais eficiente juntar tudo de um tipo e fazer de uma vez. Para quem está do outro lado do balcão, porém, o que importa é a matrícula pronta, e cada pausa no meio do caminho é tempo de criança fora da sala.",
+  "pratica": "Siga um único pedido do seu setor do começo ao fim e anote onde ele fica parado. Escolha uma dessas paradas e pergunte se ela precisa mesmo existir.",
+  "pergunta": "Onde o seu processo descansa mais do que trabalha?",
+  "frase": "O cidadão não vê os setores. Vê o tempo que passou."
+ },
+ {
+  "tema": "Um envelope inteiro de cada vez",
+  "eixo": "SMED e fluxo",
+  "fonte": "James Womack e Daniel Jones — A Mentalidade Enxuta nas Empresas",
+  "ideia": "Na secretaria de finanças de uma prefeitura, chega a época de enviar notificações aos contribuintes. A forma natural parece ser imprimir todas, depois dobrar todas, depois envelopar todas, depois etiquetar todas. Womack e Jones contam uma situação doméstica parecida, de dobrar e envelopar cartas com crianças, que queriam fazer cada etapa para a pilha inteira antes de passar à próxima. Os autores defendem o contrário: fazer cada carta inteira, do começo ao fim, antes de pegar a seguinte. À primeira vista parece mais lento, porque se troca de gesto o tempo todo. Mas some o manuseio das pilhas, some o espaço ocupado pelas meias-tarefas, e um erro aparece logo na primeira carta, não na quingentésima. Além disso, a primeira notificação fica pronta em minutos, e não só no fim do dia. Essa é a ideia do fluxo de uma peça: menos coisa parada no meio do caminho, mais coisa terminada. Nem sempre ela cabe, mas vale testar antes de descartar.",
+  "pratica": "Na próxima tarefa repetitiva do seu dia, faça os três primeiros itens completos, um de cada vez, e compare com o jeito em pilhas.",
+  "pergunta": "Quantos erros você só descobre depois de fazer a pilha inteira?",
+  "frase": "Pilha pela metade não serve a ninguém. Item pronto serve."
+ },
+ {
+  "tema": "Quanto custa cada dia parado",
+  "eixo": "SMED e fluxo",
+  "fonte": "Donald Reinertsen — The Principles of Product Development Flow",
+  "ideia": "Numa agência do INSS, um pedido de benefício por incapacidade espera análise. Para o servidor, é mais um item na lista, igual aos outros. Para a pessoa que pediu, cada semana sem resposta é uma semana sem renda, conta atrasada e remédio comprado fiado. Donald Reinertsen propõe uma pergunta que deveria orientar qualquer fila: quanto custa esperar? Ele chama isso de custo do atraso e insiste que, sem estimar esse valor, as organizações acabam escolhendo prioridades por intuição, pelo barulho de quem reclama ou pela ordem de chegada pura e simples. Quando se pensa no custo do atraso, fica claro que dois pedidos com o mesmo trabalho podem ter urgências muito diferentes, e que tratar todos igual é, na prática, uma escolha. No serviço público, esse custo nem sempre vira dinheiro na nossa planilha, mas existe na vida de alguém. Reinertsen não pede cálculos perfeitos. Pede que a gente ponha uma estimativa razoável na mesa e decida olhando para ela.",
+  "pratica": "Olhe sua fila de hoje e marque os dois pedidos em que a demora mais prejudica quem está esperando. Veja se eles estão na frente ou no fundo.",
+  "pergunta": "Na sua fila, quem paga o preço de cada dia parado?",
+  "frase": "Para quem espera, nenhum dia é só mais um dia."
+ },
+ {
+  "tema": "A fila que ninguém enxerga",
+  "eixo": "SMED e fluxo",
+  "fonte": "Donald Reinertsen — The Principles of Product Development Flow",
+  "ideia": "Na ouvidoria de uma secretaria estadual, ninguém tropeça em pilhas de papel. As manifestações chegam pelo sistema, ficam numa caixa de entrada, depois numa pasta de pendentes de resposta da área técnica, depois numa lista de aguardando revisão. A sala parece arrumada, e é justamente aí que mora o perigo. Reinertsen chama atenção para o fato de que, em trabalho de conhecimento, o estoque é feito de informação e por isso não ocupa espaço nem chama atenção. Numa fábrica, uma montanha de peças paradas no chão incomoda todo mundo. Num escritório, centenas de demandas paradas cabem num número pequeno no canto da tela. Ele defende que essas filas são a principal causa de demora, e que quase ninguém as mede, porque estamos acostumados a medir se as pessoas estão ocupadas, não quanto trabalho está esperando. O primeiro passo é simples: tornar a fila visível, contar quantos itens estão parados e há quanto tempo. Fila que se vê incomoda, e fila que incomoda começa a diminuir.",
+  "pratica": "Conte quantos itens estão parados nas suas caixas e pastas digitais e qual é o mais antigo. Escreva os dois números num lugar onde a equipe veja.",
+  "pergunta": "Se o seu trabalho parado fosse papel, caberia na sua sala?",
+  "frase": "Tela limpa não quer dizer fila curta."
+ },
+ {
+  "tema": "Entregue em pedaços menores",
+  "eixo": "SMED e fluxo",
+  "fonte": "Donald Reinertsen — The Principles of Product Development Flow",
+  "ideia": "No setor de compras, uma equipe passa semanas preparando sozinha um edital completo, com termo de referência, minuta de contrato e anexos, e só então envia tudo de uma vez para a assessoria jurídica. O parecer volta apontando um problema logo no objeto, e boa parte do que foi escrito depois precisa ser refeita. Reinertsen dedica uma parte importante do seu livro ao tamanho do lote. Ele mostra que lotes grandes parecem econômicos, porque reduzem o número de entregas, mas escondem custos: aumentam a espera, atrasam o retorno, acumulam erros e deixam todo mundo mais exposto quando algo dá errado. Lotes menores fazem o contrário. A informação volta mais cedo, o erro aparece quando ainda é barato corrigir e o trabalho anda de forma mais regular. No caso do edital, isso pode ser tão simples quanto mostrar a definição do objeto ao jurídico antes de escrever o resto. Ninguém perde autonomia, e muita gente deixa de perder trabalho. Dividir não é retalhar, é aprender mais cedo.",
+  "pratica": "Pegue um trabalho grande que você vai entregar nas próximas semanas e escolha uma parte que já pode ser mostrada a quem vai revisar.",
+  "pergunta": "Quanto do seu trabalho só recebe opinião quando já está pronto demais para mudar?",
+  "frase": "Retorno cedo custa uma conversa. Retorno tarde custa um mês."
+ },
+ {
+  "tema": "Agenda lotada não é eficiência",
+  "eixo": "SMED e fluxo",
+  "fonte": "Donald Reinertsen — The Principles of Product Development Flow",
+  "ideia": "Na assessoria técnica de uma secretaria de saúde, a chefia se orgulha de que ninguém fica ocioso. Cada analista tem a agenda tomada de ponta a ponta, e qualquer demanda nova entra na fila. Quando chega um pedido urgente de um hospital, não há onde encaixá-lo sem atrasar outra coisa. Reinertsen explica, apoiado na teoria das filas, que a espera não cresce de forma proporcional à ocupação. Quando a utilização de um recurso se aproxima do limite, as filas aumentam muito mais depressa, e pequenas variações viram grandes atrasos. Por isso, um setor ocupado o tempo todo quase sempre é um setor lento, mesmo cheio de gente competente e esforçada. Ele propõe que se aceite alguma folga de capacidade como parte do projeto do trabalho, não como desleixo. No serviço público, essa ideia soa estranha, porque ociosidade parece pecado. Mas uma margem de tempo livre é o que permite absorver o imprevisto, atender o urgente e corrigir o que deu errado sem desmontar a semana inteira.",
+  "pratica": "Reserve na sua agenda desta semana um bloco fixo sem nada marcado, para absorver o que vier de inesperado, e observe como ele é usado.",
+  "pergunta": "Se surgir um caso urgente amanhã, onde ele vai caber na sua semana?",
+  "frase": "Folga planejada não é preguiça. É espaço para o imprevisto."
+ },
+ {
+  "tema": "A conta que prevê a espera",
+  "eixo": "SMED e fluxo",
+  "fonte": "John D. C. Little — Lei de Little (A Proof for the Queuing Formula L = λW, 1961)",
+  "ideia": "Imagine uma junta médica oficial que conclui, em média, vinte avaliações por semana e tem cento e sessenta processos em andamento. Sem nenhum sistema sofisticado, dá para saber quanto um servidor novo vai esperar: algo perto de oito semanas. Essa conta vem de uma relação estudada por John Little, conhecida como Lei de Little. Ela diz que, num sistema estável, a quantidade média de itens em andamento é igual ao ritmo médio de saída multiplicado pelo tempo médio que cada item passa lá dentro. Virando a fórmula, o tempo de espera é o estoque dividido pela vazão. A beleza dessa relação é que ela vale para quase tudo: fila de banco, processos num gabinete, pedidos numa secretaria. E ela mostra que há só dois jeitos de encurtar a espera: aumentar o ritmo de saída ou diminuir o que está em andamento. Contratar e trabalhar mais rápido nem sempre é possível. Parar de abrir coisas novas antes de fechar as antigas quase sempre é.",
+  "pratica": "Conte quantos itens estão em andamento no seu setor e quantos vocês concluem por semana. Divida um pelo outro e veja a espera média que isso indica.",
+  "pergunta": "A espera que o seu setor promete bate com a conta que os números fazem?",
+  "frase": "Fila não é mistério. É estoque dividido por ritmo."
+ },
+ {
+  "tema": "Ponha o trabalho na parede",
+  "eixo": "SMED e fluxo",
+  "fonte": "David J. Anderson — Kanban: Mudança Evolucionária de Sucesso para seu Negócio de Tecnologia",
+  "ideia": "No setor de manutenção predial de um órgão, os pedidos chegam por e-mail, telefone, bilhete e conversa de corredor. Cada técnico guarda a sua lista na cabeça ou no celular, e a chefia só descobre que algo travou quando alguém reclama pela terceira vez. David Anderson, ao adaptar o kanban para o trabalho de conhecimento, começa por uma prática básica: tornar o trabalho visível. Num quadro simples, com colunas para o que chegou, o que está sendo feito e o que terminou, cada pedido vira um cartão que todos podem ver. Parece pouco, mas muda a conversa. A equipe passa a enxergar onde as coisas se acumulam, quem está sobrecarregado e o que está parado há tempo demais. Anderson insiste que o quadro deve refletir o fluxo real, com as etapas que de fato existem, e não um fluxo ideal desenhado no gabinete. Com o trabalho à vista, as decisões deixam de depender de memória e de queixa e passam a depender do que todo mundo está vendo.",
+  "pratica": "Desenhe hoje um quadro com três colunas, num papel ou na parede, e coloque nele tudo o que está com você agora, um cartão por pedido.",
+  "pergunta": "Quanto do trabalho do seu setor só existe na cabeça de alguém?",
+  "frase": "O que todo mundo vê, todo mundo ajuda a destravar."
+ },
+ {
+  "tema": "Combine as regras em voz alta",
+  "eixo": "SMED e fluxo",
+  "fonte": "David J. Anderson — Kanban: Mudança Evolucionária de Sucesso para seu Negócio de Tecnologia",
+  "ideia": "No setor de licenciamento ambiental de um município, cada analista tem um entendimento próprio sobre quando um processo está pronto para vistoria. Um exige todos os documentos antes; outro agenda e pede o resto depois. O empreendedor nunca sabe o que esperar, e a própria equipe discute os mesmos casos toda semana. Anderson inclui entre as práticas do kanban tornar explícitas as políticas do trabalho. Isso significa escrever, em linguagem simples e num lugar visível, as regras que a equipe já segue ou deveria seguir: o que precisa estar presente para um pedido passar de uma etapa para a outra, quanto trabalho cada etapa pode ter ao mesmo tempo, como se trata uma urgência. Quando as regras ficam implícitas, cada um decide do seu jeito, e as diferenças viram atrito pessoal. Quando ficam explícitas, a discussão muda de foco e passa a ser sobre a regra, que pode ser revista com calma, e não sobre quem fez certo ou errado. Regra combinada é regra que se melhora.",
+  "pratica": "Escreva numa folha o que precisa estar pronto para um pedido sair da sua mesa e passar à próxima etapa. Mostre à equipe e veja se todos concordam.",
+  "pergunta": "Que regra do seu setor todo mundo segue, mas ninguém nunca escreveu?",
+  "frase": "Regra escrita evita briga. Regra conversada evita injustiça."
+ },
+ {
+  "tema": "Comece pelo jeito que você já trabalha",
+  "eixo": "SMED e fluxo",
+  "fonte": "David J. Anderson — Kanban: Mudança Evolucionária de Sucesso para seu Negócio de Tecnologia",
+  "ideia": "No RH de uma universidade pública, uma consultoria apresentou um novo modelo de processos, com setores renomeados, fluxos redesenhados e funções trocadas. A equipe resistiu, o projeto travou e, meses depois, tudo voltou a ser como antes, só que com mais cansaço. Anderson propõe outro caminho com o método kanban. Seus princípios pedem que se comece pelo que se faz hoje, que se busque a mudança aos poucos e que se respeitem os papéis e as responsabilidades atuais. Em vez de chegar com uma estrutura nova, a equipe desenha o fluxo real, coloca limites no trabalho em andamento e deixa que os problemas apareçam. A partir daí, faz pequenos ajustes, um de cada vez, conversando sobre o que mudou. Esse jeito tem uma vantagem enorme no serviço público, onde reestruturações grandes esbarram em normas, cargos e prazos. Não é preciso esperar a reforma ideal nem a autorização para mudar tudo. Dá para começar segunda-feira, com as mesmas pessoas e no mesmo lugar, melhorando o que já existe.",
+  "pratica": "Em vez de planejar uma grande mudança, escolha um único incômodo do fluxo atual da sua equipe e proponha um ajuste pequeno para testar por duas semanas.",
+  "pergunta": "Que mudança você está adiando porque acha que precisa mudar tudo de uma vez?",
+  "frase": "Melhorar o que existe também é revolução, só que sem barulho."
+ },
+ {
+  "tema": "Uma hora perdida no gargalo",
+  "eixo": "SMED e fluxo",
+  "fonte": "Eliyahu Goldratt — A Meta",
+  "ideia": "Num instituto de criminalística, o laboratório que faz um tipo de exame específico tem um único equipamento e pouca gente habilitada a operá-lo. Os outros setores trabalham bem, mas os laudos que dependem desse exame se acumulam ali. Mesmo assim, o equipamento às vezes fica parado na hora do almoço, ou esperando uma amostra mal embalada ser refeita. Em A Meta, Goldratt conta a história de um gerente de fábrica que aprende a identificar o gargalo, o ponto que limita a produção de todo o sistema. Uma das lições mais fortes do livro é que uma hora perdida no gargalo é uma hora perdida para o sistema inteiro, enquanto uma hora economizada num ponto que não é gargalo pouco ou nada muda no resultado final. Daí vem a recomendação de proteger o gargalo: garantir que ele nunca pare por falta de material, que só receba trabalho já conferido e que não gaste tempo com o que outros poderiam fazer. Melhorar qualquer outro lugar antes disso é esforço com pouco retorno.",
+  "pratica": "Identifique a etapa onde o trabalho mais se acumula no seu fluxo e liste o que a faz parar ao longo do dia. Escolha uma dessas paradas para eliminar.",
+  "pergunta": "Qual é o ponto do seu processo que, se parar uma hora, atrasa todo mundo?",
+  "frase": "Proteja o ponto mais estreito. O resto anda junto."
+ },
+ {
+  "tema": "O ritmo é do mais lento",
+  "eixo": "SMED e fluxo",
+  "fonte": "Eliyahu Goldratt — A Meta",
+  "ideia": "Numa prefeitura pequena, o alvará de funcionamento passa pela recepção, pela fiscalização, pela vigilância sanitária e pelo setor de tributos. A recepção é rápida e cadastra dezenas de pedidos por dia, mas a vigilância sanitária tem um único fiscal. Quanto mais a recepção acelera, maior fica a pilha na mesa dele, e o empresário não recebe o alvará nem um dia antes. Em A Meta, Goldratt usa a imagem de uma caminhada de escoteiros, em que o grupo se estica pela trilha porque cada menino anda no seu passo, e quem dita a chegada é o mais lento, que no livro se chama Herbie. A solução que o protagonista encontra é colocar Herbie na frente, aliviar a mochila dele e fazer o grupo andar no ritmo dele. Na prefeitura, isso significa deixar a entrada de pedidos acompanhar a capacidade do ponto mais lento e usar a folga dos outros setores para ajudá-lo, por exemplo deixando os processos já conferidos e completos antes de chegarem à vigilância.",
+  "pratica": "Descubra qual etapa do seu fluxo é o Herbie e pergunte o que as etapas anteriores poderiam entregar mais pronto para ele.",
+  "pergunta": "No seu fluxo, quem está correndo na frente enquanto a fila cresce lá atrás?",
+  "frase": "Correr na frente só alonga a fila. Ajude quem está atrás."
+ },
+ {
+  "tema": "Ocupado não é o mesmo que rápido",
+  "eixo": "SMED e fluxo",
+  "fonte": "Niklas Modig e Pär Åhlström — Isto é Lean",
+  "ideia": "Numa unidade básica de saúde, o médico atende sem parar a manhã inteira, a enfermagem não tem um minuto de folga e a recepção nunca fica vazia. Do ponto de vista de quem administra, a unidade é um exemplo de aproveitamento. Do ponto de vista da paciente, a consulta de dez minutos custou uma manhã inteira de espera, mais um retorno marcado para daqui a um mês só para mostrar um exame. Modig e Åhlström separam duas formas de medir eficiência. A eficiência de recursos olha se as pessoas e os equipamentos estão sendo bem usados, ocupados o máximo de tempo possível. A eficiência de fluxo olha para a unidade que passa pelo processo, seja um paciente, seja um pedido, e pergunta quanto do tempo dela foi gasto recebendo valor. Os autores mostram que as duas puxam em direções diferentes, e que as organizações costumam otimizar a primeira sem perceber o que acontece com a segunda. Lean, para eles, é priorizar o fluxo, sem desperdiçar recursos à toa.",
+  "pratica": "Acompanhe hoje um único atendimento ou pedido do seu setor e anote quanto tempo ele passou sendo trabalhado e quanto passou esperando.",
+  "pergunta": "No seu setor, quem é medido: quem trabalha ou quem é atendido?",
+  "frase": "Mesa cheia pode significar fila longa do outro lado."
+ },
+ {
+  "tema": "O que se acumula entre duas mesas",
+  "eixo": "SMED e fluxo",
+  "fonte": "Mike Rother e John Shook — Aprendendo a Enxergar",
+  "ideia": "Num fórum, os autos saem do cartório para o gabinete, voltam para o cartório para cumprimento e seguem para a contadoria. Entre cada um desses pontos há uma pequena prateleira, física ou digital, onde os processos ficam aguardando. Ninguém decidiu que ali haveria estoque, ele simplesmente se formou. Rother e Shook ensinam, ao desenhar o mapa do fluxo de valor, a marcar com um triângulo cada lugar onde o material fica parado entre um processo e outro, e a anotar quanto há ali. É nesses triângulos que mora a maior parte do tempo total, muito mais do que nas etapas em si. Os autores não pedem que todo estoque desapareça de uma vez. Propõem, onde o fluxo contínuo ainda não é possível, que o acúmulo seja controlado, com limite de quantidade e regra clara de quem retira e em que ordem, como numa fila em que o primeiro a entrar é o primeiro a sair. Estoque com regra é sinal de processo cuidado. Estoque sem dono é processo à deriva.",
+  "pratica": "Liste os pontos de espera entre o seu setor e o anterior e o seguinte. Para cada um, conte o que está lá e defina quem é responsável por puxar.",
+  "pergunta": "Quem cuida do que fica parado entre a sua mesa e a do colega?",
+  "frase": "Entre duas mesas cabe um mês inteiro, se ninguém olhar."
+ },
+ {
+  "tema": "Misture o fácil e o difícil na agenda",
+  "eixo": "SMED e fluxo",
+  "fonte": "Pensamento Lean — heijunka, o nivelamento da produção (Sistema Toyota de Produção)",
+  "ideia": "No Detran, as vistorias simples e as complexas são agendadas por ordem de chegada. Em alguns dias, por coincidência, juntam-se muitos casos complicados, e a equipe estoura o horário e remarca gente. Em outros, só aparecem casos rápidos, e o pátio fica vazio à tarde. A Toyota chama de heijunka o esforço de nivelar a produção, não apenas na quantidade total, mas também na mistura dos tipos de trabalho. Em vez de fazer todos os modelos de um tipo num dia e os de outro tipo no dia seguinte, a fábrica intercala os modelos numa sequência equilibrada, de modo que a carga de cada posto fique parecida ao longo do tempo. Isso reduz picos de esforço, filas repentinas e horas paradas. No serviço público, a mesma ideia pode orientar agendas: separar vagas para casos complexos e para casos simples em cada período, em vez de deixar o acaso decidir. A demanda total continua a mesma, mas a semana deixa de ter dias de caos e dias de espera.",
+  "pratica": "Classifique os pedidos que você recebe em simples e complexos e reserve, na sua agenda da próxima semana, espaço para os dois tipos em todos os dias.",
+  "pergunta": "Sua semana tem dias de caos seguidos de dias de calmaria sem explicação?",
+  "frase": "Carga bem distribuída cansa menos e entrega mais."
+ },
+ {
+  "tema": "O ritmo que a demanda pede",
+  "eixo": "SMED e fluxo",
+  "fonte": "Mike Rother e John Shook — Aprendendo a Enxergar (tempo takt)",
+  "ideia": "No posto de identificação de uma capital, a procura por carteira de identidade sobe antes das férias escolares e das provas de concurso. A equipe percebe a fila crescer, mas não tem uma referência para saber se está dentro ou fora do ritmo necessário. Rother e Shook explicam o tempo takt, uma ideia simples e poderosa: dividir o tempo disponível de trabalho pela quantidade de atendimentos que os cidadãos pedem nesse mesmo período. O resultado diz de quanto em quanto tempo um atendimento precisa ser concluído para acompanhar a demanda. Não é uma meta de velocidade imposta de cima, é um retrato do ritmo que a procura exige. Com esse número na mão, dá para comparar com o tempo real de cada etapa e enxergar onde a conta não fecha. Também ajuda a planejar: quando a demanda muda, o takt muda, e a equipe sabe com antecedência quantos guichês abrir ou que etapas reorganizar. Trabalhar no ritmo do takt é trabalhar no compasso de quem precisa do serviço.",
+  "pratica": "Divida as horas de atendimento do seu setor numa semana pelo número de pedidos que chegaram nela. Compare o resultado com o tempo que cada pedido de fato leva.",
+  "pergunta": "Seu setor sabe o ritmo que a procura exige ou só sente a fila crescer?",
+  "frase": "Quem conhece o compasso não precisa correr no desespero."
+ },
+ {
+  "tema": "A lista que segura o detalhe",
+  "eixo": "SMED e fluxo",
+  "fonte": "Atul Gawande — Checklist: Como Fazer as Coisas Benfeito",
+  "ideia": "No plantão de uma delegacia, a lavratura de um flagrante envolve muitos passos que não podem ser esquecidos: comunicações obrigatórias, entrega de nota de culpa, registro de objetos apreendidos, prazos que correm desde o primeiro minuto. Os servidores são experientes, e justamente por isso confiam na memória, até a madrugada em que um passo fica para trás. Atul Gawande, cirurgião, estudou como áreas complexas como a aviação e a cirurgia usam listas de verificação para evitar falhas que não vêm da ignorância, mas do esquecimento sob pressão. Ele insiste que uma boa lista é curta, escrita na linguagem de quem a usa, ligada a momentos de pausa bem definidos e focada nos passos mais críticos e mais fáceis de pular. Não substitui o conhecimento do profissional, apenas protege esse conhecimento contra o cansaço e a pressa. Gawande também mostra que a lista funciona melhor quando a equipe inteira a assume, e quando qualquer pessoa, de qualquer posição, pode parar o trabalho se algo foi pulado.",
+  "pratica": "Escolha uma tarefa crítica que você faz com frequência e escreva uma lista com no máximo sete itens, só os que mais costumam ser esquecidos.",
+  "pergunta": "Que passo importante do seu trabalho depende só da sua memória num dia cansado?",
+  "frase": "Lista curta não é desconfiança. É cuidado com o dia ruim."
+ },
+ {
+  "tema": "Cada troca de assunto cobra pedágio",
+  "eixo": "SMED e fluxo",
+  "fonte": "Gerald Weinberg — Quality Software Management, Vol. 1: Systems Thinking",
+  "ideia": "No setor de tecnologia de uma prefeitura, o único analista cuida ao mesmo tempo da folha de pagamento, do portal da transparência, da rede da escola municipal, das impressoras do gabinete e de um sistema novo de protocolo. Ele trabalha o dia inteiro e, no fim da semana, nenhuma das cinco frentes andou de verdade. Gerald Weinberg, ao estudar equipes de software, chamou atenção para o custo da troca de contexto. Cada vez que alguém deixa uma tarefa e pega outra, gasta tempo e energia para lembrar onde parou, reabrir o raciocínio e se concentrar de novo. Weinberg estimou que cada projeto a mais na mão de uma pessoa rouba algo como um quinto do tempo só com essas trocas, de modo que, a partir de alguns projetos simultâneos, sobra pouco para trabalhar de fato. O número exato varia, mas a lição permanece. Dividir uma pessoa entre muitas frentes parece justo com todas e acaba sendo injusto com cada uma. Menos frentes ao mesmo tempo quase sempre significa mais coisa pronta.",
+  "pratica": "Liste as frentes de trabalho que você está tocando ao mesmo tempo e combine com sua chefia quais duas ou três vêm primeiro nesta semana.",
+  "pergunta": "Quantas vezes por dia você troca de assunto antes de terminar algum?",
+  "frase": "Atenção dividida demais vira atenção nenhuma."
+ }
+]
