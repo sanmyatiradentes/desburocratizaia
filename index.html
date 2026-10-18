@@ -893,7 +893,7 @@ footer a:hover{text-decoration:underline}
       <ol class="lgpd-items">
         <li class="lgpd-item"><h4>Quem é a controladora</h4><p>Sanmya Beatriz Tiradentes Leite, pessoa física (CPF informado mediante solicitação). Iniciativa pessoal — não é serviço de nenhum órgão público.</p></li>
         <li class="lgpd-item"><h4>O que é tratado e o que não é guardado</h4><p>Apenas o que você envia (texto, documento, imagem ou áudio), repassado pelo servidor da ferramenta ao Google Gemini para gerar a resposta. <strong>Não armazenamos conversas, perguntas, documentos nem dados de identificação</strong> — cada sessão é temporária. A hospedagem (Vercel) pode registrar IP, data e hora de acesso, conforme a <a href="https://vercel.com/legal/privacy-policy" target="_blank" rel="noopener">política dela</a>.</p></li>
-        <li class="lgpd-item"><h4>Google Gemini como processador</h4><p>As respostas são geradas pela API do Google Gemini 2.5 Flash, que, pelos seus termos, não usa dados enviados via API para treinar modelos. Veja a <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Política de Privacidade do Google</a> e os <a href="https://ai.google.dev/gemini-api/terms" target="_blank" rel="noopener">Termos da API Gemini</a>.</p></li>
+        <li class="lgpd-item"><h4>Google Gemini como processador</h4><p>As respostas são geradas pela API do Google Gemini Flash-Lite, que, pelos seus termos, não usa dados enviados via API para treinar modelos. Veja a <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Política de Privacidade do Google</a> e os <a href="https://ai.google.dev/gemini-api/terms" target="_blank" rel="noopener">Termos da API Gemini</a>.</p></li>
         <li class="lgpd-item"><h4>Seus direitos (LGPD, Art. 18)</h4><p>Como nada fica retido, não há dados pessoais a acessar, corrigir ou excluir. Dúvidas sobre privacidade: <a href="mailto:sanmyatiradentes@gmail.com">sanmyatiradentes@gmail.com</a> — e-mail usado só para isso, nunca para marketing.</p></li>
         <li class="lgpd-item"><h4>Não envie dados sensíveis</h4><p>Evite CPF, nomes de investigados, dados de vítimas ou informações sigilosas. Formule a situação de forma genérica ou hipotética — a orientação é a mesma.</p></li>
       </ol>
@@ -1074,7 +1074,7 @@ footer a:hover{text-decoration:underline}
             <label for="mob-orgao">Órgão</label>
             <input type="text" id="mob-orgao" class="cfg-input ctx-orgao" placeholder="Ex: Polícia Científica..." style="font-size:16px">
           </div>
-          <p style="font-size:.72rem;color:var(--muted)">Com o Estado informado, a orientação cita normas estaduais, CGE e TCE locais.</p>
+          <p style="font-size:.72rem;color:var(--muted)">Com o Estado informado, a orientação se adapta ao seu Estado e indica onde conferir as normas estaduais, a CGE e o TCE.</p>
         </div>
         <div class="mobile-drawer" id="drawer-leis">
           <div class="drawer-title">Base Legal</div>
@@ -1120,7 +1120,7 @@ footer a:hover{text-decoration:underline}
   <div class="footer-autoria"><img src="/assets/sanmya-tiradentes-logo.jpg" alt="Sanmya Tiradentes" width="1117" height="486" loading="lazy"></div>
   <p style="font-size:.9rem">Com <strong>propósito</strong> e com muito <strong>amor</strong>, produzido por Sanmya Tiradentes ❤️</p>
   <p><a href="mailto:sanmyatiradentes@gmail.com">sanmyatiradentes@gmail.com</a> · <a href="https://www.desburocratizaia.com.br">www.desburocratizaia.com.br</a></p>
-  <p style="margin-top:.75rem;font-size:.72rem">Ferramenta gratuita e de acesso público · Powered by Google Gemini 2.5 Flash · LGPD (Lei 13.709/2018) · <a href="#privacidade">Política de Privacidade</a></p>
+  <p style="margin-top:.75rem;font-size:.72rem">Ferramenta gratuita e de acesso público · Powered by Google Gemini Flash-Lite · LGPD (Lei 13.709/2018) · <a href="#privacidade">Política de Privacidade</a></p>
   <p class="footer-frase"><em>"Processos são criados por pessoas para servir pessoas."</em></p>
 </footer>
 
@@ -1187,7 +1187,7 @@ async function verificarGemini(){
       signal:AbortSignal.timeout(20000)
     });
     if(r.ok){
-      setStatus('ok', 'DesburocratizaIA ativo · Google Gemini 2.5 Flash · Pronto para orientar servidores públicos');
+      setStatus('ok', 'DesburocratizaIA ativo · Google Gemini Flash-Lite · Pronto para orientar servidores públicos');
       pronto = true;
     }else{
       const err = await r.text();

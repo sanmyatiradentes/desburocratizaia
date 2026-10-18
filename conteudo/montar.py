@@ -68,6 +68,17 @@ for t in dados["trilhas"]:
         faltam = [c for c in ["titulo", "acao", "por_que"] if not d.get(c)]
         assert not faltam, f"{t['id']}[{i}] sem {faltam}"
 
+# Base que a IA do chat consulta (api/chat.js): as leis conferidas entram inteiras no prompt;
+# leituras e ferramentas completas ficam à mão para quando a pergunta vem do botão "Perguntar".
+base = {
+    "leis": [{k: l[k] for k in ("norma", "dispositivo", "o_que_diz", "limite", "link")} for l in dados["leis"]],
+    "leituras_lei": [{k: l[k] for k in ("tema", "fonte", "ideia", "link")} for l in dados["leituras"] if l.get("link")],
+    "ferramentas": dados["ferramentas"],
+    "trilhas": [{k: t[k] for k in ("nome", "subtitulo")} for t in dados["trilhas"]],
+    "leituras": [{k: l[k] for k in ("tema", "eixo", "fonte", "ideia", "pratica")} for l in dados["leituras"]],
+}
+(PASTA.parent / "api" / "base.json").write_text(json.dumps(base, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+
 # O campo "conferido" é só controle interno; não vai para o site.
 for l in dados["leis"] + dados["leituras"]:
     l.pop("conferido", None)
