@@ -15,18 +15,17 @@
 .hj-extra{display:flex;align-items:center;gap:.75rem;flex-wrap:wrap}
 #hoje-seq{font-size:.74rem;font-weight:600;color:var(--muted)}
 
-.hj-grade{display:grid;grid-template-columns:1.25fr 1fr;gap:1.25rem;align-items:start}
-.hj-lado{display:flex;flex-direction:column;gap:1.25rem}
-.hj-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.6rem 1.6rem 1.35rem;box-shadow:var(--shadow);border-top:2px solid var(--gold);min-width:0}
-.hj-card.principal{padding:2rem 2rem 1.5rem}
+.hj-grade{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1.25rem;align-items:stretch}
+.hj-lado{display:contents}
+.hj-card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:1.6rem 1.5rem 1.35rem;box-shadow:var(--shadow);border-top:2px solid var(--gold);min-width:0;display:flex;flex-direction:column}
+.hj-card .hj-botoes{margin-top:auto}
 .hj-tag{font-size:.64rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-dark);margin-bottom:.6rem}
 .hj-tit{font-family:var(--serif);font-size:1.35rem;font-weight:700;color:var(--marinho);line-height:1.25;margin-bottom:.35rem}
-.principal .hj-tit{font-size:clamp(1.45rem,3vw,1.85rem)}
 .hj-autor{font-size:.76rem;color:var(--muted);font-style:italic;margin-bottom:1rem}
 .hj-ref{display:inline-block;font-size:.8rem;font-weight:700;color:var(--marinho);text-decoration:none;margin-bottom:1rem;border-bottom:1px solid rgba(195,169,90,.5)}
 .hj-ref span{font-weight:500;color:var(--gold-dark)}
 .hj-card p{font-size:.88rem;line-height:1.75;color:var(--ink);margin-bottom:.9rem}
-.hj-texto{font-size:.95rem!important;line-height:1.85!important}
+.hj-texto{line-height:1.8!important}
 .hj-ideia{font-weight:600;color:var(--marinho)!important}
 .hj-passos{margin:0 0 1rem 1.1rem;display:flex;flex-direction:column;gap:.35rem}
 .hj-passos li{font-size:.86rem;line-height:1.6;padding-left:.2rem}
@@ -85,7 +84,11 @@
 .tr-mapa span.ok{background:var(--marinho);color:var(--gold);border-color:var(--marinho)}
 .tr-mapa span.agora{border:2px solid var(--gold);color:var(--marinho)}
 
-@media (max-width:900px){
+@media (max-width:1100px){
+  .hj-grade{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .hj-card.principal{grid-column:1/-1}
+}
+@media (max-width:760px){
   .hj-grade{grid-template-columns:1fr}
 }
 @media (max-width:600px){
@@ -93,6 +96,6 @@
   .hj-nav{justify-content:space-between}
   .hj-dia{min-width:0;flex:1}
   .hj-extra{justify-content:space-between}
-  .hj-card,.hj-card.principal{padding:1.3rem 1.15rem 1.1rem}
+  .hj-card{padding:1.3rem 1.15rem 1.1rem}
   .tr-detalhe{padding:1.4rem 1.1rem}
 }
